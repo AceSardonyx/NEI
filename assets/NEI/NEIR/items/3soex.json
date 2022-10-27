@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:3soex",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": "3soex",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

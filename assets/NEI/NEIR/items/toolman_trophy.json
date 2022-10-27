@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:toolman_trophy",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "toolman_trophy",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

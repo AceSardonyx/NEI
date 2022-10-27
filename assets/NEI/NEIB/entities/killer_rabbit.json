@@ -1,0 +1,110 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mb:killer_rabbit",
+      "runtime_identifier": "minecraft:rabbit",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family":["rabbit", "monster"]
+      },
+      "minecraft:breathable": {
+        "total_supply": 15,
+        "suffocate_time": 0
+      },
+      "minecraft:nameable": {
+      },
+      "minecraft:health": {
+        "value": 40,
+        "max": 40
+      },
+      "minecraft:hurt_on_condition": {
+        "damage_conditions": [
+          {
+            "filters": { "test": "in_lava", "subject": "self", "operator": "==", "value": true },
+            "cause": "lava",
+            "damage_per_tick": 4
+          }
+        ]
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/killer_rabbit.json"
+      },
+      "minecraft:collision_box": {
+        "width": 0.67,
+        "height": 0.67
+      },
+      "minecraft:movement": {
+        "value": 8
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": true
+      },
+      "minecraft:movement.skip": {
+      },
+      "minecraft:jump.dynamic": {
+      },
+      "minecraft:can_climb": {
+      },
+      "minecraft:leashable": {
+        "soft_distance": 4.0,
+        "hard_distance": 6.0,
+        "max_distance":  10.0
+      },
+      "minecraft:balloonable": {
+        "mass": 1
+      },
+       "minecraft:attack": {
+        "damage": 6
+      },
+      "minecraft:behavior.melee_attack": {
+        "priority": 1
+      },
+      "minecraft:behavior.float": {
+        "priority": 0
+      },
+      "minecraft:behavior.breed": {
+        "priority": 2,
+        "speed_multiplier": 1
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 6,
+        "speed_multiplier": 1,
+        "xz_dist": 2,
+        "y_dist": 1
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 11
+      },
+      "minecraft:behavior.nearest_attackable_target": {
+        "priority": 2,
+        "entity_types": [
+      {
+       "filters": {
+        "any_of": [
+         {
+         "test": "is_family",
+         "subject": "other",
+         "value": "player"
+        }
+       ]
+      },
+      "max_dist": 16
+     }
+    ],
+    "must_see": true
+     },
+	  "minecraft:physics": {
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      }
+    }
+  }
+}

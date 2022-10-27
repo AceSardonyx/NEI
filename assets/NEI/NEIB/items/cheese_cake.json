@@ -1,0 +1,1 @@
+{"format_version":"1.10","minecraft:item":{"components":{"minecraft:food":{"nutrition":20,"saturation_modifier":"supernatural"},"minecraft:max_damage":0,"minecraft:stacked_by_data":true,"minecraft:use_duration":70},"description":{"identifier":"mb:cheese_cake"}}}

@@ -1,0 +1,18 @@
+{
+ "format_version": "1.10.0",
+ "minecraft:block": {
+  "description": {
+   "identifier": "mb:nuclear_bomb",
+   "is_experimental": false,
+   "register_to_creative_menu": true
+  },
+  "components": {
+      "minecraft:loot": "loot_tables/blocks/nuclear_bomb.json",
+      "minecraft:destroy_time": 0.3,
+      "minecraft:explosion_resistance": 99,
+      "minecraft:block_light_emission": 0,
+      "minecraft:block_light_absorption": 1,
+      "minecraft:map_color": "#000000"
+   }
+  }
+ }

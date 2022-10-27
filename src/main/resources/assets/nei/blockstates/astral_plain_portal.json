@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "nei:block/astral_plain_portal_ew"
+    },
+    "axis=x": {
+      "model": "nei:block/astral_plain_portal_ns"
+    }
+  }
+}

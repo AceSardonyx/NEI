@@ -1,0 +1,33 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+      "description": {
+        "identifier": "mb:world_gen_after_surface_vines_feature",
+        "places_feature": "minecraft:vines_feature"
+      },
+      "conditions": {
+        "placement_pass": "after_surface_pass",
+        "minecraft:biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "vines"
+          }
+        ]
+      },
+      "distribution": {
+        "iterations": 50,
+        "coordinate_eval_order": "xyz",
+        "x": {
+          "distribution": "uniform",
+          "extent": [ 0, 16 ]
+        },
+        "y": 128,
+        "z": {
+          "distribution": "uniform",
+          "extent": [ 0, 16 ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,7 @@
+{
+  "parent": "block/tinted_cross",
+  "textures": {
+    "cross": "nei:blocks/imperfected_starflower",
+    "particle": "nei:blocks/imperfected_starflower"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:1order",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "1order",
+      "minecraft:render_offsets": "Items"
+    }
+  }
+}

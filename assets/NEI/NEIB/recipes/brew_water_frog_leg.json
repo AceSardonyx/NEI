@@ -1,0 +1,15 @@
+﻿{
+  "format_version": "1.12",
+  "minecraft:recipe_brewing_mix": {
+    "description": {
+      "identifier": "mb:brew_water_frog_leg"
+    },
+
+    "tags": [ "brewing_stand" ],
+
+    "input": "minecraft:potion_type:water",
+    "reagent": "mb:frog_leg",
+    "output": "minecraft:potion_type:poison"
+  }
+
+}

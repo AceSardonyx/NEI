@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "nei:ancient_planks"
+    },
+    "1": {
+      "item": "nei:ancient_planks"
+    },
+    "2": {
+      "item": "nei:ancient_planks"
+    }
+  },
+  "result": {
+    "item": "nei:ancient_slab",
+    "count": 6
+  }
+}

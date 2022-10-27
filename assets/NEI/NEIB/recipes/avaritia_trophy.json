@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:avaritia_trophy"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " AB",
+      " SF",
+      "S  "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "B": {
+        "item": "mb:soulblock"
+      },
+      "A": {
+        "item": "mb:avaritia_blessing"
+      },
+      "F": {
+        "item": "mb:avaritia_fragment"
+      }
+    },
+    "result": {
+      "item": "mb:avaritia_trophy"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:empty_vial",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "empty_vial",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

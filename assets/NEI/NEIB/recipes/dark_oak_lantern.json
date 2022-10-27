@@ -1,0 +1,32 @@
+﻿{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:dark_oak_lantern"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#P#",
+      "PTP",
+      "#P#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:planks",
+        "data": 5
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "T": {
+        "item": "minecraft:torch"
+      }
+    },
+    "result": {
+      "item": "mb:dark_oak_lantern",
+      "count": 2
+    }
+  }
+}

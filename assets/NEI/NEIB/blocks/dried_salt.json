@@ -1,0 +1,22 @@
+﻿{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:dried_salt",
+      "register_to_creative_menu": true,
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destroy_time": 2.5,
+      "minecraft:friction": 0.6,
+      "minecraft:map_color": "#7e7564",
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+    },
+     "minecraft:block_light_absorption": 15.0,
+     "minecraft:block_light_emission": 0.0
+    }
+  }
+}

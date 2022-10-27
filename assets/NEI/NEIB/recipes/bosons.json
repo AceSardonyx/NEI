@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:bosons"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " CS",
+      "CUC",
+      "GC "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gunpowder"
+      },
+      "C": {
+        "item": "mb:stardust_cluster"
+      },
+      "U": {
+        "item": "mb:unshaped_particles"
+      },
+      "S": {
+        "item": "mb:3shards"
+      }
+    },
+    "result": {
+      "item": "mb:bosons"
+    }
+  }
+}

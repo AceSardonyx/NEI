@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:purples_svial"
+    },
+
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+      "minecraft:foil": true,
+  
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "haste",
+            "chance": 1,
+            "duration": 999999,
+            "amplifier": 5
+          },
+          {
+            "name": "absorption",
+            "chance": 1,
+            "duration": 999999,
+            "amplifier": 20
+          },
+          {
+            "name": "regeneration",
+            "chance": 0.5,
+            "duration": 5000,
+            "amplifier": 7
+          }
+        ]
+      }
+    }
+  }
+}

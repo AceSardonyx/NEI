@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:yellowblue_fragment"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "mb:glue",
+        "data": 0
+      },
+      {
+        "item": "mb:yellow_fragment",
+        "data": 0
+      },
+      {
+        "item": "mb:blue_fragment",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:yellowblue_fragment",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

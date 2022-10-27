@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AncientLog"
+      },
+      {
+        "value": "CUSTOM:AncientLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AncientLog"
+      },
+      {
+        "value": "CUSTOM:AncientLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientWood"
+    },
+    "name": "ancient_wood_recipe",
+    "namespace": "mod"
+  }
+}

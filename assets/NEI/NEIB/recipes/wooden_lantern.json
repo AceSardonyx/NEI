@@ -1,0 +1,32 @@
+﻿{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:wooden_lantern"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#P#",
+      "PTP",
+      "#P#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:planks",
+        "data": 0
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "T": {
+        "item": "minecraft:torch"
+      }
+    },
+    "result": {
+      "item": "mb:wooden_lantern",
+      "count": 2
+    }
+  }
+}

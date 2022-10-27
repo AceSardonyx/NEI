@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:caramel_cookie",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "caramel_cookie",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

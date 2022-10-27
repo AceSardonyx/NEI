@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:astral_axe"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "YAB",
+      "AAA",
+      "RAY"
+    ],
+    "key": {
+      "A": {
+        "item": "mb:astral_block"
+      },
+      "Y": {
+        "item": "mb:yellow_fragment"
+      },
+      "B": {
+        "item": "mb:blue_fragment"
+      },
+      "R": {
+        "item": "mb:red_fragment"
+      }
+    },
+    "result": {
+      "item": "mb:astral_axe"
+    }
+  }
+}

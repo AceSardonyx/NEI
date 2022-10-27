@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:lucky_apple"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "BAB",
+      "BBB"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:golden_apple"
+      },
+      "B": {
+        "item": "mb:example"
+      }
+    },
+    "result": {
+      "item": "mb:lucky_apple"
+    }
+  }
+}

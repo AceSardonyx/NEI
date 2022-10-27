@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:contained_aura"
+    },
+
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+      "minecraft:foil": true,
+  
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "slowness",
+            "chance": 1,
+            "duration": 20,
+            "amplifier": 255
+          },
+          {
+            "name": "blindness",
+            "chance": 1,
+            "duration": 20,
+            "amplifier": 255
+          },
+          {
+            "name": "resistance",
+            "chance": 0.9,
+            "duration": 20,
+            "amplifier": 255
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "mb:world_gen_surface_spruce_bush_feature",
+      "places_feature": "mb:spruce_bush_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "bush_spruce"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 10,
+      "x": 0,
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": 0
+    }
+
+  }
+}

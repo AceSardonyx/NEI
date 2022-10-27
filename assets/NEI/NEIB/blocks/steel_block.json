@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:steel_block"
+    },
+    "components": {
+      "minecraft:destroy_time": 7,
+      "minecraft:explosion_resistance": 27,
+      "minecraft:loot": "loot_tables/blocks/steel_block.json",
+      "minecraft:block_light_emission": 0
+    }
+  }
+}

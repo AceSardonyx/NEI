@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nei:block/fractal_block"
+    }
+  }
+}

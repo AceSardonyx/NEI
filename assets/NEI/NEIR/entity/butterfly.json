@@ -1,0 +1,53 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mb:butterfly",
+      "materials": { "MbMaterial": "entity_alphatest"},
+      "textures": {
+        /*
+         Types of NEI slash More blocks butterflies:
+         + Menelaus blue morpho
+         + cabbage white
+         + green hairstreak
+         + cloudless sulphur
+         + julia 
+         + purpleimperium
+         + red admiral
+        */
+        "MenelausBlueMorpho": "textures/entity/butterfly/menelaus_blue_morpho",
+        "CabbageWhite": "textures/entity/butterfly/cabbage_white",
+        "GreenHairstreak": "textures/entity/butterfly/green_hairstreak",
+        "CloudlessSulphur": "textures/entity/butterfly/cloudless_sulphur",
+        "Julia": "textures/entity/butterfly/julia",
+        "PurpleEmperor": "textures/entity/butterfly/purple_emperor",
+        "RedAdmiral": "textures/entity/butterfly/red_admiral"
+      },
+      "geometry": {
+        "MbGeo": "geometry.butterfly"
+      },
+      
+	   "animations": {
+        "butterfly_root_controller": "controller.animation.butterfly.root",
+        "move": "controller.animation.butterfly.move",
+        "pollen": "controller.animation.butterfly.pollen",
+        "flying": "animation.butterfly.flying",
+        "resting": "animation.butterfly.resting"
+      },
+      "scripts": {
+        "animate": [
+          "butterfly_root_controller"
+        ]
+      },
+      "particle_effects": {
+        "pollen_falling": "mb:pollen_fall_particle"
+      },
+
+      "render_controllers": [ "controller.render.mb.butterfly" ],
+      "spawn_egg": {
+         "base_color": "#abc7b4",
+         "overlay_color": "#dce8d2"
+      }
+    }
+  }
+}

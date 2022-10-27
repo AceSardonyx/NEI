@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "NEI",
+    "icon": {
+      "value": "CUSTOM:NEIIcon"
+    },
+    "showSearch": true
+  }
+}

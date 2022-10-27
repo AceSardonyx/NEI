@@ -1,0 +1,22 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:block": {
+   "description": {
+      "identifier": "mb:mango_leaves",
+	  "register_to_creative_menu": true,
+	  "is_experimental": false
+    },
+	"components": {
+      "minecraft:explosion_resistance" : 0.2,
+      "minecraft:destroy_time" : 0.2,
+      "minecraft:loot" : "loot_tables/blocks/mango_leaves.json"
+    
+   }
+  }
+}
+
+
+
+    
+     
+    

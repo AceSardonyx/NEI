@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:lying_totem",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "lying_totem",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

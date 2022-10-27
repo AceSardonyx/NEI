@@ -1,0 +1,31 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:zombie_trophy"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " AB",
+      " SA",
+      "S  "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "A": {
+        "item": "minecraft:bone"
+      },
+      "B": {
+        "item": "minecraft:skull",
+        "data": 2
+      }
+    },
+    "result": {
+      "item": "mb:zombie_trophy"
+    }
+  }
+}

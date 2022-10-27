@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:silver_ore"
+    },
+    "components": {
+      "minecraft:destroy_time": 4,
+      "minecraft:explosion_resistance": 20,
+      "minecraft:loot": "loot_tables/blocks/silver_ore.json",
+      "minecraft:block_light_emission": 0
+    }
+  }
+}

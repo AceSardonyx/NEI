@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:knowavaritia"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SBS",
+      "GKG",
+      "SGS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:netherstar"
+      },
+      "B": {
+        "item": "mb:soulblock"
+      },
+      "K": {
+        "item": "minecraft:book"
+      },
+      "G": {
+        "item": "mb:soulgem"
+      }
+    },
+    "result": {
+      "item": "mb:knowavaritia"
+    }
+  }
+}

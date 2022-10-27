@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:yellows_vial"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "mb:empty_vial",
+        "data": 0
+      },
+      {
+        "item": "mb:yellowsoulgem",
+        "data": 0
+      },
+      {
+        "item": "mb:stardust_cluster",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:yellows_vial",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

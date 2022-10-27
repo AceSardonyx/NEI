@@ -1,0 +1,17 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:coconut",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "coconut",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "apple"
+      
+    }
+  }
+}

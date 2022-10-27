@@ -1,0 +1,46 @@
+﻿{
+  "format_version": "1.13.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "deep_frozen_ocean"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.3,
+        "snow_accumulation": [ 0.2, 0.55 ],
+        "temperature": -0.25
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "deep_ocean"
+      },
+      "minecraft:surface_parameters": {
+        "sea_floor_depth": 7,
+        "sea_floor_material": "minecraft:gravel",
+        "foundation_material": "minecraft:stone",
+        "mid_material": "minecraft:sand",
+        "top_material": "mb:wet_sand",
+        "sea_material": "minecraft:water"
+      },
+
+      //////////////////////////////////////////////////////////////////////////////
+
+      "ocean": {},
+      "deep": {},
+      "overworld_generation": {},
+
+      // Climate
+      "frozen": {},
+
+      // Entities
+      "monster": {},
+
+      // Underground
+      "default_ores": {},
+
+     //////////////////////////////////////////////////////////////////////////////
+
+      "minecraft:overworld_generation_rules": {
+      }
+    }
+  }
+}

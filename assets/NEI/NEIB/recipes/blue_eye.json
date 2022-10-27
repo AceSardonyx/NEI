@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:blue_eye"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:ender_eye",
+        "data": 0
+      },
+      {
+        "item": "mb:eye_frame",
+        "data": 0
+      },
+      {
+        "item": "mb:bosons",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:blue_eye",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

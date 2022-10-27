@@ -1,0 +1,28 @@
+﻿{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.mb.bird": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ 
+            "Texture.MbBirdColorBlue", 
+            "Texture.MbBirdColorCyan",
+            "Texture.MbBirdColorGreen", 
+            "Texture.MbBirdColorMagenta",
+            "Texture.MbBirdColorOrange", 
+            "Texture.MbBirdColorRed"
+          ]
+        }
+      },
+      "geometry": "Geometry.MbGeo",
+      "materials": [ 
+       {
+         "*": "Material.MbMaterial" 
+        } 
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    }
+  }
+}

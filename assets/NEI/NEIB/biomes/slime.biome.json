@@ -1,0 +1,57 @@
+﻿{
+  "format_version": "1.13.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "slime"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.6,
+        "snow_accumulation": [ 0.0, 0.125 ],
+        "temperature": 0.9
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "default"
+      },
+      "minecraft:surface_parameters": {
+        "sea_floor_depth": 20,
+        "sea_floor_material": "mb:slime_gravel",
+        "foundation_material": "mb:slime_stone",
+        "mid_material": "mb:slime_dirt",
+        "top_material": "minecraft:slime",
+        "sea_material": "mb:slime_water"
+      },
+
+     //////////////////////////////////////////////////////////////////////////////
+
+      "slime": {},
+      "overworld": {},
+
+      // Climate
+      "medium": {},
+
+      // Entities
+      "snail": {},
+
+      // Underground
+      "ore_amber": {},
+      
+     //////////////////////////////////////////////////////////////////////////////
+
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": [
+          [ "forest_hills", 2 ],
+          [ "forest", 2 ]
+        ],
+        "mutate_transformation": [
+          [ "sunflower_plains", 3 ]
+        ],
+        "river_transformation": "river",
+        "shore_transformation": "beach",
+        "generate_for_climates": [
+          [ "medium", 3 ]
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+      "description": {
+        "identifier": "mb:big_pumpkin_placement_structure"
+      },
+      "structure_name": "mystructure:big_pumpkin_placement",
+      "adjustment_radius": 3,
+      "facing_direction": "random",
+      "constraints": {
+        "block_intersection": {
+          "block_whitelist": [
+            "minecraft:grass",
+            "minecraft:dirt"
+          ]
+        }
+      }
+    }
+  }

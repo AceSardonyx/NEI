@@ -1,0 +1,60 @@
+﻿{
+  "format_version": "1.13.0",
+  "minecraft:biome": {
+    "description": {
+      "identifier": "ice_plains"
+    },
+    "components": {
+      "minecraft:climate": {
+        "downfall": 0.5,
+        "snow_accumulation": [ 0.2, 0.55 ],
+        "temperature": 0.0
+      },
+      "minecraft:overworld_height": {
+        "noise_type": "default"
+      },
+      "minecraft:surface_parameters": {
+        "sea_floor_depth": 7,
+        "sea_floor_material": "minecraft:gravel",
+        "foundation_material": "minecraft:stone",
+        "mid_material": "minecraft:dirt",
+        "top_material": "minecraft:grass",
+        "sea_material": "minecraft:water"
+      },
+
+     //////////////////////////////////////////////////////////////////////////////
+
+      "ice": {},
+      "ice_plains": {},
+      "overworld": {},
+
+      // Climate
+      "frozen": {},
+
+      // Entities
+      "monster": {},
+
+      // Vegetation
+      "bush_spruce": {},
+
+      // Underground
+      "default_ores": {},
+
+     //////////////////////////////////////////////////////////////////////////////
+
+      "minecraft:overworld_generation_rules": {
+        "hills_transformation": [
+          [ "ice_mountains", 2 ]
+        ],
+        "mutate_transformation": [
+          [ "ice_plains_spikes", 3 ]
+        ],
+        "river_transformation": "frozen_river",
+        "shore_transformation": "gravel_beach",
+        "generate_for_climates": [
+          [ "frozen", 3 ]
+        ]
+      }
+    }
+  }
+}

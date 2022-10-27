@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1"
+  ],
+  "key": {
+    "0": {
+      "item": "nei:star_fractal_silk"
+    },
+    "1": {
+      "item": "nei:golden_flower"
+    }
+  },
+  "result": {
+    "item": "nei:imperfect_star_flower",
+    "count": 2
+  }
+}

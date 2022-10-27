@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:empty_soulvial"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " V ",
+      "GVG",
+      " G "
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "V": {
+        "item": "mb:empty_vial"
+      }
+    },
+    "result": {
+      "item": "mb:empty_soulvial"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:pineapple"
+    },
+
+    "components": {
+      "minecraft:use_duration": 69,
+      "minecraft:max_stack_size": 64,
+
+      "minecraft:food": {
+        "nutrition": 19,
+        "saturation_modifier": "normal",
+        "is_meat":  false
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:green_amulet"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "INI",
+      "N N",
+      " E "
+    ],
+    "key": {
+      "N": {
+        "item": "minecraft:gold_ingot"
+      },
+      "I": {
+        "item": "minecraft:gold_nugget"
+      },
+      "E": {
+        "item": "mb:green_eye"
+      }
+    },
+    "result": {
+      "item": "mb:green_amulet"
+    }
+  }
+}

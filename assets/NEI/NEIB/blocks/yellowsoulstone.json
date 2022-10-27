@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:yellowsoulstone"
+    },
+    "components": {
+      "minecraft:destroy_time": 5,
+      "minecraft:explosion_resistance": 5,
+      "minecraft:loot": "loot_tables/blocks/yellowsoulstone.json",
+      "minecraft:block_light_emission": 0
+    }
+  }
+}

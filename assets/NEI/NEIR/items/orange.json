@@ -1,0 +1,14 @@
+{
+  "format_version": "1.13",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:orange",
+      "category": "Nature"
+    },
+    "components": {
+      "minecraft:icon": "orange",
+      "minecraft:use_animation": "eat",
+      "minecraft:render_offsets": "apple"
+    }
+  }
+}

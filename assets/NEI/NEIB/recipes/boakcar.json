@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:boakcar"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:planks",
+        "data": 5
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 5
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 5
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 5
+      },
+      {
+        "item": "minecraft:planks",
+        "data": 5
+      }
+    ],
+    "result": {
+      "item": "mb:boakcar",
+      "data": 0,
+      "count": 4
+    }
+  }
+}

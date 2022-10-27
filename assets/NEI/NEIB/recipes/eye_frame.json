@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:eye_frame"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " S ",
+      "SOS",
+      " S "
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "S": {
+        "item": "mb:steel_ingot"
+      }
+    },
+    "result": {
+      "item": "mb:eye_frame"
+    }
+  }
+}

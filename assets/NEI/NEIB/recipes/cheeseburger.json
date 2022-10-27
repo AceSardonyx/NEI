@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:cheeseburger"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "CSN",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "item": "mb:cheese"
+      },
+      "N": {
+        "item": "mb:bacon"
+      },
+      "S": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "result": {
+      "item": "mb:cheeseburger"
+    }
+  }
+}

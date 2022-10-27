@@ -1,0 +1,31 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mb:dragonfly",
+      "materials": { "MbMaterial": "entity_alphatest" },
+      "textures": {
+        "MbDragonflyColorBlue": "textures/entity/dragonfly/blue",
+		  "MbDragonflyColorGreen": "textures/entity/dragonfly/green",
+		  "MbDragonflyColorRed": "textures/entity/dragonfly/red"
+      },
+      "geometry": {
+        "MbGeo": "geometry.dragonfly"
+      },
+      "animations": {
+        "flying": "animation.dragonfly.flying",
+        "dragonfly_root_controller": "controller.animation.dragonfly.root"
+      },      
+      "scripts": {
+        "animate": [
+          "dragonfly_root_controller"
+        ]
+      },
+      "render_controllers": [ "controller.render.mb.dragonfly" ],
+      "spawn_egg": {
+        "base_color": "#715a42",
+	     "overlay_color": "#846a43"
+      }
+    }
+  }
+}

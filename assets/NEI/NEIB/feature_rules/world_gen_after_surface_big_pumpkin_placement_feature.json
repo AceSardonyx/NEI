@@ -1,0 +1,37 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+      "description": {
+        "identifier": "mb:world_gen_after_surface_big_pumpkin_placement_feature",
+        "places_feature": "mb:big_pumpkin_placement_structure"
+      },
+      "conditions": {
+        "placement_pass": "after_surface_pass",
+        "minecraft:biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "big_pumpkin"
+          }
+        ]
+      },
+      "distribution": {
+        "iterations": 1,
+        "scatter_chance": {
+          "numerator": 1,
+          "denominator": 25
+        },
+        "coordinate_eval_order": "zxy",
+        "x": {
+          "distribution": "uniform",
+          "extent": [ 0, 32 ]
+        },
+        "y": "query.heightmap(variable.worldx, variable.worldz)",
+        "z": {
+          "distribution": "uniform",
+          "extent": [ 0, 32 ]
+        }
+      }
+    }
+  }
+  

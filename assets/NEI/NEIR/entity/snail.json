@@ -1,0 +1,31 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mb:snail",
+      "materials": {
+        "MbMaterial": "entity"
+      },
+      "textures": {
+        "MbTexture": "textures/entity/snail"
+      },
+      "geometry": {
+        "MbGeo": "geometry.snail"
+      },
+      "animations": {
+        "base": "animation.snail.base"
+      },
+	   "scripts": {
+        "animate": [
+          "base"
+        ]
+      },
+      "render_controllers": [ "controller.render.mb.common" ],
+	   "enable_attachables": false,
+      "spawn_egg": {
+        "base_color": "#cfaa7b",
+        "overlay_color": "#8a80b1"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:steel_ingot"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "mb:steel_block",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:steel_ingot",
+      "data": 0,
+      "count": 9
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:imperfected_starflower"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "IGI",
+      "ORO",
+      "IOI"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:ghast_tear"
+      },
+      "O": {
+        "item": "minecraft:diamond"
+      },
+      "G": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "R": {
+        "item": "minecraft:red_flower"
+      }
+    },
+    "result": {
+      "item": "mb:imperfected_starflower"
+    }
+  }
+}

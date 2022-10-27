@@ -1,0 +1,537 @@
+{
+  "resource_pack_name": "nei",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "lucky_apple": {
+      "textures": "textures/items/lucky_apple"
+    },
+    "ritual_knife": {
+      "textures": "textures/items/ritual_knife"
+    },
+    "astral_axe": {
+      "textures": "textures/items/astral_axe"
+    },
+    "astral_sword": {
+      "textures": "textures/items/astral_sword"
+    },
+    "crystal_sword": {
+      "textures": "textures/items/crystal_sword"
+    },
+    "star_cookie": {
+      "textures": "textures/items/star_cookie"
+    },
+    "cookie_heart": {
+      "textures": "textures/items/cookie_heart"
+    },
+    "magic_chicken_feather": {
+      "textures": "textures/items/magic_chicken_feather"
+    },
+    "1check": {
+      "textures": "textures/items/1check"
+    },
+    "1currency": {
+      "textures": "textures/items/1currency"
+    },
+    "1order": {
+      "textures": "textures/items/1order"
+    },
+    "1shard": {
+      "textures": "textures/items/1shard"
+    },
+    "1shards": {
+      "textures": "textures/items/1shards"
+    },
+    "1soex": {
+      "textures": "textures/items/1soex"
+    },
+    "2shard": {
+      "textures": "textures/items/2shard"
+    },
+    "2shards": {
+      "textures": "textures/items/2shards"
+    },
+    "2soex": {
+      "textures": "textures/items/2soex"
+    },
+    "3shard": {
+      "textures": "textures/items/3shard"
+    },
+    "3shards": {
+      "textures": "textures/items/3shards"
+    },
+    "3soex": {
+      "textures": "textures/items/3soex"
+    },
+    "avaritia_fragment": {
+      "textures": "textures/items/avaritia_fragment"
+    },
+    "blue_eye": {
+      "textures": "textures/items/blue_eye"
+    },
+    "blue_fragment": {
+      "textures": "textures/items/blue_fragment"
+    },
+    "bluesoulgem": {
+      "textures": "textures/items/bluesoulgem"
+    },
+    "bosons": {
+      "textures": "textures/items/bosons"
+    },
+    "broken_vial": {
+      "textures": "textures/items/broken_vial"
+    },
+    "corrupted_extract": {
+      "textures": "textures/items/corrupted_extract"
+    },
+    "deflaked_extract": {
+      "textures": "textures/items/deflaked_extract"
+    },
+    "determination_ingot": {
+      "textures": "textures/items/determination_ingot"
+    },
+    "drainedsoulgem": {
+      "textures": "textures/items/drainedsoulgem"
+    },
+    "empty_amulet": {
+      "textures": "textures/items/empty_amulet"
+    },
+    "empty_soulvial": {
+      "textures": "textures/items/empty_soulvial"
+    },
+    "empty_vial": {
+      "textures": "textures/items/empty_vial"
+    },
+    "eye_frame": {
+      "textures": "textures/items/eye_frame"
+    },
+    "glue": {
+      "textures": "textures/items/glue"
+    },
+    "gluons": {
+      "textures": "textures/items/gluons"
+    },
+    "green_eye": {
+      "textures": "textures/items/green_eye"
+    },
+    "greensoulgem": {
+      "textures": "textures/items/greensoulgem"
+    },
+    "imperfected_starflower": {
+      "textures": "textures/items/imperfected_starflower"
+    },
+    "know1": {
+      "textures": "textures/items/know1"
+    },
+    "know2": {
+      "textures": "textures/items/know2"
+    },
+    "know3": {
+      "textures": "textures/items/know3"
+    },
+    "knowavaritia": {
+      "textures": "textures/items/knowavaritia"
+    },
+    "orangesoulgem": {
+      "textures": "textures/items/orangesoulgem"
+    },
+    "purple_fragment": {
+      "textures": "textures/items/purple_fragment"
+    },
+    "purplesoulgem": {
+      "textures": "textures/items/purplesoulgem"
+    },
+    "quarks": {
+      "textures": "textures/items/quarks"
+    },
+    "red_eye": {
+      "textures": "textures/items/red_eye"
+    },
+    "red_fragment": {
+      "textures": "textures/items/red_fragment"
+    },
+    "redpurple_fragment": {
+      "textures": "textures/items/redpurple_fragment"
+    },
+    "shed_extract": {
+      "textures": "textures/items/shed_extract"
+    },
+    "silver_ingot": {
+      "textures": "textures/items/silver_ingot"
+    },
+    "silver_nugget": {
+      "textures": "textures/items/silver_nugget"
+    },
+    "slime_powder": {
+      "textures": "textures/items/slime_powder"
+    },
+    "souless_ingot": {
+      "textures": "textures/items/souless_ingot"
+    },
+    "soulgem": {
+      "textures": "textures/items/soulgem"
+    },
+    "stardust": {
+      "textures": "textures/items/stardust"
+    },
+    "stardust_cluster": {
+      "textures": "textures/items/stardust_cluster"
+    },
+    "starflower": {
+      "textures": "textures/items/starflower"
+    },
+    "steel_ingot": {
+      "textures": "textures/items/steel_ingot"
+    },
+    "steel_nugget": {
+      "textures": "textures/items/steel_nugget"
+    },
+    "unshaped_particles": {
+      "textures": "textures/items/unshaped_particles"
+    },
+    "yellow_fragment": {
+      "textures": "textures/items/yellow_fragment"
+    },
+    "yellowblue_fragment": {
+      "textures": "textures/items/yellowblue_fragment"
+    },
+    "yellowsoulgem": {
+      "textures": "textures/items/yellowsoulgem"
+    },
+    "avaritia_blessing": {
+      "textures": "textures/items/avaritia_blessing"
+    },
+    "avaritia_trophy": {
+      "textures": "textures/items/avaritia_trophy"
+    },
+    "avaritiacall_amulet": {
+      "textures": "textures/items/avaritiacall_amulet"
+    },
+    "bat_trophy": {
+      "textures": "textures/items/bat_trophy"
+    },
+    "blue_amulet": {
+      "textures": "textures/items/blue_amulet"
+    },
+    "blues_svial": {
+      "textures": "textures/items/blues_svial"
+    },
+    "blues_vial": {
+      "textures": "textures/items/blues_vial"
+    },
+    "contained_aura": {
+      "textures": "textures/items/contained_aura"
+    },
+    "corrupted_amulet": {
+      "textures": "textures/items/corrupted_amulet"
+    },
+    "creeper_trophy": {
+      "textures": "textures/items/creeper_trophy"
+    },
+    "defense_trophy": {
+      "textures": "textures/items/defense_trophy"
+    },
+    "determination_vial": {
+      "textures": "textures/items/determination_vial"
+    },
+    "draineds_svial": {
+      "textures": "textures/items/draineds_svial"
+    },
+    "draineds_vial": {
+      "textures": "textures/items/draineds_vial"
+    },
+    "endermen_trophy": {
+      "textures": "textures/items/endermen_trophy"
+    },
+    "eye_trophy": {
+      "textures": "textures/items/eye_trophy"
+    },
+    "flight_trophy": {
+      "textures": "textures/items/flight_trophy"
+    },
+    "flight2_trophy": {
+      "textures": "textures/items/flight2_trophy"
+    },
+    "garlic": {
+      "textures": "textures/items/garlic"
+    },
+    "goldsun_svial": {
+      "textures": "textures/items/goldsun_svial"
+    },
+    "green_amulet": {
+      "textures": "textures/items/green_amulet"
+    },
+    "greens_svial": {
+      "textures": "textures/items/greens_svial"
+    },
+    "greens_vial": {
+      "textures": "textures/items/greens_vial"
+    },
+    "oranges_svial": {
+      "textures": "textures/items/oranges_svial"
+    },
+    "oranges_vial": {
+      "textures": "textures/items/oranges_vial"
+    },
+    "purples_svial": {
+      "textures": "textures/items/purples_svial"
+    },
+    "purples_vial": {
+      "textures": "textures/items/purples_vial"
+    },
+    "rainyday_trophy": {
+      "textures": "textures/items/rainyday_trophy"
+    },
+    "red_amulet": {
+      "textures": "textures/items/red_amulet"
+    },
+    "reds_svial": {
+      "textures": "textures/items/reds_svial"
+    },
+    "reds_unmixed_svial": {
+      "textures": "textures/items/reds_unmixed_svial"
+    },
+    "reds_vial": {
+      "textures": "textures/items/reds_vial"
+    },
+    "souless_vial": {
+      "textures": "textures/items/souless_vial"
+    },
+    "toolman_trophy": {
+      "textures": "textures/items/toolman_trophy"
+    },
+    "vial_trophy": {
+      "textures": "textures/items/vial_trophy"
+    },
+    "voodoo_trophy": {
+      "textures": "textures/items/voodoo_trophy"
+    },
+    "yellows_svial": {
+      "textures": "textures/items/yellows_svial"
+    },
+    "yellows_vial": {
+      "textures": "textures/items/yellows_vial"
+    },
+    "zombie_trophy": {
+      "textures": "textures/items/zombie_trophy"
+    },
+    "apple_pie": {
+      "textures": "textures/items/apple_pie"
+    },
+    "bacon": {
+      "textures": "textures/items/bacon"
+    },
+    "baguette": {
+      "textures": "textures/items/baguette"
+    },
+    "beer": {
+      "textures": "textures/items/beer"
+    },
+    "breakfast_sandwich": {
+      "textures": "textures/items/breakfast_sandwich"
+    },
+    "brownie": {
+      "textures": "textures/items/brownie"
+    },
+    "bucket_of_fried_chicken": {
+      "textures": "textures/items/bucket_of_fried_chicken"
+    },
+    "cappuccino": {
+      "textures": "textures/items/cappuccino"
+    },
+    "caramel_apple": {
+      "textures": "textures/items/caramel_apple"
+    },
+    "cheese": {
+      "textures": "textures/items/cheese"
+    },
+    "cheese_bread": {
+      "textures": "textures/items/cheese_bread"
+    },
+    "cheese_cake": {
+      "textures": "textures/items/cheese_cake"
+    },
+    "cheese_pie": {
+      "textures": "textures/items/cheese_pie"
+    },
+    "cheese_puff": {
+      "textures": "textures/items/cheese_puff"
+    },
+    "cheeseburger": {
+      "textures": "textures/items/cheeseburger"
+    },
+    "cheesy_bread": {
+      "textures": "textures/items/cheesy_bread"
+    },
+    "chocolate": {
+      "textures": "textures/items/chocolate"
+    },
+    "coffee": {
+      "textures": "textures/items/coffee"
+    },
+    "coffee_cup": {
+      "textures": "textures/items/coffee_cup"
+    },
+    "donut": {
+      "textures": "textures/items/donut"
+    },
+    "dough": {
+      "textures": "textures/items/dough"
+    },
+    "glass_mug": {
+      "textures": "textures/items/glass_mug"
+    },
+    "marshmallow": {
+      "textures": "textures/items/marshmallow"
+    },
+    "pie_shell": {
+      "textures": "textures/items/pie_shell"
+    },
+    "orange": {
+      "textures": "textures/items/orange"
+    },
+    "mummy": {
+      "textures": "textures/items/mummy"
+    },
+    "golden_orange": {
+      "textures": "textures/items/golden_orange"
+    },
+    "pirate": {
+      "textures": "textures/items/pirate"
+    },
+    "decayed_zombie": {
+      "textures": "textures/items/decayed_zombie"
+    },
+    "lying_totem": {
+      "textures": "textures/items/lying_totem"
+    },
+    "nuke": {
+      "textures": "textures/items/nuke"
+    },
+    "snail_shell": {
+      "textures": "textures/items/snail_shell"
+    },
+    "cherry_berries": {
+      "textures": "textures/items/cherry_berries"
+    },
+    "amber": {
+      "textures": "textures/items/amber"
+    },
+    "frog_leg": {
+      "textures": "textures/items/frog_leg"
+    },
+    "frog_leg_cooked": {
+      "textures": "textures/items/frog_leg_cooked"
+    },
+    "gs_apple": {
+      "textures": "textures/items/gs_apple"
+    },
+    "rotten_apple": {
+      "textures": "textures/items/rotten_apple"
+    },
+    "silver_apple": {
+      "textures": "textures/items/silver_apple"
+    },
+    "hotdog": {
+      "textures": "textures/items/hotdog"
+    },
+    "squid": {
+      "textures": "textures/items/squid"
+    },
+    "hotdog_cooked": {
+      "textures": "textures/items/hotdog_cooked"
+    },
+    "squid_cooked": {
+      "textures": "textures/items/squid_cooked"
+    },
+    "acorn": {
+      "textures": "textures/items/acorn"
+    },
+    "coconut": {
+      "textures": "textures/items/coconut"
+    },
+    "peach": {
+      "textures": "textures/items/peach"
+    },
+    "pear": {
+      "textures": "textures/items/pear"
+    },
+    "blueberry": {
+      "textures": "textures/items/blueberry"
+    },
+    "eggplant": {
+      "textures": "textures/items/eggplant"
+    },
+    "gold_mango": {
+      "textures": "textures/items/gold_mango"
+    },
+    "mango": {
+      "textures": "textures/items/mango"
+    },
+    "pepper": {
+      "textures": "textures/items/pepper"
+    },
+    "pineapple": {
+      "textures": "textures/items/pineapple"
+    },
+    "strawberry": {
+      "textures": "textures/items/strawberry"
+    },
+    "corn": {
+      "textures": "textures/items/corn"
+    },
+    "lettuce": {
+      "textures": "textures/items/lettuce"
+    },
+    "tomato": {
+      "textures": "textures/items/tomato"
+    },
+    "caramel": {
+      "textures": "textures/items/caramel"
+    },
+    "caramel_cookie": {
+      "textures": "textures/items/caramel_cookie"
+    },
+    "chocolate_pie": {
+      "textures": "textures/items/chocolate_pie"
+    },
+    "creeper_cake": {
+      "textures": "textures/items/creeper_cake"
+    },
+    "dreaming_bowl": {
+      "textures": "textures/items/dreaming_bowl"
+    },
+    "hamburger": {
+      "textures": "textures/items/hamburger"
+    },
+    "hoping_bowl": {
+      "textures": "textures/items/hoping_bowl"
+    },
+    "hotcoco": {
+      "textures": "textures/items/hotcoco"
+    },
+    "mango_pie": {
+      "textures": "textures/items/mango_pie"
+    },
+    "mojang_cake": {
+      "textures": "textures/items/mojang_cake"
+    },
+    "peach_pie": {
+      "textures": "textures/items/peach_pie"
+    },
+    "salad": {
+      "textures": "textures/items/salad"
+    },
+    "strawberry_cake": {
+      "textures": "textures/items/strawberry_cake"
+    },
+    "strawberry_pie": {
+      "textures": "textures/items/strawberry_pie"
+    },
+    "sushi": {
+      "textures": "textures/items/sushi"
+    },
+    "sunkist": {
+      "textures": "textures/items/sunkist"
+    }
+  }
+}

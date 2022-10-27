@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:rainyday_trophy"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "TTT",
+      " H ",
+      " H "
+    ],
+    "key": {
+      "T": {
+        "item": "mb:flight2_trophy"
+      },
+      "H": {
+        "item": "mb:flight_trophy"
+      }
+    },
+    "result": {
+      "item": "mb:rainyday_trophy"
+    }
+  }
+}

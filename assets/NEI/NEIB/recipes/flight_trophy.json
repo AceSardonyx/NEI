@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:flight_trophy"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "DPD",
+      "POP",
+      "DPD"
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:fireworks"
+      },
+      "D": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "P": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "result": {
+      "item": "mb:flight_trophy"
+    }
+  }
+}

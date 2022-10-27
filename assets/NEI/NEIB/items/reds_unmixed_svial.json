@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:reds_unmixed_svial"
+    },
+
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+      "minecraft:foil": true,
+  
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "strength",
+            "chance": 0.1,
+            "duration": 10000,
+            "amplifier": 10
+          },
+          {
+            "name": "weakness",
+            "chance": 0.1,
+            "duration": 10000,
+            "amplifier": 5
+          },
+          {
+            "name": "regeneration",
+            "chance": 0.2,
+            "duration": 5000,
+            "amplifier": 255
+          },
+          {
+            "name": "wither",
+            "chance": 0.2,
+            "duration": 5000,
+            "amplifier": 255
+          },
+          {
+            "name": "hunger",
+            "chance": 0.3,
+            "duration": 200,
+            "amplifier": 3
+          }
+        ]
+      }
+    }
+  }
+}

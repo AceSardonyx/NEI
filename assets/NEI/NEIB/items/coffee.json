@@ -1,0 +1,1 @@
+{"format_version":"1.10","minecraft:item":{"components":{"minecraft:food":{"effects":[{"amplifier":2,"duration":20,"name":"speed"},{"amplifier":1,"duration":15,"name":"night_vision"}],"nutrition":7,"saturation_modifier":"good"},"minecraft:max_damage":0,"minecraft:stacked_by_data":true,"minecraft:use_duration":7},"description":{"identifier":"mb:coffee"}}}

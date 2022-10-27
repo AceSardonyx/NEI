@@ -1,0 +1,54 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:single_block_feature": {
+    "description": {
+      "identifier": "mb:wet_sand_feature"
+    },
+    "places_block": {
+      "name": "mb:wet_sand",
+      "states": {
+      }
+    },
+    "enforce_survivability_rules": true,
+    "enforce_placement_rules": true,
+    "may_attach_to": {
+      "auto_rotate": false,
+      "min_sides_must_attach": 1,
+      "bottom": [
+        {
+          "name": "minecraft:sand",
+          "states": {
+          }
+        }
+      ],
+     "west": [
+        {
+          "name": "minecraft:sand",
+          "states": {
+          }
+        }
+      ],
+      "north": [
+        {
+          "name": "minecraft:sand",
+          "states": {
+          }
+        }
+      ],
+      "east": [
+        {
+          "name": "minecraft:sand",
+          "states": {
+          }
+        }
+      ],
+      "south": [
+        {
+          "name": "minecraft:sand",
+          "states": {
+          }
+        }
+      ]
+    }
+  }
+}

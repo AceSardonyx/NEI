@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:smooth_basalt"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " S ",
+      "SBS",
+      " S "
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:basalt"
+      },
+      "S": {
+        "item": "mb:steel_ingot"
+      }
+    },
+    "result": {
+      "item": "mb:smooth_basalt"
+    }
+  }
+}

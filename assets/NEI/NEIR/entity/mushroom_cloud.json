@@ -1,0 +1,32 @@
+ {
+
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mb:mushroom_cloud",
+      "materials": {
+        "toratoratora": "charged_creeper",
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/mushroom_cloud"
+      },
+      "geometry": {
+        "default": "geometry.mushroom_cloud",
+        "toratoratora": "geometry.mushroom_clouda",
+        "cap": "geometry.cap"
+      },
+      "animations": {
+        "hajimeru": "animation.mushroom_cloud.hajimeru"
+
+      },
+      "scripts": {
+        "animate": [ "hajimeru" ]
+      },
+      "render_controllers": [ "controller.render.mushroom_cloud", "controller.render.mushroom_clouda", "controller.render.cap" ]
+
+
+    }
+}
+}   
+

@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "nei:ancient_planks"
+    },
+    "3": {
+      "item": "nei:ancient_planks"
+    },
+    "4": {
+      "item": "nei:ancient_planks"
+    },
+    "6": {
+      "item": "nei:ancient_planks"
+    },
+    "7": {
+      "item": "nei:ancient_planks"
+    },
+    "8": {
+      "item": "nei:ancient_planks"
+    }
+  },
+  "result": {
+    "item": "nei:ancient_stairs",
+    "count": 4
+  }
+}

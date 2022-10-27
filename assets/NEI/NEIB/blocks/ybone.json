@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:ybone"
+    },
+    "components": {
+      "minecraft:destroy_time": 1,
+      "minecraft:explosion_resistance": 90,
+      "minecraft:loot": "loot_tables/blocks/ybone.json",
+      "minecraft:block_light_emission": 1
+    }
+  }
+}

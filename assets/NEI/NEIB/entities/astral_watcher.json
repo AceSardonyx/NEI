@@ -1,0 +1,165 @@
+{
+	"format_version": "1.8.0",
+	"minecraft:entity": {
+		"description": {
+			"identifier": "mb:astral_watcher",
+			"is_spawnable": true,
+			"is_summonable": true,
+			"is_experimental": false
+		},
+		"components": {
+			"minecraft:physics": {
+				"has_gravity": true
+			},
+			"minecraft:scale": {
+				"value": 1
+			},
+			"minecraft:health": {
+				"value": 7000
+			},
+			"minecraft:attack": {
+				"damage": 50
+			},
+			"minecraft:collision_box": {
+				"width": 2,
+				"height": 5
+			},
+			"minecraft:movement": {
+				"value": 0.2
+			},
+			"minecraft:type_family": {
+				"family": [
+					"player"
+				]
+			},
+			"minecraft:boss": {
+				"should_darken_sky": true,
+				"hud_range": 20,
+				"name": "§bAstral Watcher"
+			},
+			"minecraft:movement.basic": {},
+			"minecraft:navigation.walk": {
+				"is_amphibious": true,
+				"can_pass_doors": true,
+				"can_walk": true,
+				"can_break_doors": true
+			},
+			"minecraft:behavior.melee_attack": {
+				"priority": 2,
+				"speed_multiplier": 1.2,
+				"track_target": false
+			},
+			"minecraft:behavior.look_at_player": {
+				"priority": 7,
+				"look_distance": 6,
+				"probability": 0.02
+			},
+			"minecraft:behavior.hurt_by_target": {
+				"priority": 1
+			},
+			"minecraft:behavior.random_look_around": {
+				"priority": 7
+			},
+			"minecraft:behavior.nearest_attackable_target": {
+				"priority": 1,
+				"within_radius": 50,
+				"reselect_targets": true,
+				"entity_types": [
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "monster"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "snowgolem"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "irongolem"
+								}
+							]
+						},
+						"max_dist": 50
+					},
+					{
+						"filters": {
+							"any_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "villager"
+								},
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "wandering_trader"
+								}
+							]
+						},
+						"max_dist": 50,
+						"must_see": false
+					},
+					{
+						"filters": {
+							"all_of": [
+								{
+									"test": "is_family",
+									"subject": "other",
+									"value": "endermen"
+								},
+								{
+									"test": "in_water",
+									"subject": "other",
+									"operator": "!=",
+									"value": true
+								}
+							]
+						},
+						"max_dist": 50
+					}
+				],
+				"must_see": true,
+				"must_see_forget_duration": 17
+			},
+			"minecraft:experience_reward": {
+				"on_death": 500000
+			},
+			"minecraft:behavior.summon_entity": {
+				"priority": 1,
+				"summon_choices": [
+					{
+						"cooldown_time": 70,
+						"do_casting": false,
+						"weight": 3,
+						"sequence": [
+							{
+								"shape": "circle",
+								"base_delay": 2,
+								"delay_per_summon": 0.1,
+								"num_entities_spawned": 10,
+								"entity_type": "mb:determination",
+								"size": 10,
+								"target": "self"
+							}
+						]
+					}
+				]
+			},
+			"minecraft:can_power_jump": {},
+			"minecraft:loot": {
+				"table": "loot_tables/entities/astral_watcher.json"
+			},
+			"minecraft:pushable": {
+				"is_pushable": false
+			}
+		},
+		"component_groups": {},
+		"events": {}
+	}
+}

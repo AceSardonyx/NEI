@@ -1,0 +1,64 @@
+﻿{
+
+  "entity_sounds": {
+   "defaults": {
+      "volume": 1.0,
+      "pitch": [ 0.8, 1.2 ],
+      "events": {
+
+        "ambient.in.water": "ambient.underwater"
+      }
+    },
+    "entities": {
+     "mb:dragonfly": {
+        "volume": 1.0,
+        "pitch": [ 1.0, 1.2 ],
+        "events": {
+          "ambient": "mob.dragonfly.ambient"
+        }
+      },
+      "mb:frog": {
+        "volume": 0.8,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.frog.idle",
+          "hurt": "mob.frog.hurt",
+          "death": "mob.frog.death"
+        }
+      },
+      "mb:sunkist": {
+        "volume": 9.9,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.sunkist.idle",
+          "hurt": "mob.sunkist.hurt",
+          "death": "mob.sunkist.death"
+        }
+      },
+      "mb:duck": {
+        "volume": 0.8,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.duck.idle",
+          "hurt": "mob.duck.hurt",
+          "death": "mob.duck.hurt",
+          "plop": "mob.duck.plop"
+        }
+      },
+      "mb:nuke": {
+        "sound": "mb:nuke",
+        "volume": 4.0,
+        "pitch": 1.0
+        }
+      },
+      "mb:bird": {
+        "volume": 0.8,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "ambient": "mob.bird.idle",
+          "hurt": "mob.bird.hurt"
+        }
+      }
+    }
+  }
+}

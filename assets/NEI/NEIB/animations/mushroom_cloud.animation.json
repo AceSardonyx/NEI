@@ -1,0 +1,19 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.mushroom_cloud.hajimeru": {
+			"animation_length": 10.16,
+			"bones": {
+				"explosion": {
+					"scale": {
+						"0.0": [ 1, 1, 1 ],
+						"10.0833": [ 50, 1, 50 ]
+					}
+				}
+			}
+		},
+		"animation.mushroom_cloud.delay": {
+			"animation_length": 5
+		}
+	}
+}

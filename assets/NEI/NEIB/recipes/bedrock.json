@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:bedrock"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "OOO",
+      "OAO",
+      "OOO"
+    ],
+    "key": {
+      "A": {
+        "item": "mb:active_basalt"
+      },
+      "O": {
+        "item": "mb:decaying_peice"
+      }
+    },
+    "result": {
+      "item": "minecraft:bedrock"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:drainedsoulgem"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:crying_obsidian",
+        "data": 0
+      },
+      {
+        "item": "mb:stardust",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:drainedsoulgem",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

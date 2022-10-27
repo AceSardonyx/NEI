@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:beer"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:fermented_spider_eye",
+        "data": 0
+      },
+      {
+        "item": "mb:glass_mug",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:beer",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

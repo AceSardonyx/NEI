@@ -1,0 +1,151 @@
+{
+  "_fv": 33,
+  "_type": "biome",
+  "definition": {
+    "name": "Astral Field",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#1"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.STONE#3"
+    },
+    "airColor": {
+      "value": -10066177,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -16751053,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16737997,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -6710785,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -16737895,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": "music.overworld.snow_slopes"
+    },
+    "music": {
+      "value": "music.overworld.stony_peaks"
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CRIT_MAGIC"
+    },
+    "particlesProbability": 0.07,
+    "biomeCategory": "TAIGA",
+    "rainingPossibility": 0.6,
+    "temperature": 0.7,
+    "baseHeight": 3.7,
+    "heightVariation": 2.0,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 15,
+    "biomeDictionaryTypes": [
+      "MOUNTAIN"
+    ],
+    "grassPerChunk": 7,
+    "seagrassPerChunk": 1,
+    "flowersPerChunk": 5,
+    "mushroomsPerChunk": 3,
+    "bigMushroomsChunk": 1,
+    "sandPatchesPerChunk": 1,
+    "gravelPatchesPerChunk": 1,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 1,
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Big trees",
+    "treeType": 1,
+    "minHeight": 10,
+    "treeStem": {
+      "value": "CUSTOM:AncientLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:AncientLeaves"
+    },
+    "treeVines": {
+      "value": "Blocks.CAVE_VINES"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": true,
+    "spawnMineshaft": true,
+    "spawnMineshaftMesa": true,
+    "spawnPillagerOutpost": true,
+    "villageType": "taiga",
+    "spawnWoodlandMansion": true,
+    "spawnJungleTemple": true,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": true,
+    "spawnBuriedTreasure": true,
+    "oceanRuinType": "COLD",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": true,
+    "spawnBastionRemnant": true,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "MOUNTAIN",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "AmethystGeodes",
+      "MonsterRooms",
+      "TaigaRocks",
+      "TaigaLargeFerns",
+      "TallSeagrassLush",
+      "PlainsTallGrass"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityAxolotl"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 1,
+        "spawnType": "undergroundWaterCreature"
+      },
+      {
+        "entity": {
+          "value": "EntityStray"
+        },
+        "minGroup": 1,
+        "maxGroup": 7,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityVillager"
+        },
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 1,
+        "spawnType": "creature"
+      }
+    ]
+  }
+}
