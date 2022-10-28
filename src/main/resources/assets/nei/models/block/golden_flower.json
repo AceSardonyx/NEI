@@ -1,7 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "nei:blocks/starflower",
-    "particle": "nei:blocks/gold_dust"
-  }
-}

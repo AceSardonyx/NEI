@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nei:blocks/ancient_leaves",
-    "particle": "nei:blocks/ancient_leaves"
-  }
-}

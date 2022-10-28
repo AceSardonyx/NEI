@@ -1,1 +1,0 @@
-{"format_version":"1.10","minecraft:item":{"components":{"minecraft:food":{"nutrition":6,"saturation_modifier":"supernatural"},"minecraft:max_damage":0,"minecraft:stacked_by_data":true,"minecraft:use_duration":7},"description":{"identifier":"mb:cheese"}}}

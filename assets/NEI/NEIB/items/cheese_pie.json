@@ -1,1 +1,0 @@
-{"format_version":"1.10","minecraft:item":{"components":{"minecraft:food":{"nutrition":15,"saturation_modifier":"normal"},"minecraft:max_damage":0,"minecraft:stacked_by_data":true,"minecraft:use_duration":55},"description":{"identifier":"mb:cheese_pie"}}}

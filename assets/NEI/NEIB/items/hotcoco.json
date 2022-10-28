@@ -1,1 +1,0 @@
-{"format_version":"1.10","minecraft:item":{"components":{"minecraft:food":{"nutrition":7,"saturation_modifier":"supernatural","using_converts_to":"minecraft:bucket"},"minecraft:max_damage":0,"minecraft:stacked_by_data":true,"minecraft:use_duration":200},"description":{"identifier":"mb:hotcoco"}}}
