@@ -1,6 +1,5 @@
-.gradle
-**/build/
-!src/**/build/
+MCreator20222/mcreator/*
+MCreator20222/mcreator/
 
 # Ignore Gradle GUI config
 gradle-app.setting

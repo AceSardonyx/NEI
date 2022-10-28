@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:ancient_log"
+    }
+  ],
+  "result": {
+    "item": "nei:ancient_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nei:star_silk"
+    },
+    {
+      "item": "nei:star_fractal_silk"
+    },
+    {
+      "item": "nei:star_silk"
+    },
+    {
+      "item": "nei:star_fractal_silk"
+    },
+    {
+      "item": "nei:ancient_lotus"
+    },
+    {
+      "item": "nei:star_fractal_silk"
+    },
+    {
+      "item": "nei:star_silk"
+    },
+    {
+      "item": "nei:star_fractal_silk"
+    },
+    {
+      "item": "nei:star_silk"
+    }
+  ],
+  "result": {
+    "item": "nei:astral_plain",
+    "count": 1
+  }
+}

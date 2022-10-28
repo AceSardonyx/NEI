@@ -1,0 +1,6 @@
+JVM:         C:\Users\Kfike\Desktop\Apt\Minecraft\Java\JDK\bin\java.exe
+JVM Args:    
+Run Args:    "--client", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\stripClient\output.jar", "--server", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\stripServer\output.jar", "--ann", "1.18.2", "--output", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar", "--inject", "false"
+Classpath:   C:\Users\Kfike\.gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.3\mergetool-1.1.3-fatjar.jar
+Working Dir: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger

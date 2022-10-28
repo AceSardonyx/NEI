@@ -1,0 +1,13 @@
+JVM:         C:\Users\Kfike\Desktop\MCreator20222\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "bundler_extract", "--input", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\6dbe54897207e4ea1c5d2faef400035b8a62fa50\downloadServer\server.jar", "--output", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\6dbe54897207e4ea1c5d2faef400035b8a62fa50\extractServer\output.jar", "--jar-only"
+Classpath:   C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.10\installertools-1.2.10-fatjar.jar
+Working Dir: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\6dbe54897207e4ea1c5d2faef400035b8a62fa50\extractServer
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: BUNDLER_EXTRACT
+Input:   D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\6dbe54897207e4ea1c5d2faef400035b8a62fa50\downloadServer\server.jar
+Output:  D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\6dbe54897207e4ea1c5d2faef400035b8a62fa50\extractServer\output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.18.2/server-1.18.2.jar
