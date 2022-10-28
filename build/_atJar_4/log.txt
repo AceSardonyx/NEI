@@ -1,0 +1,7 @@
+Java Launcher: J:\Ace\NEI\MCreator20222\mcreator\MCreator20222\jdk\bin\java.exe
+Arguments: '--inJar, C:\Users\Kfike\Desktop\NEI\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0\forge-1.18.2-40.1.0-injected.jar, --outJar, C:\Users\Kfike\Desktop\NEI\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2.jar, --logFile, accesstransform.log, --atFile, C:\Users\Kfike\Desktop\NEI\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Users\Kfike\Desktop\NEI\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: C:\Users\Kfike\Desktop\NEI\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

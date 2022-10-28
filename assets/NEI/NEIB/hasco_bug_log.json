@@ -1,0 +1,44 @@
+// Fixed-4,5,6,7,8
+{
+   "format_version" : 1,
+   "fix_selection" : {
+   "bug_name": bug_1,
+     "description": [mb:decaying_peice {"peice"// Name Spelled Incorrect //="piece"} Note That It Does Not Cause Any Errors],
+     "status": not_fixed
+   },
+   {
+   "bug_name": bug_2,
+     "description": [PE Users Will Break Things While Eating & Drinking Addon Usables],
+     "status": not_fixed
+   },
+   {
+   "bug_name": bug_3,
+     "description": [In 1.16, Custom Items And Blocks Do Not Show Their Recipes And Register To The Creative Menu],
+     "status": not_fixed
+   },
+   {
+   "bug_name": bug_4,
+     "description": [Max Strength Is 50 Before It Does Not Apply For Most Things. It Still Works In A Sense],
+     "status": fixed
+   },
+   {
+   "bug_name": bug_5,
+     "description": [Certain Entities Are Warned That They Need Some Missing Texture Functions But It Does Not Cause Any Problems],
+     "status": fixed
+   },
+   {
+   "bug_name": bug_6,
+     "description": [Entities Have Minor Unnoticable Issues That Do Not Cause Any Problems],
+     "status": fixed
+   },
+   {
+   "bug_name": bug_7,
+     "description": [Not Really A Bug But A Reminder That The Pack Manifest Needs Updated For Each Major Addon Update As Textures Will Not Show Up For Others If Not],
+     "status": fixed
+   },
+   {
+   "bug_name": bug_8,
+     "description": [Random Crash When Holding The Nuclear Bomb Spawn Egg. It May Be Due To Low Resources],
+     "status": fixed
+   }
+}

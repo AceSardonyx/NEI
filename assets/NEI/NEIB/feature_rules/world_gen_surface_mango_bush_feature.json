@@ -1,0 +1,26 @@
+﻿{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "mb:world_gen_surface_mango_bush_feature",
+      "places_feature": "mb:mango_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "bush_oak"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": 1,
+      "x": 0,
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": 0
+    }
+
+  }
+}

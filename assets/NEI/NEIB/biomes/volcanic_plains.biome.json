@@ -1,0 +1,68 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:biome": {
+      "description": {
+        "identifier": "volcanic_plains"
+      },
+      "components": {
+        "minecraft:climate": {
+          "downfall": 0.9,
+          "snow_accumulation": [ 0.0, 0.125 ],
+          "temperature": 0.55,
+          "ash": 0.05
+        },
+        "minecraft:overworld_height": {
+          "noise_params": [ -0.05, 0.05 ]
+        },
+        "minecraft:surface_parameters": {
+          "sea_floor_depth": 7,
+          "sea_floor_material": "minecraft:magma",
+          "foundation_material": "mb:ash_block",
+          "mid_material": "mb:ash_block",
+          "top_material": "mb:ash_block",
+          "sea_material": "minecraft:water"
+        },
+        "minecraft:surface_material_adjustments": {
+            "adjustments": [
+              {
+                "materials": {
+                  "top_material": "minecraft:grass"
+                },
+                "noise_range": [ 0.25, 0.7 ]
+              }
+            ]
+          },
+
+      //////////////////////////////////////////////////////////////////////////////
+
+        "volcanic_plains": {},
+        "overworld": {},
+
+        // Climate
+        "lukewarm": {},
+  
+        // Entities
+        "monster": {},
+  
+        // Vegetation
+        "grass_normal": {},
+
+        // Other features
+        "random_leaves": {},
+
+      //////////////////////////////////////////////////////////////////////////////
+
+       "minecraft:overworld_generation_rules": {
+          "hills_transformation": [
+            [ "volcano", 4 ]
+          ],
+          "shore_transformation": "gravel_beach",
+          "generate_for_climates": [
+            [ "lukewarm", 2 ],
+            [ "warm", 1 ]
+          ]
+        }
+      }
+    }
+  }
+  

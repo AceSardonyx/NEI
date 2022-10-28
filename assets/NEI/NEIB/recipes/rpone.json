@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:rpone"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CSC",
+      "SRS",
+      "CSC"
+    ],
+    "key": {
+      "R": {
+        "item": "minecraft:redstone_block"
+      },
+      "S": {
+        "item": "minecraft:netherstar"
+      },
+      "C": {
+        "item": "minecraft:end_crystal"
+      }
+    },
+    "result": {
+      "item": "mb:rpone"
+    }
+  }
+}

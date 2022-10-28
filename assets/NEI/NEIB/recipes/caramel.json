@@ -1,0 +1,19 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "tags": [
+      "furnace"
+    ],
+    "output": {
+      "item": "mb:caramel",
+      "data": 0
+    },
+    "input": {
+      "item": "minecraft:sugar",
+      "data": 0
+    },
+    "description": {
+      "identifier": "mb:caramel"
+    }
+  }
+}

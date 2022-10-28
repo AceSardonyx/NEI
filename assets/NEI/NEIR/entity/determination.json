@@ -1,0 +1,29 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mb:determination",
+      "materials": { "default": "bat" },
+      "textures": {
+        "default": "textures/entity/determination"
+      },
+      "geometry": {
+        "default": "geometry.determination"
+      },
+      "scripts": {
+        "scale": "0.35"
+      },
+      "animations": {
+        "flying": "animation.bat"
+      },
+      "animation_controllers": [
+        { "move": "controller.animation.bat.move" }
+      ],
+      "render_controllers": [ "controller.render.bat" ],
+      "spawn_egg": {
+        "base_color": "#edf308",
+        "overlay_color": "#7b7b70"
+      }
+    }
+  }
+}

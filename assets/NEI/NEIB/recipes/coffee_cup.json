@@ -1,0 +1,23 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:coffee_cup"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "OO ",
+      "O  "
+    ],
+    "key": {
+      "O": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "mb:coffee_cup"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:red_eye"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:ender_eye",
+        "data": 0
+      },
+      {
+        "item": "mb:eye_frame",
+        "data": 0
+      },
+      {
+        "item": "mb:quarks",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:red_eye",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

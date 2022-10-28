@@ -1,0 +1,31 @@
+﻿{
+  "format_version": "1.13.0",
+  "minecraft:feature_rules": {
+    "description": {
+      "identifier": "mb:world_gen_surface_sparse_oak_tree_feature",
+      "places_feature": "mb:sparse_oak_tree_feature"
+    },
+    "conditions": {
+      "placement_pass": "surface_pass",
+      "minecraft:biome_filter": [
+        {
+          "test": "has_biome_tag",
+          "operator": "==",
+          "value": "sparse_oak"
+        }
+      ]
+    },
+    "distribution": {
+      "iterations": "math.clamp(math.trunc(math.ceil((query.noise(math.trunc(variable.originx / 20), math.trunc(variable.originz / 10)) + 0.2) * 10)), 2, 20)",
+      "x": {
+        "distribution": "uniform",
+        "extent": [ 0, 16 ]
+      },
+      "y": "query.heightmap(variable.worldx, variable.worldz)",
+      "z": {
+        "distribution": "uniform", 
+        "extent": [ 0, 16 ]
+      }
+    }
+  }
+}

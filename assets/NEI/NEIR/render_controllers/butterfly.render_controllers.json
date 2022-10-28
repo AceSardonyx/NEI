@@ -1,0 +1,29 @@
+﻿{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.mb.butterfly": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ 
+            "Texture.MenelausBlueMorpho",
+            "Texture.CabbageWhite", 
+            "Texture.GreenHairstreak",
+            "Texture.CloudlessSulphur", 
+            "Texture.Julia", 
+            "Texture.PurpleEmperor",
+            "Texture.RedAdmiral"
+          ]
+        }
+      },
+      "geometry": "Geometry.MbGeo",
+      "materials": [ 
+        { 
+          "*": "Material.MbMaterial" 
+        }
+      ],
+      "textures": [
+        "Array.skins[query.variant]" 
+      ]
+    }
+  }
+}

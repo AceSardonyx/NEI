@@ -1,0 +1,71 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:biome": {
+      "description": {
+        "identifier": "outback"
+      },
+      "components": {
+        "minecraft:climate": {
+          "downfall": 0.05,
+          "snow_accumulation": [ 0.0, 0.125 ],
+          "temperature": 2.0
+        },
+        "minecraft:overworld_height": {
+           "noise_params": [ 0.05, 0.0 ]
+        },
+        "minecraft:surface_parameters": {
+          "sea_floor_depth": 7,
+          "sea_floor_material": "minecraft:gravel",
+          "foundation_material": "minecraft:stone",
+          "mid_material": "minecraft:hardened_clay",
+          "top_material": {
+            "name": "minecraft:sand",
+            "states": {
+              "sand_type": "red"
+            }
+          },
+          "sea_material": "minecraft:water"
+        },
+        "minecraft:surface_material_adjustments": {
+            "adjustments": [
+              {
+                "materials": {
+                  "top_material": "minecraft:grass"
+                },
+                "noise_range": [ 0.25, 1.0 ]
+              }
+            ]
+          },
+
+       //////////////////////////////////////////////////////////////////////////////
+  
+        "outback": {},
+        "overworld": {},
+
+        // Climate 
+        "warm": {},
+  
+        // Entities
+        "monster": {},
+        "rabbit":{},
+  
+        // Vegetation
+        "cactus": {},
+        "dead_bush": {},
+        "grass_normal": {},
+
+        // Underground
+        "default_ores": {},
+
+       //////////////////////////////////////////////////////////////////////////////
+
+        "minecraft:overworld_generation_rules": {
+          "shore_transformation": "gravel_beach",
+          "generate_for_climates": [
+            [ "warm", 2 ]
+          ]
+        }
+      }
+    }
+  }
+  

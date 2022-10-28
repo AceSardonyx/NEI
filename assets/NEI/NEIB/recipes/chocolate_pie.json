@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:chocolate_pie"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ASA"
+    ],
+    "key": {
+      "A": {
+        "item": "mb:chocolate"
+      },
+      "S": {
+        "item": "mb:pie_shell"
+      }
+    },
+    "result": {
+      "item": "mb:chocolate_pie"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:boakcar"
+    },
+    "components": {
+      "minecraft:destroy_time": 1,
+      "minecraft:explosion_resistance": 1,
+      "minecraft:loot": "loot_tables/blocks/boakcar.json",
+      "minecraft:block_light_emission": 0
+    }
+  }
+}

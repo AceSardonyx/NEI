@@ -1,0 +1,16 @@
+﻿{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:frog_leg",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "frog_leg",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "meats"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "mb:random_leaves_feature"
+		},
+		"places_block": {
+			"name": "minecraft:leaves",
+			"states": {
+          "old_leaf_type": "oak"
+			}
+		},
+		"enforce_survivability_rules": false,
+		"enforce_placement_rules": true,
+      "may_attach_to": {
+        "auto_rotate": false,
+        "min_sides_must_attach": 1, 
+        "bottom": "minecraft:grass"
+      },
+		"may_replace": [
+         "minecraft:air",
+         "minecraft:tallgrass"
+		]
+	}
+}

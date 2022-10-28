@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StarFractalSilk"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:StarFractalSilk"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "Items.SNOWBALL"
+      },
+      {
+        "value": "CUSTOM:StarSilk"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientLotus"
+    },
+    "name": "ancient_lotus_recipe",
+    "namespace": "mod"
+  }
+}

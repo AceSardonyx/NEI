@@ -1,0 +1,22 @@
+﻿{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:bone_meal_from_snail_shell"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "group": "bonemeal",
+    "ingredients": [
+      {
+        "item": "mb:snail_shell"
+      }
+    ],
+    "result": {
+      "item": "minecraft:dye",
+      "data": 15,
+      "count": 2
+    }
+  }
+}

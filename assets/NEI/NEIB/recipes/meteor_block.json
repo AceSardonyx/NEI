@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:meteor_block"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "MDM",
+      "DED",
+      "MDM"
+    ],
+    "key": {
+      "E": {
+        "item": "minecraft:dragon_egg"
+      },
+      "D": {
+        "item": "minecraft:ancient_debris"
+      },
+      "M": {
+        "item": "minecraft:mob_spawner"
+      }
+    },
+    "result": {
+      "item": "mb:meteor_block"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:amber"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#"
+    ],
+    "key": {
+      "#": {
+        "item": "mb:amber_block"
+      }
+    },
+    "result": {
+      "item": "mb:amber",
+      "count": 9
+    }
+  }
+}

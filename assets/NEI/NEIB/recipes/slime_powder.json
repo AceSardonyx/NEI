@@ -1,0 +1,22 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:slime_powder"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:slime_ball",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:slime_powder",
+      "data": 0,
+      "count": 4
+    }
+  }
+}

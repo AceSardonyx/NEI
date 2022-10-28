@@ -1,0 +1,48 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:vial_trophy"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "RAO",
+      "YKG",
+      "BDP"
+    ],
+    "key": {
+      "K": {
+        "item": "mb:goldsun_svial"
+      },
+      "R": {
+        "item": "mb:reds_svial"
+      },
+      "A": {
+        "item": "mb:avaritia_blessing"
+      },
+      "O": {
+        "item": "mb:oranges_svial"
+      },
+      "Y": {
+        "item": "mb:yellows_svial"
+      },
+      "G": {
+        "item": "mb:greens_svial"
+      },
+      "B": {
+        "item": "mb:blues_svial"
+      },
+      "D": {
+        "item": "mb:draineds_svial"
+      },
+      "P": {
+        "item": "mb:purples_svial"
+      }
+    },
+    "result": {
+      "item": "mb:vial_trophy"
+    }
+  }
+}

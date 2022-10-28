@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:astral_sword",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "astral_sword",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

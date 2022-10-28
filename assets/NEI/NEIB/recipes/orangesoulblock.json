@@ -1,0 +1,24 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:orangesoulblock"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "GGG",
+      "GGG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "mb:orangesoulgem"
+      }
+    },
+    "result": {
+      "item": "mb:orangesoulblock"
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "_fv": 33,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:AstralField"
+      },
+      {
+        "value": "frozen_peaks"
+      },
+      {
+        "value": "mutated_ice_flats"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga_hills"
+      },
+      {
+        "value": "mutated_plains"
+      },
+      {
+        "value": "mutated_taiga"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.BLACKSTONE"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:Phellium"
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "CUSTOM:AncientPortalFrame"
+    },
+    "portalParticles": {
+      "value": "CUSTOM:AstralFlowerParticle"
+    },
+    "portalLuminance": 3,
+    "portalSound": {
+      "value": "block.fire.ambient"
+    },
+    "igniterName": "Ancient Gem",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "acient_gem",
+    "portalTexture": "ancient_portal_gateway",
+    "enablePortal": true
+  }
+}

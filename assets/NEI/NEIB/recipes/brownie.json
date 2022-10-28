@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:brownie"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CCC",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "C": {
+        "item": "mb:chocolate"
+      }
+    },
+    "result": {
+      "item": "mb:brownie"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+      "description": {
+        "identifier": "mb:world_gen_after_surface_emerald_ore_feature",
+        "places_feature": "minecraft:legacy:emerald_ore_feature"
+      },
+      "conditions": {
+        "placement_pass": "after_surface_pass",
+        "minecraft:biome_filter": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "ore_emerald"
+          }
+        ]
+      },
+      "distribution": {
+        "iterations": 1,
+        "coordinate_eval_order": "zyx",
+        "x": {
+         "distribution": "uniform",
+         "extent": [ 0, 16 ]
+        },
+        "y": {
+         "distribution": "uniform",
+         "extent": [ 0, 16 ]
+        },
+        "z": {
+         "distribution": "uniform",
+         "extent": [ 0, 16 ]
+        }
+      }
+    }
+  }
+  

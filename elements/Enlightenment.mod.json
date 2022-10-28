@@ -1,0 +1,20 @@
+{
+  "_fv": 33,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "Enlightenment",
+    "icon": "avaritia_fragment.png",
+    "color": {
+      "value": -3355393,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": false,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "EnlightenmentActiveTickCondition"
+    }
+  }
+}

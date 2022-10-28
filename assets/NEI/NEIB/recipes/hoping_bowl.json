@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:hoping_bowl"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:bowl",
+        "data": 0
+      },
+      {
+        "item": "mb:souless_ingot",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:hoping_bowl",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

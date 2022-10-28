@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:hamburger"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BBB",
+      "LMT",
+      "BBB"
+    ],
+    "key": {
+      "B": {
+        "item": "minecraft:bread"
+      },
+      "M": {
+        "item": "minecraft:cooked_beef"
+      },
+      "L": {
+        "item": "mb:lettuce"
+      },
+      "T": {
+        "item": "mb:tomato"
+      }
+    },
+    "result": {
+      "item": "mb:hamburger"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "mb:duck",
+      "materials": {
+        "MbMaterial": "entity_alphatest"
+      },
+      "textures": {
+        "MbTexture": "textures/entity/duck"
+      },
+      "geometry": {
+        "MbGeo": "geometry.duck"
+      },
+       "animations": {
+        "move": "animation.duck.move",
+        "general": "animation.duck.general",
+        "look_at_target": "animation.common.look_at_target",
+        "baby_transform": "animation.duck.baby_transform"
+      },
+      "scripts": {
+        "animate": [
+          "general",
+          { "move": "query.modified_move_speed" },
+          "look_at_target",
+          { "baby_transform": "query.is_baby" }
+        ]
+      },
+      "render_controllers": [ "controller.render.mb.common" ],
+      "spawn_egg": {
+        "base_color": "#065c21",
+        "overlay_color": "#7d3c15"
+      }
+    }
+  }
+}

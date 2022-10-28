@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:statue_fragment"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "OOO",
+      "OSO",
+      "OOO"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stone"
+      },
+      "O": {
+        "item": "minecraft:obsidian"
+      }
+    },
+    "result": {
+      "item": "mb:statue_fragment"
+    }
+  }
+}

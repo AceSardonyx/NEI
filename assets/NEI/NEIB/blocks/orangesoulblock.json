@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:orangesoulblock"
+    },
+    "components": {
+      "minecraft:destroy_time": 2,
+      "minecraft:explosion_resistance": 5,
+      "minecraft:loot": "loot_tables/blocks/orangesoulblock.json",
+      "minecraft:block_light_emission": 0
+    }
+  }
+}

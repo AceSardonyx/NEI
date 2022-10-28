@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:empty_amulet",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "empty_amulet",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

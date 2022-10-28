@@ -1,0 +1,16 @@
+﻿{
+	"format_version" : "1.10.0",
+	"animation_controllers" : {
+   "controller.animation.moth.root": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+         "animations": [
+           "flying",
+           "move"
+         ]
+       }
+     }
+   }
+ }
+}

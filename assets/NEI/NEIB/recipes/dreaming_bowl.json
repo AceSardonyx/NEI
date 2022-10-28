@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:dreaming_bowl"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:bowl",
+        "data": 0
+      },
+      {
+        "item": "mb:determination_ingot",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:dreaming_bowl",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

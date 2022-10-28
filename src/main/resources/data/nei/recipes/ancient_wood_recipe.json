@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "nei:ancient_log"
+    },
+    "1": {
+      "item": "nei:ancient_log"
+    },
+    "2": {
+      "item": "nei:ancient_log"
+    },
+    "3": {
+      "item": "nei:ancient_log"
+    }
+  },
+  "result": {
+    "item": "nei:ancient_wood",
+    "count": 3
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:hotdog",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "hotdog",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "meats"
+    }
+  }
+}

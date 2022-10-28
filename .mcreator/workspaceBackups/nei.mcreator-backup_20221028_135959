@@ -1,0 +1,603 @@
+{
+  "mod_elements": [
+    {
+      "name": "StarSilk",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_silk"
+    },
+    {
+      "name": "StarFlowerPlantRightClicked",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_flower_plant_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarFlower",
+      "type": "plant",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_flower"
+    },
+    {
+      "name": "SoItBegins",
+      "type": "achievement",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_it_begins"
+    },
+    {
+      "name": "AstralFlowerParticle",
+      "type": "particle",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_flower_particle"
+    },
+    {
+      "name": "NEIIcon",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nei_icon"
+    },
+    {
+      "name": "NEI",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nei"
+    },
+    {
+      "name": "AncientWood",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood"
+    },
+    {
+      "name": "AncientLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_log"
+    },
+    {
+      "name": "AncientPlanks",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_planks"
+    },
+    {
+      "name": "AncientLeaves",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_leaves"
+    },
+    {
+      "name": "AncientStairs",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stairs"
+    },
+    {
+      "name": "AncientSlab",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_slab"
+    },
+    {
+      "name": "AncientFence",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence"
+    },
+    {
+      "name": "AncientFenceGate",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence_gate"
+    },
+    {
+      "name": "AncientPressurePlate",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_pressure_plate"
+    },
+    {
+      "name": "AncientButton",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_button"
+    },
+    {
+      "name": "AncientItemsTag",
+      "type": "tag",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_items_tag"
+    },
+    {
+      "name": "AncientWoodRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood_recipe"
+    },
+    {
+      "name": "AncientPlanksRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_planks_recipe"
+    },
+    {
+      "name": "AncientStairsRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stairs_recipe"
+    },
+    {
+      "name": "AncientSlabRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_slab_recipe"
+    },
+    {
+      "name": "AncientFenceRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence_recipe"
+    },
+    {
+      "name": "AncientFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence_gate_recipe"
+    },
+    {
+      "name": "AncientPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_pressure_plate_recipe"
+    },
+    {
+      "name": "AncientButtonRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_button_recipe"
+    },
+    {
+      "name": "AncientStickRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stick_recipe"
+    },
+    {
+      "name": "AstralField",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_field"
+    },
+    {
+      "name": "Fractal",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal"
+    },
+    {
+      "name": "FractalOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_ore"
+    },
+    {
+      "name": "FractalBlock",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_block"
+    },
+    {
+      "name": "FractalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_ore_block_recipe"
+    },
+    {
+      "name": "FractalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_block_ore_recipe"
+    },
+    {
+      "name": "FractalOreSmelting",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_ore_smelting"
+    },
+    {
+      "name": "Phellium",
+      "type": "fluid",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phellium",
+      "metadata": {
+        "gb": true
+      }
+    },
+    {
+      "name": "AncientPortalFrame",
+      "type": "block",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_portal_frame"
+    },
+    {
+      "name": "AstralPlain",
+      "type": "dimension",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_plain",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "AstralBlock",
+      "type": "block",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_block"
+    },
+    {
+      "name": "AstralSwordBeta",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sword_beta"
+    },
+    {
+      "name": "GoldenFlower",
+      "type": "plant",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_flower"
+    },
+    {
+      "name": "HopeItTastesGood",
+      "type": "achievement",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_it_tastes_good"
+    },
+    {
+      "name": "AncientLotusPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_lotus_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AncientLotus",
+      "type": "item",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_lotus"
+    },
+    {
+      "name": "Stardust",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust"
+    },
+    {
+      "name": "ImperfectStarFlower",
+      "type": "plant",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imperfect_star_flower"
+    },
+    {
+      "name": "StarCluster",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_cluster"
+    },
+    {
+      "name": "StarClusterSmelting",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_cluster_smelting"
+    },
+    {
+      "name": "StarFractalSilkItemInHandTick",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_fractal_silk_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StarFractalSilk",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_fractal_silk"
+    },
+    {
+      "name": "ImperfectStarFlowerRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imperfect_star_flower_recipe"
+    },
+    {
+      "name": "AncientGemRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_gem_recipe"
+    },
+    {
+      "name": "AncientLotusRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_lotus_recipe"
+    },
+    {
+      "name": "StarDustRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_dust_recipe"
+    },
+    {
+      "name": "StarSilkEssence",
+      "type": "itemextension",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_silk_essence"
+    },
+    {
+      "name": "ALittlePlaceCalledHome",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_little_place_called_home"
+    },
+    {
+      "name": "StarSilkItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_silk_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnlightenmentActiveTickCondition",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enlightenment_active_tick_condition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabnei": "NEI",
+      "block.nei.ancient_slab": "Ancient Slab",
+      "block.nei.fractal_ore": "Fractal Ore",
+      "block.nei.ancient_fence": "Ancient Fence",
+      "block.nei.ancient_button": "Ancient Button",
+      "block.nei.star_flower": "Star Flower",
+      "block.nei.ancient_wood": "Ancient Wood",
+      "block.nei.phellium": "Phellium",
+      "block.nei.imperfect_star_flower": "Imperfect Star Flower",
+      "item.nei.star_cluster": "Star Cluster",
+      "fluid.nei.phellium": "Phellium",
+      "block.nei.ancient_stairs": "Ancient Stairs",
+      "advancements.a_little_place_called_home.descr": "Unlock Your Final Destination...",
+      "item.nei.star_silk": "Star Silk",
+      "block.nei.ancient_planks": "Ancient Planks",
+      "item.nei.astral_plain": "Ancient Gem",
+      "item.nei.stardust": "Stardust",
+      "item.nei.phellium_bucket": "Phellium Bucket",
+      "item.nei.astral_sword_beta": "astral sword Beta \u003d)",
+      "advancements.a_little_place_called_home.title": "A Little Place Called Home",
+      "item.nei.nei_icon": "NEI Icon",
+      "biome.nei.astral_field": "Astral Field",
+      "block.nei.ancient_log": "Ancient Log",
+      "block.nei.fractal_block": "Block of Fractal",
+      "block.nei.ancient_portal_frame": "Ancient Portal Frame",
+      "item.nei.star_fractal_silk": "Star Fractal Silk",
+      "advancements.so_it_begins.title": "What\u0027s This?",
+      "block.nei.ancient_leaves": "Ancient Leaves",
+      "block.nei.ancient_pressure_plate": "Ancient Pressure Plate",
+      "advancements.hope_it_tastes_good.descr": "It\u0027s like eating dandilions, but... maybe a little poisonous. Or at least it tastes like it.",
+      "item.nei.ancient_lotus": "Ancient Lotus",
+      "block.nei.ancient_fence_gate": "Ancient Fence Gate",
+      "block.nei.astral_block": "Astral Block",
+      "block.nei.golden_flower": "Golden Flower",
+      "advancements.so_it_begins.descr": "So It Begins... They are all around us...",
+      "advancements.hope_it_tastes_good.title": "Hope It Tastes Good",
+      "item.nei.fractal": "Fractal"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nei",
+    "modName": "Not Enough Interest",
+    "version": "1.0.0",
+    "author": "KFike, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.hasco.nei",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

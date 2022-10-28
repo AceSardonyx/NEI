@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:cappuccino"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:sugar",
+        "data": 0
+      },
+      {
+        "item": "mb:coffee",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:cappuccino",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

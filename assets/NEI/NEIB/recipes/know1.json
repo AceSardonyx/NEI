@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:know1"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "BPG",
+      "PKP",
+      "GPS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:netherstar"
+      },
+      "B": {
+        "item": "mb:redsoulblock"
+      },
+      "P": {
+        "item": "minecraft:paper"
+      },
+      "K": {
+        "item": "minecraft:book"
+      },
+      "G": {
+        "item": "mb:reds_vial"
+      }
+    },
+    "result": {
+      "item": "mb:know1"
+    }
+  }
+}

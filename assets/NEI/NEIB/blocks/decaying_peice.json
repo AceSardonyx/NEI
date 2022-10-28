@@ -1,0 +1,14 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:block": {
+    "description": {
+      "identifier": "mb:decaying_peice"
+    },
+    "components": {
+      "minecraft:destroy_time": 100,
+      "minecraft:explosion_resistance": 100,
+      "minecraft:loot": "loot_tables/blocks/decaying_peice.json",
+      "minecraft:block_light_emission": 1
+    }
+  }
+}

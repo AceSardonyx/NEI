@@ -1,0 +1,28 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "minecraft:soul_sand"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SSS",
+      "SGS",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:sand"
+      },
+      "G": {
+        "item": "mb:drainedsoulgem"
+      }
+    },
+    "result": {
+      "item": "minecraft:soul_sand",
+      "count": 32
+    }
+  }
+}

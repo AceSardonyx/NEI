@@ -1,0 +1,34 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:blues_vial"
+    },
+
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+      "minecraft:foil": true,
+  
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "strength",
+            "chance": 0.1,
+            "duration": 5,
+            "amplifier": 255
+          },
+          {
+            "name": "speed",
+            "chance": 0.7,
+            "duration": 50000,
+            "amplifier": 10
+          }
+        ]
+      }
+    }
+  }
+}

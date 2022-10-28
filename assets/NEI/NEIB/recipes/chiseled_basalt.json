@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:chiseled_basalt"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "mb:smooth_basalt",
+        "data": 0
+      },
+      {
+        "item": "mb:smooth_basalt",
+        "data": 0
+      },
+      {
+        "item": "mb:smooth_basalt",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:chiseled_basalt",
+      "data": 0,
+      "count": 6
+    }
+  }
+}

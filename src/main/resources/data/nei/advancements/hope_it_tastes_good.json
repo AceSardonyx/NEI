@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:golden_flower"
+    },
+    "title": {
+      "translate": "advancements.hope_it_tastes_good.title"
+    },
+    "description": {
+      "translate": "advancements.hope_it_tastes_good.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hope_it_tastes_good": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:golden_flower"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "nei:so_it_begins"
+}

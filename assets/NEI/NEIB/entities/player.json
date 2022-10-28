@@ -1,0 +1,1372 @@
+{
+  "format_version" : "1.11.0",
+  "minecraft:entity" : {
+    "components" : {
+      "minecraft:rideable" : {
+        "seats" : [
+          {
+            "max_rider_count" : 0,
+            "min_rider_count" : 0,
+            "position" : [
+              0.40000000000000002,
+              -0.14999999999999999,
+              0.040000000000000001
+            ],
+            "lock_rider_rotation" : 0
+          },
+          {
+            "max_rider_count" : 2,
+            "min_rider_count" : 1,
+            "position" : [
+              -0.40000000000000002,
+              -0.14999999999999999,
+              0.040000000000000001
+            ],
+            "lock_rider_rotation" : 0
+          }
+        ],
+        "seat_count" : 2,
+        "family_types" : [
+          "parrot_tame"
+        ],
+        "pull_in_entities" : true
+      },
+      "minecraft:physics" : {
+
+      },
+      "minecraft:movement" : {
+        "value" : 0.10000000000000001
+      },
+      "minecraft:player.exhaustion" : {
+        "value" : 0,
+        "max" : 4
+      },
+      "minecraft:pushable": {
+        "is_pushable": true,
+        "is_pushable_by_piston": true
+      },
+      "minecraft:loot" : {
+        "table" : "loot_tables/entities/player.json"
+      },
+      "minecraft:collision_box" : {
+        "width" : 0.59999999999999998,
+        "height" : 1.8
+      },
+      "minecraft:breathable" : {
+        "totalSupply" : 15,
+        "inhaleTime" : 3.75,
+        "generatesBubbles" : false,
+        "suffocateTime" : -1
+      },
+      "minecraft:attack" : {
+        "damage" : 1
+      },
+      "minecraft:nameable" : {
+        "allowNameTagRenaming" : true,
+        "alwaysShow" : true
+      },
+      "minecraft:can_climb" : {
+
+      },
+      "minecraft:player.saturation" : {
+        "value" : 20
+      },
+      "minecraft:player.experience" : {
+        "value" : 0,
+        "max" : 1
+      },
+      "minecraft:insomnia" : {
+        "days_until_insomnia" : 3
+      },
+      "minecraft:environment_sensor" : [
+        {
+          "on_environment" : {
+            "filters" : {
+              "any_of" : [
+                {
+                  "subject" : "self",
+                  "value" : "player",
+                  "test" : "is_family"
+                }
+              ]
+            },
+            "event" : "craftycraft:refresh_player"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:astral_axe",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:astral_axe_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:crimson_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:crimson_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:purpur_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:purpur_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:astral_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:astral_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:crystal_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:crystal_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:ritual_knife",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:ritual_knife_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:obsidian_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:obsidian_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:lapis_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:lapis_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:quartz_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:quartz_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:slime_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:slime_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:dark_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:dark_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:granite_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:granite_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:avaritia_trophy",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:avaritia_trophy_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:coal_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:coal_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:bat_trophy",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:bat_trophy_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:netherrack_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:netherrack_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:warped_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:warped_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:magma_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:magma_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:bone_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:bone_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:creeper_trophy",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:creeper_trophy_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:blackstone_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:blackstone_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:endermen_trophy",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:endermen_trophy_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:redstone_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:redstone_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:end_stone_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:end_stone_sword_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "mb:zombie_trophy",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "mb:zombie_trophy_event"
+          }
+        },
+        {
+          "on_environment" : {
+            "filters" : {
+              "all_of" : [
+                {
+                  "test" : "has_equipment",
+                  "subject" : "self",
+                  "value" : "cc:emerald_sword",
+                  "domain" : "hand"
+                }
+              ]
+            },
+            "event" : "cc:emerald_sword_event"
+          }
+        }
+      ],
+      "minecraft:type_family" : {
+        "family" : [
+          "player"
+        ]
+      },
+      "minecraft:is_hidden_when_invisible" : {
+
+      },
+      "minecraft:scaffolding_climber" : {
+
+      },
+      "minecraft:player.level" : {
+        "value" : 0,
+        "max" : 24791
+      }
+    },
+    "component_groups" : {
+      "cc:purpur_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 6,
+          "effect_name" : 6
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:slime_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 3.2000000476837158,
+          "damage" : 3.2000000476837158
+        },
+        "minecraft:movement" : {
+          "value" : 0.15000000596046448
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:netherrack_sword" : {
+        "minecraft:health" : {
+          "value" : 22,
+          "max" : 22
+        },
+        "minecraft:attack" : {
+          "effect_name" : 3,
+          "damage" : 3
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:astral_axe" : {
+        "minecraft:health" : {
+          "value" : 200,
+          "max" : 200
+        },
+        "minecraft:attack" : {
+          "damage" : 200.0999999046325684,
+          "effect_name" : 200.0999999046325684
+        },
+        "minecraft:movement" : {
+          "value" : 0.07000000074505806
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "minecraft:clear_bad_omen_spell_effect" : {
+        "minecraft:spell_effects" : {
+
+        }
+      },
+      "craftycraft:respawn" : {
+        "minecraft:collision_box" : {
+          "width" : 0.59999999999999998,
+          "height" : 1.8
+        },
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 1
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000000000001
+        },
+        "minecraft:spell_effects" : {
+          "remove_effects" : [
+            "weakness",
+            "mining_fatigue",
+            "fire_resistance"
+          ]
+        }
+      },
+      "cc:blackstone_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 5,
+          "effect_name" : 5
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:end_stone_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 5,
+          "damage" : 5
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:astral_sword" : {
+        "minecraft:health" : {
+          "value" : 100,
+          "max" : 100
+        },
+        "minecraft:attack" : {
+          "effect_name" : 100.5,
+          "damage" : 100.5
+        },
+        "minecraft:movement" : {
+          "value" : 0.13000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:obsidian_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 8,
+          "effect_name" : 8
+        },
+        "minecraft:movement" : {
+          "value" : 0.02500000037252903
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:lapis_sword" : {
+        "minecraft:health" : {
+          "value" : 24,
+          "max" : 24
+        },
+        "minecraft:attack" : {
+          "effect_name" : 4.1999998092651367,
+          "damage" : 4.1999998092651367
+        },
+        "minecraft:movement" : {
+          "value" : 0.125
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:bone_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 4,
+          "effect_name" : 4
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "minecraft:add_bad_omen" : {
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+            {
+              "duration" : 6000,
+              "effect" : "bad_omen",
+              "display_on_screen_animation" : true
+            }
+          ]
+        },
+        "minecraft:timer" : {
+          "looping" : false,
+          "time" : [
+            0,
+            0
+          ],
+          "time_down_event" : {
+            "event" : "minecraft:clear_add_bad_omen",
+            "target" : "self"
+          }
+        }
+      },
+      "cc:coal_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 4,
+          "damage" : 4
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:warped_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 4,
+          "effect_name" : 4
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:crystal_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 100,
+          "damage" : 100
+        },
+        "minecraft:movement" : {
+          "value" : 0.11000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:ritual_knife" : {
+        "minecraft:health" : {
+          "value" : 200,
+          "max" : 200
+        },
+        "minecraft:attack" : {
+          "effect_name" : 99,
+          "damage" : 99
+        },
+        "minecraft:movement" : {
+          "value" : 0.30000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:avaritia_trophy" : {
+        "minecraft:health" : {
+          "value" : 200,
+          "max" : 200
+        },
+        "minecraft:attack" : {
+          "damage" : 200,
+          "effect_name" : 200
+        },
+        "minecraft:movement" : {
+          "value" : 0.30000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:granite_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 5,
+          "damage" : 5
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:quartz_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 6,
+          "effect_name" : 6
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:bat_trophy" : {
+        "minecraft:health" : {
+          "value" : 200,
+          "max" : 200
+        },
+        "minecraft:attack" : {
+          "damage" : 10,
+          "effect_name" : 10
+        },
+        "minecraft:movement" : {
+          "value" : 0.30000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:creeper_trophy" : {
+        "minecraft:health" : {
+          "value" : 10,
+          "max" : 10
+        },
+        "minecraft:attack" : {
+          "effect_name" : 70,
+          "damage" : 70
+        },
+        "minecraft:movement" : {
+          "value" : 0.07000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:crimson_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 4,
+          "damage" : 4
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "mb:endermen_trophy" : {
+        "minecraft:health" : {
+          "value" : 40,
+          "max" : 40
+        },
+        "minecraft:attack" : {
+          "damage" : 10,
+          "effect_name" : 10
+        },
+        "minecraft:movement" : {
+          "value" : 0.20000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:magma_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "effect_name" : 6,
+          "damage" : 6
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+            {
+              "display_on_screen_animation" : false,
+              "effect" : "weakness",
+              "duration" : 6000
+            },
+            {
+              "display_on_screen_animation" : false,
+              "effect" : "mining_fatigue",
+              "duration" : 6000
+            },
+            {
+              "display_on_screen_animation" : false,
+              "effect" : "fire_resistance",
+              "duration" : 6000
+            }
+          ]
+        }
+      },
+      "mb:zombie_trophy" : {
+        "minecraft:health" : {
+          "value" : 10,
+          "max" : 10
+        },
+        "minecraft:attack" : {
+          "damage" : 10,
+          "effect_name" : 10
+        },
+        "minecraft:movement" : {
+          "value" : 0.07000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:dark_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 4,
+          "effect_name" : 4
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "minecraft:raid_trigger" : {
+        "minecraft:raid_trigger" : {
+          "triggered_event" : {
+            "event" : "minecraft:remove_raid_trigger",
+            "target" : "self"
+          }
+        },
+        "minecraft:spell_effects" : {
+          "remove_effects" : "bad_omen"
+        }
+      },
+      "cc:emerald_sword" : {
+        "minecraft:health" : {
+          "value" : 34,
+          "max" : 34
+        },
+        "minecraft:attack" : {
+          "effect_name" : 4,
+          "damage" : 4
+        },
+        "minecraft:movement" : {
+          "value" : 0.10000000149011612
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      },
+      "cc:redstone_sword" : {
+        "minecraft:health" : {
+          "value" : 20,
+          "max" : 20
+        },
+        "minecraft:attack" : {
+          "damage" : 5,
+          "effect_name" : 5
+        },
+        "minecraft:movement" : {
+          "value" : 0.30000001192092896
+        },
+        "minecraft:spell_effects" : {
+          "add_effects" : [
+
+          ]
+        }
+      }
+    },
+    "description" : {
+      "is_spawnable" : false,
+      "is_summonable" : false,
+      "identifier" : "minecraft:player",
+      "is_experimental" : false
+    },
+    "events" : {
+      "cc:obsidian_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:obsidian_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:dark_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:dark_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:crimson_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:crimson_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:netherrack_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:netherrack_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:astral_axe_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:astral_axe"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:blackstone_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:blackstone_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:astral_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:astral_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:bone_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:bone_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "minecraft:entity_spawned" : {
+        "add" : {
+          "component_groups" : [
+            "craftycraft:respawn"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:quartz_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:quartz_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:crystal_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:crystal_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "craftycraft:refresh_player" : {
+        "add" : {
+          "component_groups" : [
+            "craftycraft:respawn"
+          ]
+        },
+        "remove" : {
+          "component_groups" : [
+
+          ]
+        }
+      },
+      "cc:coal_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:coal_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:redstone_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:redstone_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:ritual_knife_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:ritual_knife"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:emerald_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:emerald_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "minecraft:clear_add_bad_omen" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:clear_bad_omen_spell_effect"
+          ]
+        },
+        "remove" : {
+          "component_groups" : [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "mb:avaritia_trophy_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:avaritia_trophy"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:bat_trophy_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:bat_trophy"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:creeper_trophy_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:creeper_trophy"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:endermen_trophy_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:endermen_trophy"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:purpur_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:purpur_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:lapis_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:lapis_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "minecraft:gain_bad_omen" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:add_bad_omen"
+          ]
+        }
+      },
+      "cc:slime_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:slime_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:warped_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:warped_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:granite_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:granite_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "minecraft:trigger_raid" : {
+        "add" : {
+          "component_groups" : [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "minecraft:remove_raid_trigger" : {
+        "remove" : {
+          "component_groups" : [
+            "minecraft:raid_trigger"
+          ]
+        }
+      },
+      "cc:magma_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:magma_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "cc:end_stone_sword_event" : {
+        "add" : {
+          "component_groups" : [
+            "cc:end_stone_sword"
+          ]
+        },
+        "remove" : {
+
+        }
+      },
+      "mb:zombie_trophy_event" : {
+        "add" : {
+          "component_groups" : [
+            "mb:zombie_trophy"
+          ]
+        },
+        "remove" : {
+
+        }
+      }
+    }
+  }
+}

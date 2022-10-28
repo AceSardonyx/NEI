@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:3soex"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "minecraft:blaze_powder",
+        "data": 0
+      },
+      {
+        "item": "minecraft:string",
+        "data": 0
+      },
+      {
+        "item": "minecraft:netherstar",
+        "data": 0
+      },
+      {
+        "item": "mb:blues_svial",
+        "data": 0
+      },
+      {
+        "item": "mb:know3",
+        "data": 0
+      },
+      {
+        "item": "mb:slime_powder",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:3soex",
+      "data": 0,
+      "count": 4
+    }
+  }
+}

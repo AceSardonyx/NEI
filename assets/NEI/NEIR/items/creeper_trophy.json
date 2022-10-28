@@ -1,0 +1,13 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:creeper_trophy",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "creeper_trophy",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

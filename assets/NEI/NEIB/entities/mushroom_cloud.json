@@ -1,0 +1,76 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mb:mushroom_cloud",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "animations": {
+        "hajimeru": "animation.mushroom_cloud.hajimeru",
+        "delay": "animation.mushroom_cloud.delay",
+        "work": "controller.animation.mushroom_cloud.hajimeru"
+      },
+        "scripts": {
+          "animate": [ "work" ]
+        }
+    },
+
+    "events": {
+      "m:disappear": {
+        "add": {
+          "component_groups": [
+            "m:disappear"
+          ]
+        }
+      }
+    },
+
+    "component_groups": {
+      "m:disappear": {
+        "minecraft:mark_variant": {
+          "value": 1
+        },
+        "minecraft:despawn": {}
+      }
+    },
+
+    "components": {
+      "minecraft:mark_variant": {
+        "value": 0
+      },
+      "minecraft:timer": {
+        "looping": false,
+        "time": 1,
+        "time_down_event": "m:disappear"
+      },
+      "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "any",
+          "deals_damage": false
+        }
+      },
+      "minecraft:scale": { "value": 10 },
+      "minecraft:type_family": {
+        "family": [ "nuke" ]
+      },
+      "minecraft:health": {
+        "value": 1,
+        "max": 1
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1000.0
+      },
+      "minecraft:jump.static": {
+      },
+      "minecraft:fire_immune": true,
+      "minecraft:breathable": {
+        "breathesAir": true,
+        "breathesWater": true
+      },
+      "minecraft:balloonable": {
+      },
+      "minecraft:nameable": {}
+    }
+    }
+  }

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:crystal_sword"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "CQA",
+      "LAQ",
+      "GLC"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:glass"
+      },
+      "A": {
+        "item": "mb:avaritia_fragment"
+      },
+      "Q": {
+        "item": "minecraft:quartz"
+      },
+      "L": {
+        "item": "minecraft:sealantern"
+      },
+      "C": {
+        "item": "minecraft:prismarine_crystals"
+      }
+    },
+    "result": {
+      "item": "mb:crystal_sword"
+    }
+  }
+}

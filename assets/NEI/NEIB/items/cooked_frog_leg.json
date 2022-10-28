@@ -1,0 +1,16 @@
+﻿{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:cooked_frog_leg"
+    },
+
+    "components": {
+      "minecraft:use_duration": 32,
+      "minecraft:food": {
+        "nutrition": 3,
+        "saturation_modifier": "low"
+      }
+    }
+  }
+}

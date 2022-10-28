@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:starflower"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "#G#",
+      "NXN",
+      "#O#"
+    ],
+    "key": {
+      "#": {
+        "item": "minecraft:netherstar"
+      },
+      "O": {
+        "item": "minecraft:diamond"
+      },
+      "X": {
+        "item": "minecraft:yellow_flower"
+      },
+      "G": {
+        "item": "minecraft:glowstone_dust"
+      },
+      "N": {
+        "item": "minecraft:netherite_ingot"
+      }
+    },
+    "result": {
+      "item": "mb:starflower"
+    }
+  }
+}

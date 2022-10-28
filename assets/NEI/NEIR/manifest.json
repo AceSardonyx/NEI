@@ -1,0 +1,24 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "description" : "§fWell I'm not gonna spoil it. Just have this pack, cheats, and experimental mode on",
+      "name" : "§o§fNEI By Hasco",
+      "uuid" : "a4aaa502-0085-11eb-adc1-0242ac110016",
+      "version": [2, 0, 0],
+      "min_engine_version": [1, 12, 1]
+   },
+   "modules" : [
+      {
+         "description" : "§fBy Hasco",
+         "type" : "resources",
+         "uuid" : "fc96a217-f4a9-4e1e-a5ec-411ec0d1ee16",
+         "version" : [ 2, 0, 0 ]
+      }
+   ],
+    "dependencies": [
+        {
+            "uuid": "efd1ff3a-0085-11eb-adc1-0242ac110016",
+            "version": [2, 0, 0]
+        }
+    ]
+}

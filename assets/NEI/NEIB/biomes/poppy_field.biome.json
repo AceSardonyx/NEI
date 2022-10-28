@@ -1,0 +1,73 @@
+﻿{
+    "format_version": "1.13.0",
+    "minecraft:biome": {
+      "description": {
+        "identifier": "poppy_field"
+      },
+      "components": {
+        "minecraft:climate": {
+          "downfall": 0.07,
+          "snow_accumulation": [ 0.0, 0.125 ],
+          "temperature": 0.6
+        },
+        "minecraft:overworld_height": {
+          "noise_params": [ 0.1, 0.01 ]
+        },
+        "minecraft:surface_parameters": {
+          "sea_floor_depth": 7,
+          "sea_floor_material": "minecraft:gravel",
+          "foundation_material": "minecraft:stone",
+          "mid_material": "minecraft:dirt",
+          "top_material": "minecraft:grass",
+          "sea_material": "minecraft:water"
+        },
+       "minecraft:surface_material_adjustments": {
+        "adjustments": [
+          {
+            "materials": {
+               "mid_material": "minecraft:stone",
+               "top_material": {
+                "name": "minecraft:dirt",
+                "states": {
+                 "dirt_type": "coarse"
+                }
+              }
+            },
+            "noise_frequency_scale": 0.0625,
+            "noise_range": [ 0.121, 1.0 ]
+          }
+        ]
+      },
+
+      //////////////////////////////////////////////////////////////////////////////
+  
+        "poppy_field": {},
+        "overworld": {},
+
+        // Climate & size
+        "medium": {},
+
+        // Entities
+        "monster": {},
+        "animal": {},
+        "butterfly":{},
+        
+        // Vegetation
+        "grass_normal": {},
+
+        // Underground
+        "default_ores": {},
+
+     //////////////////////////////////////////////////////////////////////////////
+
+        "minecraft:overworld_generation_rules": {
+          "river_transformation": "river",
+          "shore_transformation": "beach",
+          "generate_for_climates": [
+            [ "medium", 2 ]
+          ]
+        }
+      }
+    }
+  }
+  

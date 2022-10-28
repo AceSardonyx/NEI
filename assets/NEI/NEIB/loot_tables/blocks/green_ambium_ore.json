@@ -1,0 +1,55 @@
+
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "hidwoods:green_ambium",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "set_count",
+              "count":
+              {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                "§r§8This resource, when fossilized,",
+                "§r§8create a VERY powerful",
+                "§r§8ore, called §7Zathyst.",
+                "",
+                "§r§7Can be used on Mids to corrupt them.",
+                "§r§7When crammed into a cage,",
+                "§r§7Corrupted Mids can speed up the",
+                "§r§7fossilization process from",
+                "§r§7millions of year to seconds!"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:log",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_data",
+              "data": 1
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:flight_trophy"
+    },
+
+    "components": {
+      "minecraft:stacked_by_data": true,
+      "minecraft:use_duration": 1,
+      "minecraft:foil": true,
+  
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "supernatural",
+        "can_always_eat": true,
+        "effects": [
+          {
+            "name": "jump_boost",
+            "chance": 1,
+            "duration": 300,
+            "amplifier": 10
+          },
+          {
+            "name": "speed",
+            "chance": 1,
+            "duration": 300,
+            "amplifier": 3
+          },
+          {
+            "name": "levitation",
+            "chance": 1,
+            "duration": 1,
+            "amplifier": 20
+          },
+          {
+            "name": "slow_falling",
+            "chance": 0.1,
+            "duration": 300,
+            "amplifier": 1
+          },
+          {
+            "name": "absorption",
+            "chance": 0.1,
+            "duration": 999999,
+            "amplifier": 10
+          }
+        ]
+      }
+    }
+  }
+}

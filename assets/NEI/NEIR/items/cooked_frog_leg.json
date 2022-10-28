@@ -1,0 +1,16 @@
+﻿{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:cooked_frog_leg",
+      "category": "Equipment"
+    },
+
+    "components": {
+      "minecraft:icon": "frog_leg_cooked",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "meats"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "nei:blocks/ancient_planks"
+  }
+}

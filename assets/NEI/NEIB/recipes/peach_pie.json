@@ -1,0 +1,25 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:peach_pie"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ASA"
+    ],
+    "key": {
+      "A": {
+        "item": "mb:peach"
+      },
+      "S": {
+        "item": "mb:pie_shell"
+      }
+    },
+    "result": {
+      "item": "mb:peach_pie"
+    }
+  }
+}

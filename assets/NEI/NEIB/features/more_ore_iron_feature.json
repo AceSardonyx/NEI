@@ -1,0 +1,18 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:ore_feature": {
+    "description": {
+      "identifier": "minecraft:more_ore_iron_feature"
+    },
+    "count": 28,
+    "places_block": "minecraft:iron_ore",
+    "may_replace": [
+      {
+        "name": "minecraft:stone",
+        "states": {
+          "stone_type": "stone"
+        }
+      }
+    ]
+  }
+}

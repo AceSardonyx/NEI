@@ -1,0 +1,87 @@
+{
+	"format_version": "1.10.0",
+	"animation_controllers": {
+		"controller.animation.mushroom_cloud.hajimeru": {
+			"initial_state": "default",
+			"states": {
+				"default": {
+					"on_entry": [
+						"/execute @s ~ ~ ~ fill ~20 ~5 ~20 ~-20 ~-5 ~-20 air",
+						"/execute @p ~ ~ ~ playsound mb:nuke @s ~ ~ ~ 1 1"
+					],
+					"animations": [ "delay" ],
+					"transitions": [
+
+						{
+							"loop": "query.any_animation_finished"
+						}
+					]
+				},
+				"loop": {
+					"transitions": [
+						{
+							"loop2": "query.any_animation_finished"
+						}
+					],
+					"animations": [ "delay" ]
+				},
+				"loop2": {
+					"on_entry": [
+						"/execute @s ~ ~ ~ effect @e[r=100] fatal_poison 120 5 true",
+						"/execute @s ~ ~ ~ fill ~20 ~5 ~20 ~40 ~-5 ~-20 air",
+						"/execute @s ~ ~ ~ fill ~-20 ~5 ~20 ~-40 ~-5 ~-20 air",
+						"/execute @s ~ ~ ~ fill ~20 ~5 ~20 ~-20 ~-5 ~40 air",
+						"/execute @s ~ ~ ~ fill ~20 ~5 ~-20 ~-20 ~-5 ~-40 air",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~+15 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~-15 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+15 ~ ~+15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-15 ~ ~-15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+15 ~ ~-15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-15 ~ ~+15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+15 ~ ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-15 ~ ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~ ~+15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~ ~-15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+15 ~-15 ~+15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-15 ~-15 ~-15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+15 ~-15 ~-15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-15 ~-15 ~+15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+15 ~-15 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-15 ~-15 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~-15 ~+15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~-15 ~-15 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~ ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~+25 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~-25 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+25 ~ ~+25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-25 ~ ~-25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+25 ~ ~-25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-25 ~ ~+25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+25 ~ ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-25 ~ ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~ ~25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~ ~-25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+25 ~-15 ~+25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-25 ~-15 ~-25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+25 ~-15 ~-25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-25 ~-15 ~+25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~+25 ~-15 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~-25 ~-15 ~ ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~-15 ~+25 ignite",
+						"/execute @s ~ ~ ~ summon mb:nuke ~ ~-15 ~-25 ignite"
+					],
+					"transitions": [
+						{
+							"end": "query.any_animation_finished"
+						}
+					],
+					"animations": [ "delay" ]
+				},
+				"end": {
+					"animations": [ "delay" ],
+					"on_entry": [ "/kill @e[type=mb:mushroom_cloud]" ]
+				}
+			}
+		}
+	}
+}

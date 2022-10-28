@@ -1,0 +1,216 @@
+﻿{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "mb:moth",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false
+    },
+
+    "component_groups": {
+      "mb:adult": {
+         "minecraft:experience_reward": {
+          "on_bred": "Math.Random(1,1)",
+          "on_death": "query.last_hit_by_player ? Math.Random(1,1) : 0"
+        },
+        "minecraft:loot": {
+          "table": "loot_tables/empty.json"
+        }
+      },
+
+       "mb:waiting": {
+         "minecraft:timer": {
+           "looping": true,
+           "time": 90,
+           "time_down_event": {
+             "event": "mb:waiting_timeout"
+            }
+          }
+       },
+
+      "mb:look_for_light": {
+         "minecraft:behavior.move_to_block": {
+           "priority": 10,
+           "tick_interval": 1,
+           "start_chance": 0.5,
+           "search_range": 12,
+           "search_height": 32,
+           "goal_radius": 1.0,
+           "stay_duration": 20.0,
+           "target_selection_method": "random",
+           "target_offset": [0, 0.3, 0],
+           "target_blocks": [
+             "minecraft:mob_spawner",    
+             "minecraft:smoker", 
+             "minecraft:blast_furnace",
+             "minecraft:furnace",
+             "minecraft:lit_furnace",
+             "minecraft:torch",
+             "minecraft:soul_torch",
+             "minecraft:campfire",
+             "minecraft:soul_campfire",
+             "minecraft:lantern",
+             "mb:astral_block",
+             "mb:active_basalt",
+             "minecraft:soul_lantern",
+             "minecraft:shroomlight"
+           ],
+           "on_stay_completed": [
+             {
+               "event": "mb:tired",
+               "target": "self"
+               }
+             ]
+           },
+           "minecraft:timer": {
+             "looping": true,
+             "time": 180,
+             "time_down_event": {
+               "event": "mb:find_light_timeout"
+              }
+            }
+         }
+    },
+
+    "components": {
+      "minecraft:type_family": {
+           "family": [ "moth", "butterfly", "arthropod" ]
+       },
+       "minecraft:behavior.random_hover": {
+          "priority": 12,
+          "xz_dist": 8,
+          "y_dist": 8,
+          "y_offset": -1,
+          "interval": 1,
+         "hover_height": [1, 2]
+       },
+       "minecraft:despawn": {
+          "despawn_from_distance": {}
+       },
+       "minecraft:behavior.float": {
+         "priority": 19
+       },
+       "minecraft:breathable": {
+         "totalSupply": 15,
+         "suffocateTime": 0
+       },
+       "minecraft:collision_box": {
+          "width": 0.275,
+          "height": 0.25
+        },
+        "minecraft:follow_range": {
+           "value": 1024
+        },
+        "minecraft:damage_sensor": {
+          "triggers": {
+            "cause": "fall",
+            "deals_damage": false
+         }
+       },
+       "minecraft:hurt_on_condition": {
+         "damage_conditions": [
+         {
+           "filters": {
+             "test": "in_lava",
+             "subject": "self",
+             "operator": "==",
+             "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 5
+          },
+         {
+           "filters": {
+             "test": "in_water",
+             "subject": "self",
+             "operator": "==",
+             "value": true
+            },
+            "cause": "lava",
+            "damage_per_tick": 5
+          }
+        ]
+      },
+      "minecraft:movement": {
+         "value": 0.3
+      },
+      "minecraft:flying_speed": {
+        "value": 0.2
+      },
+      "minecraft:navigation.hover": {
+        "can_path_over_water": false,
+        "can_sink": false,
+        "can_pass_doors": false,
+        "can_path_from_air": true,
+        "avoid_water": true,
+        "avoid_damage_blocks": true,
+        "avoid_sun": true
+      },
+      "minecraft:movement.hover": {},
+      "minecraft:jump.static": {},
+      "minecraft:can_fly": {},
+      "minecraft:health": {
+          "value": 5,
+          "max": 5
+       },
+       "minecraft:nameable": {},
+       "minecraft:physics": {},
+       "minecraft:pushable": {
+         "is_pushable": true,
+         "is_pushable_by_piston": true
+       }
+    },
+
+    "events": {
+     "mb:find_light_timeout": {
+       "remove": {
+         "component_groups": [
+           "mb:look_for_light"
+          ]
+        },
+        "add": {
+          "component_groups": [
+            "mb:adult"
+         ]
+       }
+     },
+     "mb:tired": {
+         "remove": {
+            "component_groups": [
+               "mb:look_for_light"
+             ]
+          },
+          "add": {
+            "component_groups": [
+            "mb:waiting"
+          ]
+        }
+      },
+      "mb:waiting_timeout": {
+         "remove": {
+            "component_groups": [
+               "mb:waiting"
+             ]
+          },
+          "add": {
+            "component_groups": [
+            "mb:look_for_light"
+          ]
+        }
+      },
+      "minecraft:entity_spawned": {
+       "sequence": [
+        {
+          "add": {
+           "component_groups": [
+             "mb:look_for_light"
+            ]
+          }
+        }
+       ]
+      }
+ 
+    }
+  }
+}

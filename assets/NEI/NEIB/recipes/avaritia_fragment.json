@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:avaritia_fragment"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "mb:glue",
+        "data": 0
+      },
+      {
+        "item": "mb:redpurple_fragment",
+        "data": 0
+      },
+      {
+        "item": "mb:yellowblue_fragment",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:avaritia_fragment",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

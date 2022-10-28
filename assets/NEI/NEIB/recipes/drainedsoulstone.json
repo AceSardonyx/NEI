@@ -1,0 +1,27 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:drainedsoulstone"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "SSS",
+      "GGG",
+      "SSS"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stone"
+      },
+      "G": {
+        "item": "mb:drainedsoulgem"
+      }
+    },
+    "result": {
+      "item": "mb:drainedsoulstone"
+    }
+  }
+}

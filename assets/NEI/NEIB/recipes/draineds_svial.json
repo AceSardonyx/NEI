@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shapeless": {
+    "description": {
+    "identifier": "mb:draineds_svial"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "ingredients": [
+      {
+        "item": "mb:drainedsoulblock",
+        "data": 0
+      },
+      {
+        "item": "mb:empty_soulvial",
+        "data": 0
+      }
+    ],
+    "result": {
+      "item": "mb:draineds_svial",
+      "data": 0,
+      "count": 1
+    }
+  }
+}

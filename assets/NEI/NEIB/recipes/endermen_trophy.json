@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "mb:endermen_trophy"
+    },
+
+    
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      " FB",
+      " SF",
+      "S  "
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "B": {
+        "item": "minecraft:dragon_egg"
+      },
+      "F": {
+        "item": "minecraft:ender_eye"
+      }
+    },
+    "result": {
+      "item": "mb:endermen_trophy"
+    }
+  }
+}

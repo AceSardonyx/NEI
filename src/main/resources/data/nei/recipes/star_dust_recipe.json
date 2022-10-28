@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "nei:fractal"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "nei:golden_flower"
+    },
+    {
+      "item": "nei:ancient_lotus"
+    },
+    {
+      "item": "nei:imperfect_star_flower"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "nei:star_flower"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "nei:stardust",
+    "count": 32
+  }
+}

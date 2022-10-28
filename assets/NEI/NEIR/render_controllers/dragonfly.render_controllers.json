@@ -1,0 +1,25 @@
+﻿{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.mb.dragonfly": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ 
+            "Texture.MbDragonflyColorBlue", 
+            "Texture.MbDragonflyColorGreen", 
+            "Texture.MbDragonflyColorRed"
+          ]
+        }
+      },
+      "geometry": "Geometry.MbGeo",
+      "materials": [ 
+       {
+         "*": "Material.MbMaterial" 
+        } 
+      ],
+      "textures": [
+        "Array.skins[query.variant]"
+      ]
+    }
+  }
+}

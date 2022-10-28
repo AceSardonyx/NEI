@@ -1,0 +1,16 @@
+﻿{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "mb:cherry_berries",
+      "category": "Nature"
+    },
+
+    "components": {
+      "minecraft:icon": "cherry_berries",
+      "minecraft:use_animation": "eat",
+
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}
