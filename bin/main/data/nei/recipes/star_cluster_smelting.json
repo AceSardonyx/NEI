@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 5,
+  "cookingtime": 42,
+  "ingredient": {
+    "item": "nei:stardust"
+  },
+  "result": "nei:star_cluster"
+}

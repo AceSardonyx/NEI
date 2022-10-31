@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:star_flower"
+    },
+    "title": {
+      "translate": "advancements.so_it_begins.title"
+    },
+    "description": {
+      "translate": "advancements.so_it_begins.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "so_it_begins": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nei:star_flower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "recipes": [
+      "nei:ancient_wood_recipe",
+      "nei:ancient_planks_recipe",
+      "nei:ancient_stairs_recipe",
+      "nei:ancient_slab_recipe",
+      "nei:ancient_fence_recipe",
+      "nei:ancient_fence_gate_recipe",
+      "nei:ancient_pressure_plate_recipe",
+      "nei:ancient_button_recipe",
+      "nei:ancient_stick_recipe",
+      "nei:star_cluster_smelting",
+      "nei:imperfect_star_flower_recipe",
+      "nei:ancient_gem_recipe",
+      "nei:ancient_lotus_recipe",
+      "nei:star_dust_recipe",
+      "nei:astral_tome_recipe"
+    ]
+  },
+  "parent": "nei:not_enough_interest"
+}

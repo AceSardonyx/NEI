@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:amulet_of_flight_chestplate"
+    },
+    "title": {
+      "translate": "advancements.fallen_angel.title"
+    },
+    "description": {
+      "translate": "advancements.fallen_angel.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "fallen_angel": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:amulet_of_flight_chestplate"
+          ],
+          "durability": {
+            "min": 400,
+            "max": 400
+          }
+        }
+      }
+    }
+  },
+  "parent": "nei:wings_and_the_power_to_fly"
+}

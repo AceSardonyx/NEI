@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:imperfect_star_flower"
+    },
+    "title": {
+      "translate": "advancements.from_the_pits_of_hell.title"
+    },
+    "description": {
+      "translate": "advancements.from_the_pits_of_hell.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "from_the_pits_of_hell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nei:imperfect_star_flower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nei:it_glows"
+}
