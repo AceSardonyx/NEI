@@ -33,6 +33,7 @@ import net.hasco.nei.init.NeiModItems;
 import net.hasco.nei.init.NeiModFluids;
 import net.hasco.nei.init.NeiModFeatures;
 import net.hasco.nei.init.NeiModBlocks;
+import net.hasco.nei.init.NeiModBlockEntities;
 import net.hasco.nei.init.NeiModBiomes;
 
 import java.util.function.Supplier;
@@ -54,6 +55,7 @@ public class NeiMod {
 		NeiModBlocks.REGISTRY.register(bus);
 		NeiModItems.REGISTRY.register(bus);
 
+		NeiModBlockEntities.REGISTRY.register(bus);
 		NeiModFeatures.REGISTRY.register(bus);
 		NeiModFluids.REGISTRY.register(bus);
 

@@ -35,9 +35,9 @@ public class GoldenFlowerFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new GoldenFlowerFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("nei:golden_flower", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(NeiModBlocks.GOLDEN_FLOWER.get().defaultBlockState())), List.of(), 40));
+				new SimpleBlockConfiguration(BlockStateProvider.simple(NeiModBlocks.GOLDEN_FLOWER.get().defaultBlockState())), List.of(), 10));
 		PLACED_FEATURE = PlacementUtils.register("nei:golden_flower", CONFIGURED_FEATURE, List.of(CountPlacement.of(4),
-				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
+				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.HEIGHTMAP, BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -45,26 +45,9 @@ public class GoldenFlowerFeature extends RandomPatchFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("warm_ocean"), new ResourceLocation("mushroom_fields"),
-			new ResourceLocation("end_midlands"), new ResourceLocation("flower_forest"), new ResourceLocation("lush_caves"),
-			new ResourceLocation("cold_ocean"), new ResourceLocation("the_end"), new ResourceLocation("lukewarm_ocean"),
-			new ResourceLocation("dark_forest"), new ResourceLocation("savanna"), new ResourceLocation("stony_peaks"),
-			new ResourceLocation("snowy_beach"), new ResourceLocation("frozen_ocean"), new ResourceLocation("savanna_plateau"),
-			new ResourceLocation("dripstone_caves"), new ResourceLocation("snowy_plains"), new ResourceLocation("jagged_peaks"),
-			new ResourceLocation("eroded_badlands"), new ResourceLocation("badlands"), new ResourceLocation("windswept_hills"),
-			new ResourceLocation("ocean"), new ResourceLocation("wooded_badlands"), new ResourceLocation("windswept_savanna"),
-			new ResourceLocation("jungle"), new ResourceLocation("frozen_river"), new ResourceLocation("forest"), new ResourceLocation("stony_shore"),
-			new ResourceLocation("sparse_jungle"), new ResourceLocation("birch_forest"), new ResourceLocation("deep_lukewarm_ocean"),
-			new ResourceLocation("snowy_slopes"), new ResourceLocation("deep_ocean"), new ResourceLocation("deep_frozen_ocean"),
-			new ResourceLocation("nether_wastes"), new ResourceLocation("bamboo_jungle"), new ResourceLocation("soul_sand_valley"),
-			new ResourceLocation("small_end_islands"), new ResourceLocation("plains"), new ResourceLocation("end_highlands"),
-			new ResourceLocation("meadow"), new ResourceLocation("end_barrens"), new ResourceLocation("basalt_deltas"), new ResourceLocation("taiga"),
-			new ResourceLocation("crimson_forest"), new ResourceLocation("snowy_taiga"), new ResourceLocation("swamp"),
-			new ResourceLocation("deep_cold_ocean"), new ResourceLocation("old_growth_birch_forest"), new ResourceLocation("grove"),
-			new ResourceLocation("beach"), new ResourceLocation("the_void"), new ResourceLocation("windswept_forest"),
-			new ResourceLocation("windswept_gravelly_hills"), new ResourceLocation("river"), new ResourceLocation("desert"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD,
-			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("nei:astral_plain")));
+			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("nei:astral_plain")), Level.NETHER, Level.END);
 
 	public GoldenFlowerFeature() {
 		super(RandomPatchConfiguration.CODEC);

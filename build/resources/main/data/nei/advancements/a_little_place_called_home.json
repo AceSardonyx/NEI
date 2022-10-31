@@ -1,7 +1,8 @@
 {
   "display": {
+    "background": "minecraft:textures/block/stone.png",
     "icon": {
-      "item": "nei:nei_icon"
+      "item": "nei:astral_block"
     },
     "title": {
       "translate": "advancements.a_little_place_called_home.title"
@@ -9,7 +10,7 @@
     "description": {
       "translate": "advancements.a_little_place_called_home.descr"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
@@ -29,6 +30,5 @@
       "nei:fractal_block_ore_recipe",
       "nei:fractal_ore_smelting"
     ]
-  },
-  "parent": "nei:so_it_begins"
+  }
 }

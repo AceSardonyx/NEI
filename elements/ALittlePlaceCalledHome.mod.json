@@ -2,10 +2,10 @@
   "_fv": 33,
   "_type": "achievement",
   "definition": {
-    "achievementName": "A Little Place Called Home",
-    "achievementDescription": "Unlock Your Final Destination...",
+    "achievementName": "Astral Plains",
+    "achievementDescription": "A Little Place Called Home... Your Final Destination...",
     "achievementIcon": {
-      "value": "CUSTOM:NEIIcon"
+      "value": "CUSTOM:AstralBlock"
     },
     "background": "Default",
     "disableDisplay": false,
@@ -20,9 +20,9 @@
     ],
     "rewardFunction": "No function",
     "rewardXP": 792,
-    "achievementType": "challenge",
+    "achievementType": "goal",
     "parent": {
-      "value": "CUSTOM:SoItBegins"
+      "value": "No parent: root"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"21\" y=\"49\"><field name=\"dimension\">CUSTOM:AstralPlain</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

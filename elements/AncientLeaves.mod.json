@@ -16,7 +16,6 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Leaves",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": false,
@@ -53,7 +52,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 1,
+    "lightOpacity": 2,
     "material": {
       "value": "LEAVES"
     },
@@ -64,7 +63,7 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "DEFAULT",
+    "colorOnMap": "MAGENTA",
     "creativePickItem": {
       "value": ""
     },
@@ -102,11 +101,11 @@
     "breakHarvestLevel": 1,
     "spawnParticles": true,
     "particleToSpawn": {
-      "value": "CUSTOM:AstralFlowerParticle"
+      "value": "FALLING_HONEY"
     },
     "particleSpawningShape": "Spread",
-    "particleSpawningRadious": 0.5,
-    "particleAmount": 4,
+    "particleSpawningRadious": 0.7,
+    "particleAmount": 1,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

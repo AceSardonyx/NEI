@@ -5,21 +5,21 @@
     "achievementName": "Hope It Tastes Good",
     "achievementDescription": "It's like eating dandilions, but... maybe a little poisonous. Or at least it tastes like it.",
     "achievementIcon": {
-      "value": "CUSTOM:GoldenFlower"
+      "value": "CUSTOM:AncientLotus"
     },
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:SoItBegins"
+      "value": "CUSTOM:FractalFromSeeds"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"35\" y=\"18\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:GoldenFlower</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"9\" y=\"53\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

@@ -23,6 +23,9 @@
       },
       {
         "value": "mutated_taiga"
+      },
+      {
+        "value": "CUSTOM:ThePlaceThatGlows"
       }
     ],
     "worldGenType": "Normal world gen",

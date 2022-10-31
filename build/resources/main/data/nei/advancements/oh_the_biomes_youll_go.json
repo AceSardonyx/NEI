@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:ancient_leaves"
+    },
+    "title": {
+      "translate": "advancements.oh_the_biomes_youll_go.title"
+    },
+    "description": {
+      "translate": "advancements.oh_the_biomes_youll_go.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "oh_the_biomes_youll_go": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 70
+  },
+  "parent": "nei:a_little_place_called_home"
+}

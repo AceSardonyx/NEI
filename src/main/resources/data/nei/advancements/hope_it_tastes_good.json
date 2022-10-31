@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:golden_flower"
+      "item": "nei:ancient_lotus"
     },
     "title": {
       "translate": "advancements.hope_it_tastes_good.title"
@@ -12,19 +12,12 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "hope_it_tastes_good": {
-      "trigger": "minecraft:consume_item",
-      "conditions": {
-        "item": {
-          "items": [
-            "nei:golden_flower"
-          ]
-        }
-      }
+      "trigger": "minecraft:impossible"
     }
   },
-  "parent": "nei:so_it_begins"
+  "parent": "nei:fractal_from_seeds"
 }

@@ -28,6 +28,8 @@ public class AstralPlainDimension {
 		public static void registerFillerBlocks(FMLCommonSetupEvent event) {
 			Set<Block> replaceableBlocks = new HashSet<>();
 			replaceableBlocks.add(Blocks.BLACKSTONE);
+			replaceableBlocks.add(Blocks.PODZOL);
+			replaceableBlocks.add(Blocks.ROOTED_DIRT);
 			replaceableBlocks.add(Blocks.GRASS_BLOCK);
 			replaceableBlocks.add(Blocks.COARSE_DIRT);
 			event.enqueueWork(() -> {

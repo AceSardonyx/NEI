@@ -43,6 +43,6 @@ public class AncientPortalFrameBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(NeiModItems.FRACTAL.get(), 3));
+		return Collections.singletonList(new ItemStack(NeiModItems.STAR_CLUSTER.get(), 3));
 	}
 }

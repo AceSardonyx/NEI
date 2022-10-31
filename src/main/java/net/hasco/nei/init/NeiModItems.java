@@ -24,6 +24,7 @@ import net.hasco.nei.item.AstralTomeItem;
 import net.hasco.nei.item.AstralSwordBetaItem;
 import net.hasco.nei.item.AstralPlainItem;
 import net.hasco.nei.item.AncientLotusItem;
+import net.hasco.nei.item.AmuletOfFlightItem;
 import net.hasco.nei.NeiMod;
 
 public class NeiModItems {
@@ -56,6 +57,10 @@ public class NeiModItems {
 	public static final RegistryObject<Item> STAR_CLUSTER = REGISTRY.register("star_cluster", () -> new StarClusterItem());
 	public static final RegistryObject<Item> STAR_FRACTAL_SILK = REGISTRY.register("star_fractal_silk", () -> new StarFractalSilkItem());
 	public static final RegistryObject<Item> ASTRAL_TOME = REGISTRY.register("astral_tome", () -> new AstralTomeItem());
+	public static final RegistryObject<Item> AMULET_OF_FLIGHT_CHESTPLATE = REGISTRY.register("amulet_of_flight_chestplate",
+			() -> new AmuletOfFlightItem.Chestplate());
+	public static final RegistryObject<Item> ANCIENT_PORTAL_FRAME_CASE = block(NeiModBlocks.ANCIENT_PORTAL_FRAME_CASE, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> TEST_DOG_1 = block(NeiModBlocks.TEST_DOG_1, NeiModTabs.TAB_NEI);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

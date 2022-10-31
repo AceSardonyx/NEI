@@ -1,0 +1,87 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 151,
+    "height": 143,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<energy> test",
+          "color": {
+            "value": -52429,
+            "falpha": 0.0
+          },
+          "name": "<energy> test",
+          "x": 177,
+          "y": 53
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "NEI Info Pane",
+          "onClick": {
+            "name": "AstralTomeRightclicked"
+          },
+          "width": 92,
+          "height": 20,
+          "name": "NEI Info Pane",
+          "x": 168,
+          "y": 98
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "the fuck?",
+          "name": "what",
+          "x": 150,
+          "y": 125
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "ass!?",
+          "name": "huh",
+          "x": 231,
+          "y": 125
+        }
+      },
+      {
+        "type": "checkbox",
+        "data": {
+          "text": "kromer!?",
+          "name": "wtf",
+          "x": 150,
+          "y": 152
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "kill yourself",
+          "width": 120,
+          "height": 20,
+          "name": "realsadshit",
+          "x": 150,
+          "y": 71
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

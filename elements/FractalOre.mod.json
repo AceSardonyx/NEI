@@ -129,163 +129,58 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "badlands"
-      },
-      {
-        "value": "badlands_plateau"
-      },
-      {
-        "value": "bamboo_jungle"
-      },
-      {
-        "value": "bamboo_jungle_hills"
+        "value": "CUSTOM:AstralField"
       },
       {
         "value": "basalt_deltas"
       },
       {
-        "value": "beaches"
-      },
-      {
-        "value": "birch_forest"
-      },
-      {
-        "value": "birch_forest_hills"
-      },
-      {
-        "value": "cold_ocean"
-      },
-      {
-        "value": "crimson_forest"
-      },
-      {
-        "value": "roofed_forest"
-      },
-      {
-        "value": "mutated_roofed_forest"
-      },
-      {
-        "value": "deep_cold_ocean"
-      },
-      {
-        "value": "deep_frozen_ocean"
-      },
-      {
-        "value": "deep_lukewarm_ocean"
-      },
-      {
-        "value": "deep_ocean"
-      },
-      {
-        "value": "deep_warm_ocean"
-      },
-      {
-        "value": "desert"
-      },
-      {
-        "value": "desert_hills"
-      },
-      {
-        "value": "mutated_desert"
-      },
-      {
-        "value": "dripstone_caves"
-      },
-      {
         "value": "end_barrens"
       },
       {
-        "value": "end_highlands"
+        "value": "frozen_ocean"
       },
       {
-        "value": "end_midlands"
+        "value": "frozen_peaks"
       },
       {
-        "value": "mutated_mesa"
-      },
-      {
-        "value": "mutated_forest"
-      },
-      {
-        "value": "forest"
-      },
-      {
-        "value": "forest_hills"
+        "value": "frozen_river"
       },
       {
         "value": "grove"
       },
       {
+        "value": "mutated_ice_flats"
+      },
+      {
         "value": "jagged_peaks"
       },
       {
-        "value": "jungle"
+        "value": "mutated_redwood_taiga"
       },
       {
-        "value": "jungle_hills"
+        "value": "mutated_redwood_taiga_hills"
       },
       {
-        "value": "lukewarm_ocean"
+        "value": "snowy_slopes"
       },
       {
-        "value": "lush_caves"
+        "value": "cold_beach"
       },
       {
-        "value": "meadow"
+        "value": "snowy_mountains"
       },
       {
-        "value": "mutated_mesa_clear_rock"
+        "value": "snowy_tundra"
       },
       {
-        "value": "mutated_extreme_hills_with_trees"
+        "value": "taiga_cold"
       },
       {
-        "value": "mutated_jungle"
+        "value": "taiga_cold_hills"
       },
       {
-        "value": "mutated_jungle_edge"
-      },
-      {
-        "value": "mutated_mesa_rock"
-      },
-      {
-        "value": "smaller_extreme_hills"
-      },
-      {
-        "value": "mushroom_field_shore"
-      },
-      {
-        "value": "mushroom_fields"
-      },
-      {
-        "value": "nether"
-      },
-      {
-        "value": "ocean"
-      },
-      {
-        "value": "plains"
-      },
-      {
-        "value": "river"
-      },
-      {
-        "value": "savanna"
-      },
-      {
-        "value": "savanna_rock"
-      },
-      {
-        "value": "mutated_savanna_rock"
-      },
-      {
-        "value": "small_end_islands"
-      },
-      {
-        "value": "soul_sand_valley"
-      },
-      {
-        "value": "jungle_edge"
+        "value": "mutated_taiga_cold"
       },
       {
         "value": "stony_peaks"
@@ -294,43 +189,7 @@
         "value": "stone_beach"
       },
       {
-        "value": "swamp"
-      },
-      {
-        "value": "mutated_swampland"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "taiga_hills"
-      },
-      {
-        "value": "the_end"
-      },
-      {
-        "value": "void"
-      },
-      {
-        "value": "warm_ocean"
-      },
-      {
-        "value": "warped_forest"
-      },
-      {
-        "value": "extreme_hills_with_trees"
-      },
-      {
-        "value": "mutated_extreme_hills"
-      },
-      {
-        "value": "mountains"
-      },
-      {
-        "value": "mutated_savanna"
-      },
-      {
-        "value": "wooded_badlands_plateau"
+        "value": "mutated_plains"
       }
     ],
     "blocksToReplace": [
@@ -339,9 +198,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 3,
-    "frequencyOnChunk": 2,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 10,
     "minGenerateHeight": -10,
-    "maxGenerateHeight": 20
+    "maxGenerateHeight": 27
   }
 }

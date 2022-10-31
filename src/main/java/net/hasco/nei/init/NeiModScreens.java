@@ -11,6 +11,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.gui.screens.MenuScreens;
 
+import net.hasco.nei.client.gui.TestDogGUIScreen;
 import net.hasco.nei.client.gui.InformationNEIScreen;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
@@ -19,6 +20,7 @@ public class NeiModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(NeiModMenus.INFORMATION_NEI, InformationNEIScreen::new);
+			MenuScreens.register(NeiModMenus.TEST_DOG_GUI, TestDogGUIScreen::new);
 		});
 	}
 }

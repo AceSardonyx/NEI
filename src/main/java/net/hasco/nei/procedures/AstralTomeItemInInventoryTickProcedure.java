@@ -11,6 +11,6 @@ public class AstralTomeItemInInventoryTickProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.addEffect(new MobEffectInstance(NeiModMobEffects.ENLIGHTENMENT.get(), 300, 1, (true), (false)));
+			_entity.addEffect(new MobEffectInstance(NeiModMobEffects.ENLIGHTENMENT.get(), 10, 0, (true), (false)));
 	}
 }

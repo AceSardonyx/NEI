@@ -44,9 +44,9 @@ public class FractalOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new FractalOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("nei:fractal_ore", FEATURE,
-				new OreConfiguration(FractalOreFeatureRuleTest.INSTANCE, NeiModBlocks.FRACTAL_ORE.get().defaultBlockState(), 2));
-		PLACED_FEATURE = PlacementUtils.register("nei:fractal_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(3), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(-10), VerticalAnchor.absolute(20)), BiomeFilter.biome()));
+				new OreConfiguration(FractalOreFeatureRuleTest.INSTANCE, NeiModBlocks.FRACTAL_ORE.get().defaultBlockState(), 10));
+		PLACED_FEATURE = PlacementUtils.register("nei:fractal_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(4), InSquarePlacement.spread(),
+				HeightRangePlacement.uniform(VerticalAnchor.absolute(-10), VerticalAnchor.absolute(27)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -54,22 +54,13 @@ public class FractalOreFeature extends OreFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("warm_ocean"), new ResourceLocation("mushroom_fields"),
-			new ResourceLocation("end_midlands"), new ResourceLocation("flower_forest"), new ResourceLocation("lush_caves"),
-			new ResourceLocation("cold_ocean"), new ResourceLocation("the_end"), new ResourceLocation("lukewarm_ocean"),
-			new ResourceLocation("dark_forest"), new ResourceLocation("savanna"), new ResourceLocation("stony_peaks"),
-			new ResourceLocation("savanna_plateau"), new ResourceLocation("dripstone_caves"), new ResourceLocation("jagged_peaks"),
-			new ResourceLocation("eroded_badlands"), new ResourceLocation("badlands"), new ResourceLocation("windswept_hills"),
-			new ResourceLocation("ocean"), new ResourceLocation("wooded_badlands"), new ResourceLocation("windswept_savanna"),
-			new ResourceLocation("jungle"), new ResourceLocation("warped_forest"), new ResourceLocation("forest"),
-			new ResourceLocation("stony_shore"), new ResourceLocation("sparse_jungle"), new ResourceLocation("birch_forest"),
-			new ResourceLocation("deep_lukewarm_ocean"), new ResourceLocation("deep_ocean"), new ResourceLocation("deep_frozen_ocean"),
-			new ResourceLocation("nether_wastes"), new ResourceLocation("bamboo_jungle"), new ResourceLocation("soul_sand_valley"),
-			new ResourceLocation("small_end_islands"), new ResourceLocation("plains"), new ResourceLocation("end_highlands"),
-			new ResourceLocation("meadow"), new ResourceLocation("end_barrens"), new ResourceLocation("basalt_deltas"), new ResourceLocation("taiga"),
-			new ResourceLocation("crimson_forest"), new ResourceLocation("swamp"), new ResourceLocation("deep_cold_ocean"),
-			new ResourceLocation("grove"), new ResourceLocation("beach"), new ResourceLocation("the_void"), new ResourceLocation("windswept_forest"),
-			new ResourceLocation("windswept_gravelly_hills"), new ResourceLocation("river"), new ResourceLocation("desert"));
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("frozen_ocean"), new ResourceLocation("frozen_river"),
+			new ResourceLocation("basalt_deltas"), new ResourceLocation("stony_shore"), new ResourceLocation("sunflower_plains"),
+			new ResourceLocation("snowy_plains"), new ResourceLocation("snowy_slopes"), new ResourceLocation("jagged_peaks"),
+			new ResourceLocation("snowy_taiga"), new ResourceLocation("nei:astral_field"), new ResourceLocation("grove"),
+			new ResourceLocation("ice_spikes"), new ResourceLocation("windswept_hills"), new ResourceLocation("stony_peaks"),
+			new ResourceLocation("frozen_peaks"), new ResourceLocation("end_barrens"), new ResourceLocation("old_growth_spruce_taiga"),
+			new ResourceLocation("snowy_beach"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD,
 			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("nei:astral_plain")));
 

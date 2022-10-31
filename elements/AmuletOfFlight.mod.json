@@ -1,0 +1,68 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": false,
+    "textureHelmet": "",
+    "enableBody": true,
+    "textureBody": "blue_amulet",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onBodyTick": {
+      "name": "AmuletOfFlightBodyTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:NEI"
+    },
+    "armorTextureFile": "amuletbluearmor",
+    "helmetName": "Amulet Of Flight Helmet",
+    "bodyName": "Amulet of Flight - BETA",
+    "leggingsName": "Amulet Of Flight Leggings",
+    "bootsName": "Amulet Of Flight Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": true,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 0,
+    "damageValueBody": 10,
+    "damageValueLeggings": 0,
+    "damageValueBoots": 0,
+    "enchantability": 32,
+    "toughness": 4.199999999999999,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_chain"
+    },
+    "repairItems": [
+      {
+        "value": "Items.RAW_GOLD"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ]
+  }
+}

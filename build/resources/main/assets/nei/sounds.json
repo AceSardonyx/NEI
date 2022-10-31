@@ -1,0 +1,270 @@
+{
+  "nuke_go_boom": {
+    "category": "block",
+    "subtitle": "subtitles.nuke_go_boom",
+    "sounds": [
+      {
+        "name": "nei:nuke_go_boom",
+        "stream": false
+      }
+    ]
+  },
+  "sunkist_death": {
+    "category": "hostile",
+    "subtitle": "subtitles.sunkist_death",
+    "sounds": [
+      {
+        "name": "nei:sunkist_death",
+        "stream": false
+      }
+    ]
+  },
+  "sunkist_idle": {
+    "category": "hostile",
+    "subtitle": "subtitles.sunkist_idle",
+    "sounds": [
+      {
+        "name": "nei:sunkist_idle",
+        "stream": false
+      }
+    ]
+  },
+  "sunkist_hurt": {
+    "category": "hostile",
+    "subtitle": "subtitles.sunkist_hurt",
+    "sounds": [
+      {
+        "name": "nei:sunkist_hurt",
+        "stream": false
+      }
+    ]
+  },
+  "bird": {
+    "category": "neutral",
+    "subtitle": "subtitles.bird",
+    "sounds": [
+      {
+        "name": "nei:hurt",
+        "stream": false
+      },
+      {
+        "name": "nei:idle0",
+        "stream": false
+      },
+      {
+        "name": "nei:idle1",
+        "stream": false
+      },
+      {
+        "name": "nei:idle2",
+        "stream": false
+      },
+      {
+        "name": "nei:idle3",
+        "stream": false
+      },
+      {
+        "name": "nei:idle4",
+        "stream": false
+      }
+    ]
+  },
+  "decayed_zombie": {
+    "category": "neutral",
+    "subtitle": "subtitles.decayed_zombie",
+    "sounds": [
+      {
+        "name": "nei:death",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt1",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt2",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt3",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt4",
+        "stream": false
+      },
+      {
+        "name": "nei:say1",
+        "stream": false
+      },
+      {
+        "name": "nei:say2",
+        "stream": false
+      },
+      {
+        "name": "nei:say3",
+        "stream": false
+      },
+      {
+        "name": "nei:step1",
+        "stream": false
+      },
+      {
+        "name": "nei:step2",
+        "stream": false
+      },
+      {
+        "name": "nei:step3",
+        "stream": false
+      },
+      {
+        "name": "nei:step4",
+        "stream": false
+      }
+    ]
+  },
+  "duck": {
+    "category": "neutral",
+    "subtitle": "subtitles.duck",
+    "sounds": [
+      {
+        "name": "nei:hurt0",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt1",
+        "stream": false
+      },
+      {
+        "name": "nei:idle0",
+        "stream": false
+      },
+      {
+        "name": "nei:idle1",
+        "stream": false
+      },
+      {
+        "name": "nei:idle2",
+        "stream": false
+      },
+      {
+        "name": "nei:plop",
+        "stream": false
+      }
+    ]
+  },
+  "ambient.dragonfly": {
+    "category": "neutral",
+    "subtitle": "subtitles.ambient.dragonfly",
+    "sounds": [
+      {
+        "name": "nei:ambient",
+        "stream": false
+      }
+    ]
+  },
+  "frog": {
+    "category": "neutral",
+    "subtitle": "subtitles.frog",
+    "sounds": [
+      {
+        "name": "nei:death",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt1",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt2",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt3",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt4",
+        "stream": false
+      },
+      {
+        "name": "nei:idle1",
+        "stream": false
+      },
+      {
+        "name": "nei:idle2",
+        "stream": false
+      },
+      {
+        "name": "nei:idle3",
+        "stream": false
+      },
+      {
+        "name": "nei:idle4",
+        "stream": false
+      }
+    ]
+  },
+  "mummy": {
+    "category": "hostile",
+    "subtitle": "subtitles.mummy",
+    "sounds": [
+      {
+        "name": "nei:death1",
+        "stream": false
+      },
+      {
+        "name": "nei:death2",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt1",
+        "stream": false
+      },
+      {
+        "name": "nei:hurt2",
+        "stream": false
+      },
+      {
+        "name": "nei:idle1",
+        "stream": false
+      },
+      {
+        "name": "nei:idle2",
+        "stream": false
+      },
+      {
+        "name": "nei:idle3",
+        "stream": false
+      }
+    ]
+  },
+  "mood.astral1": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "nei:mood1",
+        "stream": true
+      }
+    ]
+  },
+  "mood.astral2": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "nei:mood2",
+        "stream": true
+      }
+    ]
+  },
+  "random.astral.splash": {
+    "category": "weather",
+    "subtitle": "subtitles.random.astral.splash",
+    "sounds": [
+      {
+        "name": "nei:splash",
+        "stream": false
+      }
+    ]
+  }
+}

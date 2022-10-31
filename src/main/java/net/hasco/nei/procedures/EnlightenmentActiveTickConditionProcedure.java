@@ -5,6 +5,7 @@ import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.common.MinecraftForge;
 
 import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 
@@ -35,8 +36,12 @@ public class EnlightenmentActiveTickConditionProcedure {
 			private void run() {
 				if (entity instanceof LivingEntity _entity)
 					_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1);
+				if (entity instanceof Player _player)
+					_player.getFoodData().setFoodLevel(20);
+				if (entity instanceof Player _player)
+					_player.getFoodData().setSaturation(20);
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, 500);
+		}.start(world, 20);
 	}
 }

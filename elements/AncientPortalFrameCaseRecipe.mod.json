@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 16,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      },
+      {
+        "value": "CUSTOM:Fractal"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientPortalFrameCase"
+    },
+    "name": "ancient_portal_frame_case_recipe",
+    "namespace": "mod"
+  }
+}

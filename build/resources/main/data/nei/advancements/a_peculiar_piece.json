@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:star_cluster"
+    },
+    "title": {
+      "translate": "advancements.a_peculiar_piece.title"
+    },
+    "description": {
+      "translate": "advancements.a_peculiar_piece.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_peculiar_piece": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 20,
+    "loot": [
+      "nei:entities/portal_frame_activate_reward"
+    ]
+  },
+  "parent": "nei:fractal_from_seeds"
+}

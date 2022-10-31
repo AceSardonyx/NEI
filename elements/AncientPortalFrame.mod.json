@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": "CUSTOM:Fractal"
+      "value": "CUSTOM:StarCluster"
     },
     "dropAmount": 3,
     "useLootTableForDrops": false,

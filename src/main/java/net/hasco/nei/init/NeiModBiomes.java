@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.hasco.nei.world.biome.ThePlaceThatGlowsBiome;
 import net.hasco.nei.world.biome.AstralFieldBiome;
 import net.hasco.nei.NeiMod;
 
@@ -43,11 +44,14 @@ import com.mojang.datafixers.util.Pair;
 public class NeiModBiomes {
 	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, NeiMod.MODID);
 	public static final RegistryObject<Biome> ASTRAL_FIELD = REGISTRY.register("astral_field", () -> AstralFieldBiome.createBiome());
+	public static final RegistryObject<Biome> THE_PLACE_THAT_GLOWS = REGISTRY.register("the_place_that_glows",
+			() -> ThePlaceThatGlowsBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			AstralFieldBiome.init();
+			ThePlaceThatGlowsBiome.init();
 		});
 	}
 
@@ -68,6 +72,8 @@ public class NeiModBiomes {
 						List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
 						parameters.add(new Pair<>(AstralFieldBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, ASTRAL_FIELD.getId()))));
+						parameters.add(new Pair<>(ThePlaceThatGlowsBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, THE_PLACE_THAT_GLOWS.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -84,6 +90,10 @@ public class NeiModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, ASTRAL_FIELD.getId()),
 											Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
 											Blocks.DIORITE.defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THE_PLACE_THAT_GLOWS.getId()),
+											Blocks.PODZOL.defaultBlockState(), Blocks.ROOTED_DIRT.defaultBlockState(),
+											NeiModBlocks.PHELLIUM.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

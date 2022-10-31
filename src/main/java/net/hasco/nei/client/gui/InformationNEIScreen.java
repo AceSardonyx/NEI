@@ -5,8 +5,10 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.components.Button;
 import net.minecraft.client.Minecraft;
 
 import net.hasco.nei.world.inventory.InformationNEIMenu;
@@ -29,8 +31,8 @@ public class InformationNEIScreen extends AbstractContainerScreen<InformationNEI
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 281;
-		this.imageHeight = 166;
+		this.imageWidth = 328;
+		this.imageHeight = 222;
 	}
 
 	@Override
@@ -73,7 +75,7 @@ public class InformationNEIScreen extends AbstractContainerScreen<InformationNEI
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "This is in development :)", 77, 61, -12829636);
+		this.font.draw(poseStack, "This is in development :)", 190, 8, -12829636);
 	}
 
 	@Override
@@ -86,5 +88,7 @@ public class InformationNEIScreen extends AbstractContainerScreen<InformationNEI
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		this.addRenderableWidget(new Button(this.leftPos + 262, this.topPos + 188, 56, 20, new TextComponent("button"), e -> {
+		}));
 	}
 }

@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.hasco.nei.block.TestDog1Block;
 import net.hasco.nei.block.StarFlowerBlock;
 import net.hasco.nei.block.PhelliumBlock;
 import net.hasco.nei.block.ImperfectStarFlowerBlock;
@@ -27,6 +28,7 @@ import net.hasco.nei.block.AncientWoodBlock;
 import net.hasco.nei.block.AncientStairsBlock;
 import net.hasco.nei.block.AncientSlabBlock;
 import net.hasco.nei.block.AncientPressurePlateBlock;
+import net.hasco.nei.block.AncientPortalFrameCaseBlock;
 import net.hasco.nei.block.AncientPortalFrameBlock;
 import net.hasco.nei.block.AncientPlanksBlock;
 import net.hasco.nei.block.AncientLogBlock;
@@ -59,6 +61,9 @@ public class NeiModBlocks {
 	public static final RegistryObject<Block> GOLDEN_FLOWER = REGISTRY.register("golden_flower", () -> new GoldenFlowerBlock());
 	public static final RegistryObject<Block> IMPERFECT_STAR_FLOWER = REGISTRY.register("imperfect_star_flower",
 			() -> new ImperfectStarFlowerBlock());
+	public static final RegistryObject<Block> ANCIENT_PORTAL_FRAME_CASE = REGISTRY.register("ancient_portal_frame_case",
+			() -> new AncientPortalFrameCaseBlock());
+	public static final RegistryObject<Block> TEST_DOG_1 = REGISTRY.register("test_dog_1", () -> new TestDog1Block());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -67,17 +72,21 @@ public class NeiModBlocks {
 			StarFlowerBlock.registerRenderLayer();
 			GoldenFlowerBlock.registerRenderLayer();
 			ImperfectStarFlowerBlock.registerRenderLayer();
+			AncientPortalFrameCaseBlock.registerRenderLayer();
+			TestDog1Block.registerRenderLayer();
 		}
 
 		@SubscribeEvent
 		public static void blockColorLoad(ColorHandlerEvent.Block event) {
 			StarFlowerBlock.blockColorLoad(event);
 			ImperfectStarFlowerBlock.blockColorLoad(event);
+			TestDog1Block.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(ColorHandlerEvent.Item event) {
 			StarFlowerBlock.itemColorLoad(event);
+			TestDog1Block.itemColorLoad(event);
 		}
 	}
 }
