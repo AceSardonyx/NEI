@@ -935,7 +935,7 @@
       "name": "PlayerEntersAstralPlain",
       "type": "procedure",
       "sortid": 67,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "player_enters_astral_plain",
       "metadata": {
@@ -961,7 +961,7 @@
       "name": "SilverIngot",
       "type": "item",
       "sortid": 69,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "silver_ingot",
       "path": "~/Core/Silver"
@@ -970,7 +970,7 @@
       "name": "SilverOre",
       "type": "block",
       "sortid": 70,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "silver_ore",
       "path": "~/Core/Silver"
@@ -1015,7 +1015,7 @@
       "name": "DeepslateSilverOre",
       "type": "block",
       "sortid": 75,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "deepslate_silver_ore",
       "path": "~/Core/Silver"
@@ -1024,7 +1024,7 @@
       "name": "SilverNugget",
       "type": "item",
       "sortid": 76,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "silver_nugget",
       "path": "~/Core/Silver"
@@ -1051,7 +1051,7 @@
       "name": "SteelIngot",
       "type": "item",
       "sortid": 79,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "steel_ingot",
       "path": "~/Core/Steel"
@@ -1060,7 +1060,7 @@
       "name": "SteelOre",
       "type": "block",
       "sortid": 80,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "steel_ore",
       "path": "~/Core/Steel"
@@ -1069,7 +1069,7 @@
       "name": "SteelBlock",
       "type": "block",
       "sortid": 81,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "steel_block",
       "path": "~/Core/Steel"
@@ -1105,7 +1105,7 @@
       "name": "SteelNugget",
       "type": "item",
       "sortid": 85,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "steel_nugget",
       "path": "~/Core/Steel"
@@ -1132,7 +1132,7 @@
       "name": "DeepslateSteelOre",
       "type": "block",
       "sortid": 88,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "deepslate_steel_ore",
       "path": "~/Core/Steel"
@@ -1141,7 +1141,7 @@
       "name": "Phosphocore",
       "type": "item",
       "sortid": 89,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "phosphocore",
       "path": "~/Core/Astral Plain/Portal"
@@ -1162,6 +1162,15 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "so_old_it_glows",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "AnnoyingDog",
+      "type": "achievement",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "annoying_dog",
       "path": "~/Achivements"
     }
   ],
@@ -1333,6 +1342,7 @@
       "block.nei.silver_ore": "Silver Ore",
       "advancements.oh_the_biomes_youll_go.title": "Oh The Biomes You\u0027ll-",
       "item.nei.stardust": "Stardust",
+      "advancements.annoying_dog.descr": "Arf arf arf arf",
       "advancements.a_peculiar_piece.descr": "The way its\u0027 void yearns for any type of energy...",
       "subtitles.random.astral.splash": "Splashing",
       "item.nei.nei_icon": "NEI Icon",
@@ -1375,6 +1385,7 @@
       "item.nei.star_silk": "Star Silk",
       "advancements.wings_and_the_power_to_fly.title": "Giving You Wings And The Power To Fly!",
       "block.nei.ancient_planks": "Ancient Planks",
+      "advancements.annoying_dog.title": "Annoying Dog",
       "item.nei.astral_plain": "Ancient Gem",
       "item.nei.phellium_bucket": "Phellium Bucket",
       "item.nei.astral_sword_beta": "astral sword Beta \u003d)",
