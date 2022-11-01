@@ -930,6 +930,98 @@
         ]
       },
       "path": "~/Icosa"
+<<<<<<<< HEAD:.mcreator/workspaceBackups/nei.mcreator-backup_20221101_092538
+    },
+    {
+      "name": "PlayerEntersAstralPlain",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_enters_astral_plain",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "Awoken",
+      "type": "tag",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awoken",
+      "path": "~/Tags"
+    },
+    {
+      "name": "SilverIngot",
+      "type": "item",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverBlock",
+      "type": "block",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_block_recipe",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_block_ore_recipe",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverOreSmelting",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ore_smelting",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "DeepslateSilverOre",
+      "type": "block",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_silver_ore",
+      "path": "~/Core/Silver"
+========
+>>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe:.mcreator/workspaceBackups/nei.mcreator-backup_20221031_094204
     }
   ],
   "variable_elements": [],
@@ -1076,6 +1168,7 @@
   ],
   "language_map": {
     "en_us": {
+      "block.nei.deepslate_silver_ore": "Deepslate Silver Ore",
       "item.nei.amulet_of_flight_boots": "Amulet Of Flight Boots",
       "advancements.the_easy_way_out.descr": "Hey! It\u0027s ok to need help. It\u0027s not like you weren\u0027t supposed to do that!",
       "advancements.fallen_angel.title": "Fallen Down",
@@ -1090,6 +1183,7 @@
       "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
       "advancements.fallen_angel.descr": "Something broke... You may want to land!",
       "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
+      "block.nei.silver_ore": "Silver Ore",
       "advancements.oh_the_biomes_youll_go.title": "Oh The Biomes You\u0027ll-",
       "item.nei.stardust": "Stardust",
       "advancements.a_peculiar_piece.descr": "The way its\u0027 void yearns for any type of energy...",
@@ -1097,6 +1191,7 @@
       "item.nei.nei_icon": "NEI Icon",
       "biome.nei.astral_field": "Astral Field",
       "advancements.wings_and_the_power_to_fly.descr": "Curtains fall, salvation you bring, this ballad you\u0027ll sing-~",
+      "item.nei.silver_ingot": "Silver",
       "item.nei.amulet_of_flight_chestplate": "Amulet of Flight - BETA",
       "effect.nei.enlightenment": "Enlightenment",
       "subtitles.sunkist_hurt": "Sunkist In Pain",
@@ -1114,6 +1209,7 @@
       "itemGroup.tabnei": "NEI",
       "block.nei.ancient_slab": "Ancient Slab",
       "block.nei.fractal_ore": "Fractal Ore",
+      "block.nei.silver_block": "Block of Silver",
       "block.nei.ancient_fence": "Ancient Fence",
       "subtitles.frog": "Frog",
       "subtitles.ambient.dragonfly": "Dragomfly Buzzing",
@@ -1189,6 +1285,14 @@
           },
           {
             "name": "Fractal Gem",
+            "children": []
+          },
+          {
+            "name": "Silver",
+            "children": []
+          },
+          {
+            "name": "Steel",
             "children": []
           }
         ]

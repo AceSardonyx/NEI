@@ -20,11 +20,7 @@ import net.minecraft.core.Holder;
 import net.hasco.nei.world.features.plants.StarFlowerFeature;
 import net.hasco.nei.world.features.plants.ImperfectStarFlowerFeature;
 import net.hasco.nei.world.features.plants.GoldenFlowerFeature;
-import net.hasco.nei.world.features.ores.SteelOreFeature;
-import net.hasco.nei.world.features.ores.SilverOreFeature;
 import net.hasco.nei.world.features.ores.FractalOreFeature;
-import net.hasco.nei.world.features.ores.DeepslateSteelOreFeature;
-import net.hasco.nei.world.features.ores.DeepslateSilverOreFeature;
 import net.hasco.nei.world.features.lakes.PhelliumFeature;
 import net.hasco.nei.NeiMod;
 
@@ -48,16 +44,6 @@ public class NeiModFeatures {
 	public static final RegistryObject<Feature<?>> IMPERFECT_STAR_FLOWER = register("imperfect_star_flower", ImperfectStarFlowerFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, ImperfectStarFlowerFeature.GENERATE_BIOMES,
 					ImperfectStarFlowerFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> SILVER_ORE = register("silver_ore", SilverOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SilverOreFeature.GENERATE_BIOMES, SilverOreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> DEEPSLATE_SILVER_ORE = register("deepslate_silver_ore", DeepslateSilverOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DeepslateSilverOreFeature.GENERATE_BIOMES,
-					DeepslateSilverOreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> STEEL_ORE = register("steel_ore", SteelOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, SteelOreFeature.GENERATE_BIOMES, SteelOreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> DEEPSLATE_STEEL_ORE = register("deepslate_steel_ore", DeepslateSteelOreFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, DeepslateSteelOreFeature.GENERATE_BIOMES,
-					DeepslateSteelOreFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -13,15 +13,10 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
-import net.hasco.nei.item.SteelNuggetItem;
-import net.hasco.nei.item.SteelIngotItem;
 import net.hasco.nei.item.StardustItem;
 import net.hasco.nei.item.StarSilkItem;
 import net.hasco.nei.item.StarFractalSilkItem;
 import net.hasco.nei.item.StarClusterItem;
-import net.hasco.nei.item.SilverNuggetItem;
-import net.hasco.nei.item.SilverIngotItem;
-import net.hasco.nei.item.PhosphocoreItem;
 import net.hasco.nei.item.PhelliumItem;
 import net.hasco.nei.item.NEIIconItem;
 import net.hasco.nei.item.FractalItem;
@@ -66,17 +61,6 @@ public class NeiModItems {
 			() -> new AmuletOfFlightItem.Chestplate());
 	public static final RegistryObject<Item> ANCIENT_PORTAL_FRAME_CASE = block(NeiModBlocks.ANCIENT_PORTAL_FRAME_CASE, NeiModTabs.TAB_NEI);
 	public static final RegistryObject<Item> TEST_DOG_1 = block(NeiModBlocks.TEST_DOG_1, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
-	public static final RegistryObject<Item> SILVER_ORE = block(NeiModBlocks.SILVER_ORE, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> SILVER_BLOCK = block(NeiModBlocks.SILVER_BLOCK, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> DEEPSLATE_SILVER_ORE = block(NeiModBlocks.DEEPSLATE_SILVER_ORE, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> SILVER_NUGGET = REGISTRY.register("silver_nugget", () -> new SilverNuggetItem());
-	public static final RegistryObject<Item> STEEL_INGOT = REGISTRY.register("steel_ingot", () -> new SteelIngotItem());
-	public static final RegistryObject<Item> STEEL_ORE = block(NeiModBlocks.STEEL_ORE, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> STEEL_BLOCK = block(NeiModBlocks.STEEL_BLOCK, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> STEEL_NUGGET = REGISTRY.register("steel_nugget", () -> new SteelNuggetItem());
-	public static final RegistryObject<Item> DEEPSLATE_STEEL_ORE = block(NeiModBlocks.DEEPSLATE_STEEL_ORE, NeiModTabs.TAB_NEI);
-	public static final RegistryObject<Item> PHOSPHOCORE = REGISTRY.register("phosphocore", () -> new PhosphocoreItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
