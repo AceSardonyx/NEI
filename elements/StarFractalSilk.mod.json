@@ -8,7 +8,7 @@
     "name": "Star Fractal Silk",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:NEI"
     },
     "stackSize": 64,
     "enchantability": 0,

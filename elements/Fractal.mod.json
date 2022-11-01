@@ -8,7 +8,7 @@
     "name": "Fractal",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:NEI"
     },
     "stackSize": 64,
     "enchantability": 0,

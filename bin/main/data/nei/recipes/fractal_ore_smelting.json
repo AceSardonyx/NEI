@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 3.289999999999999,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "nei:fractal_ore"
+  },
+  "result": "nei:fractal"
+}

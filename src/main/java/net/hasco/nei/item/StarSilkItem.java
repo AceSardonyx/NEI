@@ -7,15 +7,15 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.player.Player;
 
 import net.hasco.nei.procedures.StarSilkItemIsDroppedByPlayerProcedure;
+import net.hasco.nei.init.NeiModTabs;
 
 public class StarSilkItem extends Item {
 	public StarSilkItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS).stacksTo(64).fireResistant().rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(64).fireResistant().rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(0.1f)
 
 						.build()));

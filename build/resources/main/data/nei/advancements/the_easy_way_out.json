@@ -9,7 +9,7 @@
     "description": {
       "translate": "advancements.the_easy_way_out.descr"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "nei:block/ancient_pressure_plate"
+    },
+    "powered=true": {
+      "model": "nei:block/ancient_pressure_plate_down"
+    }
+  }
+}

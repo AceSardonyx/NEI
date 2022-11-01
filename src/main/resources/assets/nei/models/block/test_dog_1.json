@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "nei:blocks/oopsiepoopsie",
-    "up": "nei:blocks/oopsiepoopsie",
-    "north": "nei:blocks/oopsiepoopsie",
-    "east": "nei:blocks/oopsiepoopsie",
-    "south": "nei:blocks/oopsiepoopsie",
-    "west": "nei:blocks/oopsiepoopsie",
+    "down": "nei:blocks/debug",
+    "up": "nei:blocks/debug",
+    "north": "nei:blocks/debug",
+    "east": "nei:blocks/debug",
+    "south": "nei:blocks/debug",
+    "west": "nei:blocks/debug",
     "particle": "nei:blocks/oopsiepoopsie"
   }
 }

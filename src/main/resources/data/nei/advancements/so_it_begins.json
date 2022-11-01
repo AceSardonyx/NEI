@@ -49,7 +49,8 @@
       "nei:ancient_gem_recipe",
       "nei:ancient_lotus_recipe",
       "nei:star_dust_recipe",
-      "nei:astral_tome_recipe"
+      "nei:astral_tome_recipe",
+      "nei:ancient_portal_frame_case_recipe"
     ]
   },
   "parent": "nei:not_enough_interest"

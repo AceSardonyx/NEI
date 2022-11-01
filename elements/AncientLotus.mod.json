@@ -8,7 +8,7 @@
     "name": "Ancient Lotus",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:NEI"
     },
     "stackSize": 64,
     "enchantability": 0,

@@ -28,7 +28,8 @@
       "AncientGemRecipe",
       "AncientLotusRecipe",
       "StarDustRecipe",
-      "AstralTomeRecipe"
+      "AstralTomeRecipe",
+      "AncientPortalFrameCaseRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 20,

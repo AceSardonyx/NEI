@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancements.not_enough_interest.descr"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false

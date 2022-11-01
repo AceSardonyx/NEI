@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:amulet_of_flight_chestplate"
+    },
+    "title": {
+      "translate": "advancements.wings_and_the_power_to_fly.title"
+    },
+    "description": {
+      "translate": "advancements.wings_and_the_power_to_fly.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wings_and_the_power_to_fly": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 75
+  },
+  "parent": "nei:a_little_place_called_home"
+}

@@ -23,7 +23,7 @@ import java.util.function.Predicate;
 import java.util.Optional;
 
 public class AstralPlainPortalShape {
-	private static final int MIN_WIDTH = 2;
+	private static final int MIN_WIDTH = 3;
 	public static final int MAX_WIDTH = 21;
 	private static final int MIN_HEIGHT = 3;
 	public static final int MAX_HEIGHT = 21;

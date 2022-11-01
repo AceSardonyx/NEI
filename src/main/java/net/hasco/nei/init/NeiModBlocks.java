@@ -16,12 +16,18 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.hasco.nei.block.TestDog1Block;
+import net.hasco.nei.block.SteelOreBlock;
+import net.hasco.nei.block.SteelBlockBlock;
 import net.hasco.nei.block.StarFlowerBlock;
+import net.hasco.nei.block.SilverOreBlock;
+import net.hasco.nei.block.SilverBlockBlock;
 import net.hasco.nei.block.PhelliumBlock;
 import net.hasco.nei.block.ImperfectStarFlowerBlock;
 import net.hasco.nei.block.GoldenFlowerBlock;
 import net.hasco.nei.block.FractalOreBlock;
 import net.hasco.nei.block.FractalBlockBlock;
+import net.hasco.nei.block.DeepslateSteelOreBlock;
+import net.hasco.nei.block.DeepslateSilverOreBlock;
 import net.hasco.nei.block.AstralPlainPortalBlock;
 import net.hasco.nei.block.AstralBlockBlock;
 import net.hasco.nei.block.AncientWoodBlock;
@@ -64,6 +70,12 @@ public class NeiModBlocks {
 	public static final RegistryObject<Block> ANCIENT_PORTAL_FRAME_CASE = REGISTRY.register("ancient_portal_frame_case",
 			() -> new AncientPortalFrameCaseBlock());
 	public static final RegistryObject<Block> TEST_DOG_1 = REGISTRY.register("test_dog_1", () -> new TestDog1Block());
+	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
+	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
+	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
+	public static final RegistryObject<Block> STEEL_ORE = REGISTRY.register("steel_ore", () -> new SteelOreBlock());
+	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
+	public static final RegistryObject<Block> DEEPSLATE_STEEL_ORE = REGISTRY.register("deepslate_steel_ore", () -> new DeepslateSteelOreBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

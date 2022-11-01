@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nei:blocks/silver_ore",
+    "particle": "nei:blocks/silver_ore"
+  }
+}

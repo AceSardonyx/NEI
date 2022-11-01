@@ -24,9 +24,9 @@ public class AncientPortalFrameCaseOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(NeiModItems.STAR_CLUSTER.get())) : false) {
+		if (entity instanceof Player _playerHasItem ? _playerHasItem.getInventory().contains(new ItemStack(NeiModItems.PHOSPHOCORE.get())) : false) {
 			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(NeiModItems.STAR_CLUSTER.get());
+				ItemStack _stktoremove = new ItemStack(NeiModItems.PHOSPHOCORE.get());
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1,
 						_player.inventoryMenu.getCraftSlots());
 			}
@@ -41,7 +41,7 @@ public class AncientPortalFrameCaseOnBlockRightClickedProcedure {
 				}
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("A Star Cluster Was Taken"), (true));
+				_player.displayClientMessage(new TextComponent("A Core Was Taken"), (true));
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nei:a_peculiar_piece"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

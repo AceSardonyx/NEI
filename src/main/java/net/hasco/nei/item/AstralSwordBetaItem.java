@@ -9,8 +9,8 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 
+import net.hasco.nei.init.NeiModTabs;
 import net.hasco.nei.init.NeiModBlocks;
 
 public class AstralSwordBetaItem extends SwordItem {
@@ -39,7 +39,7 @@ public class AstralSwordBetaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(NeiModBlocks.ASTRAL_BLOCK.get()));
 			}
-		}, 3, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}, 3, -2.2f, new Item.Properties().tab(NeiModTabs.TAB_NEI).fireResistant());
 	}
 
 	@Override

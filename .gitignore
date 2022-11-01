@@ -1,5 +1,5 @@
-MCreator20222/mcreator/*
-MCreator20222/mcreator/
+App!/mcreator/*
+App!/mcreator/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -15,3 +15,8 @@ gradle-app.setting
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+#  meta stuff
+.gradle
+.vscode
+.settings

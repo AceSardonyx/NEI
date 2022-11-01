@@ -1,473 +1,107 @@
 {
-  "minecraft:recipes/tools/fishing_rod": {
-    "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2022-10-30 20:19:19 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/lectern": {
     "criteria": {
-      "has_book": "2022-10-30 20:16:17 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/lever": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:zombie": "2022-10-30 20:36:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/paper": {
-    "criteria": {
-      "has_reeds": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/red_dye_from_rose_bush": {
-    "criteria": {
-      "has_rose_bush": "2022-10-30 20:09:25 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/writable_book": {
-    "criteria": {
-      "has_book": "2022-10-30 20:16:17 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/loom": {
-    "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/furnace": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "nei:fractal_from_seeds": {
-    "criteria": {
-      "fractal_from_seeds": "2022-10-30 20:11:32 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:taiga": "2022-10-30 20:14:52 -0400",
-      "minecraft:sunflower_plains": "2022-10-30 20:35:36 -0400",
-      "minecraft:river": "2022-10-30 20:14:56 -0400",
-      "minecraft:stony_shore": "2022-10-30 20:08:11 -0400",
-      "minecraft:grove": "2022-10-30 20:15:14 -0400",
-      "minecraft:forest": "2022-10-30 19:58:12 -0400",
-      "minecraft:ice_spikes": "2022-10-30 20:38:22 -0400",
-      "minecraft:old_growth_spruce_taiga": "2022-10-30 20:17:39 -0400",
-      "minecraft:meadow": "2022-10-30 20:06:46 -0400"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/charcoal": {
-    "criteria": {
-      "has_log": "2022-10-30 20:18:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_planks": {
-    "criteria": {
-      "has_logs": "2022-10-30 20:18:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "nei:a_peculiar_piece": {
-    "criteria": {
-      "a_peculiar_piece": "2022-10-30 20:21:07 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2022-10-30 20:09:37 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2022-10-30 20:03:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/stone_sword": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/snow_block": {
-    "criteria": {
-      "has_snowball": "2022-10-30 20:39:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/enchanting_table": {
-    "criteria": {
-      "has_obsidian": "2022-10-30 20:03:27 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blackstone_stairs": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2022-10-30 20:03:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_pickaxe": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2022-10-30 20:05:21 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2022-10-30 20:36:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/spruce_wood": {
-    "criteria": {
-      "has_log": "2022-10-30 20:18:16 -0400"
-    },
-    "done": true
-  },
-  "nei:not_enough_interest": {
-    "criteria": {
-      "not_enough_interest": "2022-10-30 20:02:04 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2022-10-30 20:03:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cobblestone_wall_from_cobblestone_stonecutting": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2022-10-30 20:03:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_pickaxe": "2022-10-30 20:03:27 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_obsidian": "2022-10-30 20:03:27 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_shovel": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/stone_hoe": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2022-10-30 20:03:15 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_smoking": {
-    "criteria": {
-      "has_potato": "2022-10-30 20:18:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:zombie": "2022-10-30 20:36:34 -0400"
-    },
-    "done": false
-  },
-  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/sugar_from_sugar_cane": {
-    "criteria": {
-      "has_sugar_cane": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/bookshelf": {
-    "criteria": {
-      "has_book": "2022-10-30 20:16:17 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato": {
-    "criteria": {
-      "has_potato": "2022-10-30 20:18:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_slab": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/tripwire_hook": {
-    "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cobblestone_stairs": {
-    "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
+      "has_book": "2022-11-01 10:03:05 -0400"
     },
     "done": true
   },
   "nei:so_it_begins": {
     "criteria": {
-      "so_it_begins": "2022-10-30 20:02:04 -0400"
+      "so_it_begins": "2022-11-01 09:53:18 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blackstone_wall": {
+  "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
+      "in_water": "2022-11-01 09:54:06 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+  "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
-      "has_golden_pickaxe": "2022-10-30 20:03:27 -0400"
+      "in_water": "2022-11-01 09:54:06 -0400"
     },
     "done": true
   },
   "nei:the_easy_way_out": {
     "criteria": {
-      "the_easy_way_out": "2022-10-30 20:16:33 -0400"
+      "the_easy_way_out": "2022-11-01 10:03:09 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+  "nei:from_the_pits_of_hell": {
     "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blackstone_slab": {
-    "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
+      "from_the_pits_of_hell": "2022-11-01 09:54:24 -0400"
     },
     "done": true
   },
   "minecraft:story/root": {
     "criteria": {
-      "crafting_table": "2022-10-30 20:18:22 -0400"
+      "crafting_table": "2022-11-01 10:00:33 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/snow": {
+  "minecraft:recipes/building_blocks/bookshelf": {
     "criteria": {
-      "has_snowball": "2022-10-30 20:39:23 -0400"
+      "has_book": "2022-11-01 10:03:05 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/misc/writable_book": {
     "criteria": {
-      "has_string": "2022-10-30 20:40:19 -0400"
+      "has_book": "2022-11-01 10:03:05 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+  "minecraft:recipes/transportation/acacia_boat": {
     "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
+      "in_water": "2022-11-01 09:54:06 -0400"
     },
     "done": true
   },
   "minecraft:recipes/transportation/oak_boat": {
     "criteria": {
-      "in_water": "2022-10-30 20:03:15 -0400"
+      "in_water": "2022-11-01 09:54:06 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+  "nei:not_enough_interest": {
     "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
+      "not_enough_interest": "2022-11-01 09:53:18 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+  "nei:fractal_from_seeds": {
     "criteria": {
-      "has_blackstone": "2022-10-30 20:36:12 -0400"
+      "fractal_from_seeds": "2022-11-01 09:54:06 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/tools/stone_axe": {
+  "minecraft:recipes/transportation/jungle_boat": {
     "criteria": {
-      "has_cobblestone": "2022-10-30 20:18:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
-    "criteria": {
-      "has_potato": "2022-10-30 20:18:16 -0400"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2022-10-30 20:03:27 -0400"
+      "in_water": "2022-11-01 09:54:06 -0400"
     },
     "done": true
   },
   "nei:it_glows": {
     "criteria": {
-      "it_glows": "2022-10-30 20:09:37 -0400"
+      "it_glows": "2022-11-01 09:53:47 -0400"
     },
     "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2022-11-01 09:54:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:snowy_slopes": "2022-11-01 10:04:29 -0400",
+      "minecraft:snowy_plains": "2022-11-01 10:04:32 -0400",
+      "minecraft:plains": "2022-11-01 09:53:09 -0400"
+    },
+    "done": false
   },
   "DataVersion": 2975
 }

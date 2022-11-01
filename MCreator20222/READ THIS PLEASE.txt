@@ -1,1 +1,0 @@
-Please download mcreator and put it to the path */NEI/MCreator20222/mcreator Or outside of the project

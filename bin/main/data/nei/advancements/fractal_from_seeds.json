@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:star_fractal_silk"
+    },
+    "title": {
+      "translate": "advancements.fractal_from_seeds.title"
+    },
+    "description": {
+      "translate": "advancements.fractal_from_seeds.descr"
+    },
+<<<<<<< HEAD
+    "frame": "task",
+=======
+    "frame": "goal",
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "fractal_from_seeds": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nei:star_fractal_silk"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 17
+  },
+  "parent": "nei:not_enough_interest"
+}

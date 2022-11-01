@@ -8,7 +8,7 @@
     "name": "Star Cluster",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:NEI"
     },
     "stackSize": 64,
     "enchantability": 0,

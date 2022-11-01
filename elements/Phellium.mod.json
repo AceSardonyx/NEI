@@ -25,7 +25,7 @@
     "generateBucket": true,
     "textureBucket": "",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:NEI"
     },
     "emptySound": {
       "value": ""
