@@ -6,7 +6,7 @@ Losing curiosity may result in failure! So be careful!
 
 This mod is for 1.18.2
 I recommend optifine and an infinite render distance mod.
-You can also include quark, biomesoplenty, & more if you'd like.
+You can also include quark, biomesoplenty, & more if you'd like. [Shaders are also highly recommended.](https://sildurs-shaders.github.io/downloads)
 
 To download, head over to the [releases](https://github.com/AceSardonyx/NEI/releases) section!
 
