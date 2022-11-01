@@ -1,5 +1,5 @@
 # NEI
-![NEI](https://user-images.githubusercontent.com/77860646/199228009-52fb297a-2a80-4264-8c26-d24772f4c3e6.png)
+![NEI](https://user-images.githubusercontent.com/77860646/199231886-ba1cf4b9-bb88-4f52-9dc6-77aa8baa1f70.png)
 # Not Enough Interest - Just Another Simple Minecraft Java Mod :)
 With distant lands and mystical creatures, there are many special things to find so long as you keep your interest.
 Losing curiosity may result in failure! So be careful!
