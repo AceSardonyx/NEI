@@ -1,6 +1,6 @@
 # NEI
 ![NEI](https://user-images.githubusercontent.com/77860646/199231886-ba1cf4b9-bb88-4f52-9dc6-77aa8baa1f70.png)
-# Not Enough Interest - Just Another Simple Minecraft Java Mod :)
+# Not Enough Interest - A MC Mod of The Mind & Soul
 With distant lands and mystical creatures, there are many special things to find so long as you keep your interest.
 Losing curiosity may result in failure! So be careful!
 
