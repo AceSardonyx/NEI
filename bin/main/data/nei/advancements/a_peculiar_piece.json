@@ -26,7 +26,11 @@
     ]
   },
 <<<<<<< HEAD
+<<<<<<< HEAD
   "parent": "nei:so_old_it_glows"
+=======
+  "parent": "nei:fractal_from_seeds"
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
   "parent": "nei:fractal_from_seeds"
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe

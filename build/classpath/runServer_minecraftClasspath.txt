@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\Kfike\Desktop\NEI\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar
 C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
 C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.0\fb3933cc7e1adef6d2c8ae599693d4577f0494e0\javafmllanguage-1.18.2-40.1.0.jar
@@ -89,6 +90,8 @@ C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runti
 C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
 C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
 =======
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 J:\Ace\NEI\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar
 C:\Users\Kfike\.gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
 C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.18.2-40.1.0\fb3933cc7e1adef6d2c8ae599693d4577f0494e0\javafmllanguage-1.18.2-40.1.0.jar
@@ -177,5 +180,9 @@ C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\com.google.j2objc\j2objc-annot
 C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\org.antlr\ST4\4.3\92f2c1ad8d84abcbeead6cf7f2c53a04166293c2\ST4-4.3.jar
 C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
 C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
+<<<<<<< HEAD
+C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
+=======
 C:\Users\Kfike\.gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe

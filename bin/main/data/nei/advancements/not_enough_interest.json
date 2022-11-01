@@ -11,7 +11,11 @@
       "translate": "advancements.not_enough_interest.descr"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "frame": "goal",
+=======
+    "frame": "task",
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
     "frame": "task",
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe

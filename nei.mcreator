@@ -1332,8 +1332,11 @@
       "block.nei.imperfect_star_flower": "Imperfect Star Flower",
       "item.nei.star_cluster": "Star Cluster",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "item.nei.silver_nugget": "Silver Nugget",
       "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
       "advancements.fallen_angel.descr": "Something broke... You may want to land!",

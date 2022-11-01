@@ -10,7 +10,11 @@
       "translate": "advancements.it_glows.descr"
     },
 <<<<<<< HEAD
+<<<<<<< HEAD
     "frame": "task",
+=======
+    "frame": "goal",
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
     "frame": "goal",
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe

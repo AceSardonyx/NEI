@@ -1,6 +1,9 @@
 {
 <<<<<<< HEAD
+<<<<<<< HEAD
   "block.nei.deepslate_silver_ore": "Deepslate Silver Ore",
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
   "item.nei.amulet_of_flight_boots": "Amulet Of Flight Boots",
@@ -8,7 +11,10 @@
   "advancements.fallen_angel.title": "Fallen Down",
   "item.nei.astral_tome": "Astral Tome",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "block.nei.deepslate_steel_ore": "Deepslate Steel Ore",
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
   "block.nei.ancient_button": "Ancient Button",
@@ -19,11 +25,17 @@
   "block.nei.imperfect_star_flower": "Imperfect Star Flower",
   "item.nei.star_cluster": "Star Cluster",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "item.nei.silver_nugget": "Silver Nugget",
   "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
   "advancements.fallen_angel.descr": "Something broke... You may want to land!",
   "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
   "block.nei.silver_ore": "Silver Ore",
+=======
+  "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
+  "advancements.fallen_angel.descr": "Something broke... You may want to land!",
+  "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
   "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
   "advancements.fallen_angel.descr": "Something broke... You may want to land!",
@@ -37,6 +49,7 @@
   "biome.nei.astral_field": "Astral Field",
   "advancements.wings_and_the_power_to_fly.descr": "Curtains fall, salvation you bring, this ballad you\u0027ll sing-~",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "item.nei.silver_ingot": "Silver",
   "block.nei.steel_block": "Block of Steel",
   "item.nei.amulet_of_flight_chestplate": "Amulet of Flight - BETA",
@@ -44,6 +57,11 @@
   "effect.nei.enlightenment": "Enlightenment",
   "subtitles.sunkist_hurt": "Sunkist In Pain",
   "item.nei.steel_ingot": "Steel",
+=======
+  "item.nei.amulet_of_flight_chestplate": "Amulet of Flight - BETA",
+  "effect.nei.enlightenment": "Enlightenment",
+  "subtitles.sunkist_hurt": "Sunkist In Pain",
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
   "item.nei.amulet_of_flight_chestplate": "Amulet of Flight - BETA",
   "effect.nei.enlightenment": "Enlightenment",
@@ -60,6 +78,7 @@
   "block.nei.astral_block": "Astral Block",
   "block.nei.golden_flower": "Golden Flower",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "advancements.so_old_it_glows.descr": "It may be fallen, but it\u0027s not a Star.",
   "item.nei.fractal": "Fractal",
   "itemGroup.tabnei": "NEI",
@@ -68,10 +87,15 @@
   "block.nei.fractal_ore": "Fractal Ore",
   "block.nei.silver_block": "Block of Silver",
 =======
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
   "item.nei.fractal": "Fractal",
   "itemGroup.tabnei": "NEI",
   "block.nei.ancient_slab": "Ancient Slab",
   "block.nei.fractal_ore": "Fractal Ore",
+<<<<<<< HEAD
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
+=======
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
   "block.nei.ancient_fence": "Ancient Fence",
   "subtitles.frog": "Frog",
@@ -80,7 +104,10 @@
   "block.nei.ancient_wood": "Ancient Wood",
   "fluid.nei.phellium": "Phellium",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "item.nei.phosphocore": "Phosphocore",
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
   "block.nei.ancient_stairs": "Ancient Stairs",
@@ -110,7 +137,10 @@
   "biome.nei.the_place_that_glows": "The Place That Glows",
   "item.nei.ancient_lotus": "Ancient Lotus",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "item.nei.steel_nugget": "Steel Nugget",
+=======
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
   "block.nei.ancient_fence_gate": "Ancient Fence Gate",

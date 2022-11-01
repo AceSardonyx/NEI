@@ -50,8 +50,12 @@
       "nei:ancient_lotus_recipe",
       "nei:star_dust_recipe",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "nei:astral_tome_recipe",
       "nei:ancient_portal_frame_case_recipe"
+=======
+      "nei:astral_tome_recipe"
+>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
 =======
       "nei:astral_tome_recipe"
 >>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe
