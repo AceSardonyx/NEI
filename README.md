@@ -1,12 +1,12 @@
 # NEI
 ![NEI](https://user-images.githubusercontent.com/77860646/199231886-ba1cf4b9-bb88-4f52-9dc6-77aa8baa1f70.png)
-# Not Enough Interest - Just Another Simple Minecraft Java Mod :)
+# Not Enough Interest - A MC Mod of The Mind & Soul
 With distant lands and mystical creatures, there are many special things to find so long as you keep your interest.
 Losing curiosity may result in failure! So be careful!
 
 This mod is for 1.18.2
 I recommend optifine and an infinite render distance mod.
-You can also include quark, biomesoplenty, & more if you'd like.
+You can also include quark, biomesoplenty, & more if you'd like. [Shaders are also highly recommended.](https://sildurs-shaders.github.io/downloads)
 
 To download, head over to the [releases](https://github.com/AceSardonyx/NEI/releases) section!
 
