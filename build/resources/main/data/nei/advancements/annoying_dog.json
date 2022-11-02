@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:test_dog_1"
+    },
+    "title": {
+      "translate": "advancements.annoying_dog.title"
+    },
+    "description": {
+      "translate": "advancements.annoying_dog.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "annoying_dog": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:test_dog_1"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "nei:not_enough_interest"
+}

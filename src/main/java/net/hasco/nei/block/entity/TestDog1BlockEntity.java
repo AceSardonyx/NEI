@@ -106,7 +106,7 @@ public class TestDog1BlockEntity extends RandomizableContainerBlockEntity implem
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Test Dog 1");
+		return new TextComponent("Test Dog!");
 	}
 
 	@Override

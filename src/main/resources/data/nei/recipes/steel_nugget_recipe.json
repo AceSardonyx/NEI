@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_ingot"
     }
   ],
   "result": {
-    "item": "nei:deleted_mod_element",
+    "item": "nei:steel_nugget",
     "count": 9
   }
 }

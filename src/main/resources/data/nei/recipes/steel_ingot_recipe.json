@@ -2,35 +2,35 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     },
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_nugget"
     }
   ],
   "result": {
-    "item": "nei:deleted_mod_element",
+    "item": "nei:steel_ingot",
     "count": 1
   }
 }

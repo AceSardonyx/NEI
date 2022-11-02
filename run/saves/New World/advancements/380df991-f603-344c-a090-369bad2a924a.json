@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "nei:a_peculiar_piece": {
+    "criteria": {
+      "a_peculiar_piece": "2022-11-02 09:38:53 -0400"
+    },
+    "done": true
+  },
   "nei:so_it_begins": {
     "criteria": {
       "so_it_begins": "2022-11-01 09:53:18 -0400"
@@ -14,6 +20,12 @@
   "minecraft:recipes/transportation/dark_oak_boat": {
     "criteria": {
       "in_water": "2022-11-01 09:54:06 -0400"
+    },
+    "done": true
+  },
+  "nei:a_little_place_called_home": {
+    "criteria": {
+      "a_little_place_called_home": "2022-11-02 09:41:31 -0400"
     },
     "done": true
   },
@@ -32,6 +44,12 @@
   "nei:from_the_pits_of_hell": {
     "criteria": {
       "from_the_pits_of_hell": "2022-11-01 09:54:24 -0400"
+    },
+    "done": true
+  },
+  "nei:annoying_dog": {
+    "criteria": {
+      "annoying_dog": "2022-11-02 09:43:38 -0400"
     },
     "done": true
   },
@@ -65,6 +83,12 @@
     },
     "done": true
   },
+  "nei:so_old_it_glows": {
+    "criteria": {
+      "so_old_it_glows": "2022-11-02 09:38:17 -0400"
+    },
+    "done": true
+  },
   "nei:not_enough_interest": {
     "criteria": {
       "not_enough_interest": "2022-11-01 09:53:18 -0400"
@@ -83,6 +107,18 @@
     },
     "done": true
   },
+  "nei:oh_the_biomes_youll_go": {
+    "criteria": {
+      "oh_the_biomes_youll_go": "2022-11-02 09:42:32 -0400"
+    },
+    "done": true
+  },
+  "nei:wings_and_the_power_to_fly": {
+    "criteria": {
+      "wings_and_the_power_to_fly": "2022-11-02 09:43:05 -0400"
+    },
+    "done": true
+  },
   "nei:it_glows": {
     "criteria": {
       "it_glows": "2022-11-01 09:53:47 -0400"
@@ -95,10 +131,18 @@
     },
     "done": true
   },
+  "nei:fallen_angel": {
+    "criteria": {
+      "fallen_angel": "2022-11-02 09:43:21 -0400"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2022-11-01 10:04:29 -0400",
+      "minecraft:sunflower_plains": "2022-11-02 09:39:34 -0400",
       "minecraft:snowy_plains": "2022-11-01 10:04:32 -0400",
+      "minecraft:ice_spikes": "2022-11-02 09:39:24 -0400",
       "minecraft:plains": "2022-11-01 09:53:09 -0400"
     },
     "done": false

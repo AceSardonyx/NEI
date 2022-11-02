@@ -4,10 +4,11 @@ license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="nei"
-version="3.1.4"
+version="3.1.5"
 displayName="Not Enough Interest"
 credits="Special thanks to Hasco for originally making the mod and to the authors he pulled assets from."
 displayURL="https://github.com/AceSardonyx/NEI"
+logoFile="logo.png"
 authors="Hasco, AceSardonyx, Del"
 description='''
 NEI or Not Enough Interest is a mod based around magic and the soul. It features breath-taking landscapes and environments and pairs well with shaders. Many things can be found to do in this mod, but instead of spoiling it, go play it! And remember... to stay interested!

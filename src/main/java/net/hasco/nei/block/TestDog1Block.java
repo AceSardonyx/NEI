@@ -166,7 +166,7 @@ public class TestDog1Block extends Block implements SimpleWaterloggedBlock, Enti
 			NetworkHooks.openGui(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Test Dog 1");
+					return new TextComponent("Test Dog!");
 				}
 
 				@Override

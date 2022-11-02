@@ -1,8 +1,8 @@
-Java Launcher: C:\Users\Kfike\Desktop\MCreator20222\jdk\bin\java.exe
-Arguments: '--in-jar, C:\Users\Kfike\Desktop\NEI\build\libs\modid-1.0.jar, --out-jar, C:\Users\Kfike\Desktop\NEI\build\reobfJar\output.jar, --srg-in, C:\Users\Kfike\Desktop\NEI\build\createMcpToSrg\output.tsrg, --live'
+Java Launcher: C:\Users\Kfike\Desktop\MCT22\jdk\bin\java.exe
+Arguments: '--in-jar, J:\Ace\NEI\build\libs\modid-1.0.jar, --out-jar, J:\Ace\NEI\build\reobfJar\output.jar, --srg-in, J:\Ace\NEI\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
- - C:\Users\Kfike\Desktop\NEI\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar
+ - J:\Ace\NEI\build\fg_cache\net\minecraftforge\forge\1.18.2-40.1.0_mapped_official_1.18.2\forge-1.18.2-40.1.0_mapped_official_1.18.2-recomp.jar
  - C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.18.2\client-extra.jar
  - C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.18.2-40.1.0\842aac12c6cbd1b6dc9dd9ae4e98038e70a2b832\fmlloader-1.18.2-40.1.0.jar
  - C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\com.google.guava\guava\31.0.1-jre\119ea2b2bc205b138974d351777b20f02b92704b\guava-31.0.1-jre.jar
@@ -82,7 +82,7 @@ Classpath:
  - C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\org.antlr\antlr-runtime\3.5.2\cd9cd41361c155f3af0f653009dcecb08d8b4afd\antlr-runtime-3.5.2.jar
  - C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\org.abego.treelayout\org.abego.treelayout.core\1.0.3\457216e8e6578099ae63667bb1e4439235892028\org.abego.treelayout.core-1.0.3.jar
  - C:\Users\Kfike\.mcreator\gradle\caches\modules-2\files-2.1\org.glassfish\javax.json\1.0.4\3178f73569fd7a1e5ffc464e680f7a8cc784b85a\javax.json-1.0.4.jar
-Working directory: C:\Users\Kfike\Desktop\NEI\build\reobfJar
+Working directory: J:\Ace\NEI\build\reobfJar
 Main class: net.md_5.specialsource.SpecialSource
 ====================================
 Loading mappings

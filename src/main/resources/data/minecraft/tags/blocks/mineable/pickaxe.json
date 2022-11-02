@@ -3,6 +3,12 @@
   "values": [
     "nei:fractal_ore",
     "nei:fractal_block",
-    "nei:ancient_portal_frame"
+    "nei:ancient_portal_frame",
+    "nei:silver_ore",
+    "nei:silver_block",
+    "nei:deepslate_silver_ore",
+    "nei:steel_ore",
+    "nei:steel_block",
+    "nei:deepslate_steel_ore"
   ]
 }

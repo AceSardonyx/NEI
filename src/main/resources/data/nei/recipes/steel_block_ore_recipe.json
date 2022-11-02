@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "nei:deleted_mod_element"
+      "item": "nei:steel_block"
     }
   ],
   "result": {
