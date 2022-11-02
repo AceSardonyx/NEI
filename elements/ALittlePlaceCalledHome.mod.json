@@ -13,17 +13,13 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [
-      "FractalOreBlockRecipe",
-      "FractalBlockOreRecipe",
-      "FractalOreSmelting"
-    ],
+    "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 792,
     "achievementType": "goal",
     "parent": {
       "value": "No parent: root"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"21\" y=\"49\"><field name=\"dimension\">CUSTOM:AstralPlain</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"dimension_entered\" x=\"26\" y=\"18\"><field name=\"dimension\">CUSTOM:AstralPlain</field><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

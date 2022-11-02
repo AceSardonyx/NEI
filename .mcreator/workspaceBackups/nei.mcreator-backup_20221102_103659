@@ -930,7 +930,6 @@
         ]
       },
       "path": "~/Icosa"
-<<<<<<<< HEAD:.mcreator/workspaceBackups/nei.mcreator-backup_20221101_092538
     },
     {
       "name": "PlayerEntersAstralPlain",
@@ -1020,8 +1019,177 @@
       "locked_code": false,
       "registry_name": "deepslate_silver_ore",
       "path": "~/Core/Silver"
-========
->>>>>>>> 2ebd418638ca2798da4645fcd67b6953e016dbbe:.mcreator/workspaceBackups/nei.mcreator-backup_20221031_094204
+    },
+    {
+      "name": "SilverNugget",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nugget",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverNuggetRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nugget_recipe",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SilverIngotRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_recipe",
+      "path": "~/Core/Silver"
+    },
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelOre",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelBlock",
+      "type": "block",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_block_recipe",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_block_ore_recipe",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelOreSmelting",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ore_smelting",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelNugget",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_nugget",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelNuggetRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_nugget_recipe",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "SteelIngotRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot_recipe",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "DeepslateSteelOre",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_steel_ore",
+      "path": "~/Core/Steel"
+    },
+    {
+      "name": "Phosphocore",
+      "type": "item",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphocore",
+      "path": "~/Core/Astral Plain/Portal"
+    },
+    {
+      "name": "PhosphocoreRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phosphocore_recipe",
+      "path": "~/Core/Astral Plain/Portal"
+    },
+    {
+      "name": "SoOldItGlows",
+      "type": "achievement",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_old_it_glows",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "RedQuartzSphere",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_quartz_sphere",
+      "path": "~/Core"
+    },
+    {
+      "name": "RedQuartzSphereRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_quartz_sphere_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IntoTheSky",
+      "type": "achievement",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "into_the_sky",
+      "path": "~/Achivements"
     }
   ],
   "variable_elements": [],
@@ -1173,13 +1341,16 @@
       "advancements.the_easy_way_out.descr": "Hey! It\u0027s ok to need help. It\u0027s not like you weren\u0027t supposed to do that!",
       "advancements.fallen_angel.title": "Fallen Down",
       "item.nei.astral_tome": "Astral Tome",
+      "block.nei.deepslate_steel_ore": "Deepslate Steel Ore",
       "block.nei.ancient_button": "Ancient Button",
       "advancements.not_enough_interest.title": "NEI Basics",
       "item.nei.amulet_of_flight_helmet": "Amulet Of Flight Helmet",
+      "advancements.into_the_sky.title": "Into The Sky",
       "block.nei.star_flower": "Star Flower",
       "advancements.it_glows.descr": "What a strange feeling you get from seeing this flower.",
       "block.nei.imperfect_star_flower": "Imperfect Star Flower",
       "item.nei.star_cluster": "Star Cluster",
+      "item.nei.silver_nugget": "Silver Nugget",
       "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
       "advancements.fallen_angel.descr": "Something broke... You may want to land!",
       "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
@@ -1192,9 +1363,13 @@
       "biome.nei.astral_field": "Astral Field",
       "advancements.wings_and_the_power_to_fly.descr": "Curtains fall, salvation you bring, this ballad you\u0027ll sing-~",
       "item.nei.silver_ingot": "Silver",
+      "block.nei.steel_block": "Block of Steel",
       "item.nei.amulet_of_flight_chestplate": "Amulet of Flight - BETA",
+      "block.nei.steel_ore": "Steel Ore",
+      "item.nei.red_quartz_sphere": "Red Quartz Sphere",
       "effect.nei.enlightenment": "Enlightenment",
       "subtitles.sunkist_hurt": "Sunkist In Pain",
+      "item.nei.steel_ingot": "Steel",
       "subtitles.sunkist_death": "Sunkist Death",
       "advancements.from_the_pits_of_hell.title": "From The Pits Of Hell You\u0027ll Find...",
       "advancements.fractal_from_seeds.title": "Fractal From Seeds!?",
@@ -1205,9 +1380,11 @@
       "advancements.it_glows.title": "Glowing Light...",
       "block.nei.astral_block": "Astral Block",
       "block.nei.golden_flower": "Golden Flower",
+      "advancements.so_old_it_glows.descr": "It may be fallen, but it\u0027s not a Star.",
       "item.nei.fractal": "Fractal",
       "itemGroup.tabnei": "NEI",
       "block.nei.ancient_slab": "Ancient Slab",
+      "advancements.so_old_it_glows.title": "So Old It Shines",
       "block.nei.fractal_ore": "Fractal Ore",
       "block.nei.silver_block": "Block of Silver",
       "block.nei.ancient_fence": "Ancient Fence",
@@ -1216,6 +1393,7 @@
       "block.nei.phellium": "Phellium",
       "block.nei.ancient_wood": "Ancient Wood",
       "fluid.nei.phellium": "Phellium",
+      "item.nei.phosphocore": "Phosphocore",
       "block.nei.ancient_stairs": "Ancient Stairs",
       "subtitles.mood.astral2": "",
       "subtitles.mood.astral1": "",
@@ -1233,7 +1411,8 @@
       "advancements.fractal_from_seeds.descr": "Letting the silk you have grow in water apparently fractalizes it.",
       "block.nei.ancient_log": "Ancient Log",
       "block.nei.fractal_block": "Block of Fractal",
-      "block.nei.test_dog_1": "Test Dog 1",
+      "block.nei.test_dog_1": "Test Dog!",
+      "advancements.into_the_sky.descr": "No Turning Back Now...",
       "block.nei.ancient_portal_frame": "Ancient Portal Frame",
       "item.nei.star_fractal_silk": "Star Fractal Silk",
       "advancements.a_peculiar_piece.title": "What A Peculiar Piece.",
@@ -1242,6 +1421,7 @@
       "block.nei.ancient_leaves": "Ancient Leaves",
       "biome.nei.the_place_that_glows": "The Place That Glows",
       "item.nei.ancient_lotus": "Ancient Lotus",
+      "item.nei.steel_nugget": "Steel Nugget",
       "block.nei.ancient_fence_gate": "Ancient Fence Gate",
       "subtitles.duck": "Duck",
       "advancements.so_it_begins.descr": "So It Begins... They are all around us...",
@@ -1346,13 +1526,14 @@
   "workspaceSettings": {
     "modid": "nei",
     "modName": "Not Enough Interest",
-    "version": "3.1.4",
+    "version": "3.1.5",
     "description": "NEI or Not Enough Interest is a mod based around magic and the soul. It features breath-taking landscapes and environments and pairs well with shaders. Many things can be found to do in this mod, but instead of spoiling it, go play it! And remember... to stay interested!",
     "author": "Hasco, AceSardonyx, Del",
     "websiteURL": "https://github.com/AceSardonyx/NEI",
     "license": "Creative Commons Attribution-NonCommercial 3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "nei_banner",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
