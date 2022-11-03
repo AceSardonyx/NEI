@@ -10,6 +10,8 @@ You can also include quark, biomesoplenty, & more if you'd like. [Shaders are al
 
 To download, head over to the [releases](https://github.com/AceSardonyx/NEI/releases) section!
 
+~ Credits ~
+Devs: @AceSardonyx & @Stem76 - Artist: @Del2809
 Special thanks to Del for helping make this & the Shadotics texture pack, and to Hasco and the previous creators that Hasco used assets from.
 About? - NEI is an addon that came from bedrock which focused on magical and soul aspects and has been discontinued by Hasco.
 We are making a java port of the mod now which includes new features that enhance the gameplay!
