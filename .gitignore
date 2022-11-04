@@ -17,5 +17,6 @@ gradle-app.setting
 .classpath
 
 #  meta stuff
-./.gradle/
-./.vscode/
+./.gradle
+./.vscode
+./build/fg_cache/
