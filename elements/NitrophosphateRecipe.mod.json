@@ -1,0 +1,46 @@
+{
+  "_fv": 33,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:GoldenFlower"
+      },
+      {
+        "value": "CUSTOM:SilverNugget"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.DRAGON_BREATH"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Nitrophosphate"
+    },
+    "name": "nitrophosphate_recipe",
+    "namespace": "mod"
+  }
+}

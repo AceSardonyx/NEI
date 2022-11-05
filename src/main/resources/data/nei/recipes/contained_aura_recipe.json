@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "nei:steel_nugget"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "4": {
+      "item": "nei:red_quartz_sphere"
+    },
+    "5": {
+      "item": "minecraft:diamond"
+    },
+    "7": {
+      "item": "nei:nitrophosphate"
+    }
+  },
+  "result": {
+    "item": "nei:contained_aura",
+    "count": 1
+  }
+}

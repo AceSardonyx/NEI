@@ -24,11 +24,6 @@
     }
   },
   "rewards": {
-    "experience": 792,
-    "recipes": [
-      "nei:fractal_ore_block_recipe",
-      "nei:fractal_block_ore_recipe",
-      "nei:fractal_ore_smelting"
-    ]
+    "experience": 792
   }
 }

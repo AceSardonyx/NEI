@@ -11,9 +11,11 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.effect.MobEffect;
 
 import net.hasco.nei.potion.EnlightenmentMobEffect;
+import net.hasco.nei.potion.AuraEffectMobEffect;
 import net.hasco.nei.NeiMod;
 
 public class NeiModMobEffects {
 	public static final DeferredRegister<MobEffect> REGISTRY = DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, NeiMod.MODID);
 	public static final RegistryObject<MobEffect> ENLIGHTENMENT = REGISTRY.register("enlightenment", () -> new EnlightenmentMobEffect());
+	public static final RegistryObject<MobEffect> AURA_EFFECT = REGISTRY.register("aura_effect", () -> new AuraEffectMobEffect());
 }

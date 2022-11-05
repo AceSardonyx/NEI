@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:WingsAndThePowerToFly"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_damaged\" x=\"12\" y=\"59\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:AmuletOfFlight.body</field></block></value><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">400</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">400</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_damaged\" x=\"-9\" y=\"56\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:AmuletOfFlight.body</field></block></value><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">0</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

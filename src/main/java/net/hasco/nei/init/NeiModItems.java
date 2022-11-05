@@ -24,8 +24,10 @@ import net.hasco.nei.item.SilverIngotItem;
 import net.hasco.nei.item.RedQuartzSphereItem;
 import net.hasco.nei.item.PhosphocoreItem;
 import net.hasco.nei.item.PhelliumItem;
+import net.hasco.nei.item.NitrophosphateItem;
 import net.hasco.nei.item.NEIIconItem;
 import net.hasco.nei.item.FractalItem;
+import net.hasco.nei.item.ContainedAuraItem;
 import net.hasco.nei.item.AstralTomeItem;
 import net.hasco.nei.item.AstralSwordBetaItem;
 import net.hasco.nei.item.AstralPlainItem;
@@ -79,6 +81,8 @@ public class NeiModItems {
 	public static final RegistryObject<Item> DEEPSLATE_STEEL_ORE = block(NeiModBlocks.DEEPSLATE_STEEL_ORE, NeiModTabs.TAB_NEI);
 	public static final RegistryObject<Item> PHOSPHOCORE = REGISTRY.register("phosphocore", () -> new PhosphocoreItem());
 	public static final RegistryObject<Item> RED_QUARTZ_SPHERE = REGISTRY.register("red_quartz_sphere", () -> new RedQuartzSphereItem());
+	public static final RegistryObject<Item> NITROPHOSPHATE = REGISTRY.register("nitrophosphate", () -> new NitrophosphateItem());
+	public static final RegistryObject<Item> CONTAINED_AURA = REGISTRY.register("contained_aura", () -> new ContainedAuraItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

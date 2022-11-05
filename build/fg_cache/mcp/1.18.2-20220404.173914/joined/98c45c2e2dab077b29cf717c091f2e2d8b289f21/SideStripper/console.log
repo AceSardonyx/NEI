@@ -1,0 +1,9 @@
+JVM:         C:\Program Files\Eclipse Adoptium\jdk-17.0.5.8-hotspot\bin\java.exe
+JVM Args:    
+Run Args:    "--strip", "--input", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\AccessTransformer\output.jar", "--output", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\SideStripper\output.jar", "--data", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\SideStripper\string_data.sas"
+Classpath:   C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\mergetool\1.1.5\mergetool-1.1.5-fatjar.jar
+Working Dir: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\SideStripper
+Main Class:  net.minecraftforge.mergetool.ConsoleMerger
+Input:  D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\AccessTransformer\output.jar
+Output: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\SideStripper\output.jar
+Data:   D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\SideStripper\string_data.sas
