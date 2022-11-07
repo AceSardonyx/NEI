@@ -23,8 +23,8 @@
             "nei:amulet_of_flight_chestplate"
           ],
           "durability": {
-            "min": 400,
-            "max": 400
+            "min": 0,
+            "max": 3
           }
         }
       }

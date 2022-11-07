@@ -1,6 +1,6 @@
 {
   "display": {
-    "background": "minecraft:textures/block/stone.png",
+    "background": "nei:textures/screens/astral_block.png",
     "icon": {
       "item": "nei:nei_icon"
     },
@@ -26,7 +26,7 @@
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
             }
           }
         ]

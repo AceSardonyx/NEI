@@ -25,7 +25,7 @@
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
             }
           }
         ]
@@ -65,7 +65,9 @@
       "nei:steel_nugget_recipe",
       "nei:steel_ingot_recipe",
       "nei:phosphocore_recipe",
-      "nei:red_quartz_sphere_recipe"
+      "nei:red_quartz_sphere_recipe",
+      "nei:nitrophosphate_recipe",
+      "nei:contained_aura_recipe"
     ]
   },
   "parent": "nei:not_enough_interest"

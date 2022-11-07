@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:nether_star"
+    },
+    "1": {
+      "item": "nei:soul_gem_block"
+    },
+    "2": {
+      "item": "minecraft:nether_star"
+    },
+    "3": {
+      "item": "nei:soul_gem"
+    },
+    "4": {
+      "item": "nei:astral_tome"
+    },
+    "5": {
+      "item": "nei:soul_gem"
+    },
+    "6": {
+      "item": "minecraft:nether_star"
+    },
+    "7": {
+      "item": "nei:soul_gem"
+    },
+    "8": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "item": "nei:book_of_avaritia",
+    "count": 1
+  }
+}

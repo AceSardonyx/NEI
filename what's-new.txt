@@ -1,0 +1,15 @@
+Not Enough Interest 3.1.5 Beta
+
+- Added Laterns
+ Only Paper and oak wood type have been added.
+ The other types will be added in the future and so will Astral Plains wood types as well.
+
+- New Advancements & Items etc, Involving Light!
+
+- Unshaped Particles & the ability to convert imperfect star flowers into wither roses with them.
+
+~----------~
+
+Not Enough Interest 3.1.6 Beta
+
+- Currently Being Worked On

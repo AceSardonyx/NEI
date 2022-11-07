@@ -19,15 +19,18 @@ import net.hasco.nei.item.StardustItem;
 import net.hasco.nei.item.StarSilkItem;
 import net.hasco.nei.item.StarFractalSilkItem;
 import net.hasco.nei.item.StarClusterItem;
+import net.hasco.nei.item.SoulGemItem;
 import net.hasco.nei.item.SilverNuggetItem;
 import net.hasco.nei.item.SilverIngotItem;
 import net.hasco.nei.item.RedQuartzSphereItem;
 import net.hasco.nei.item.PhosphocoreItem;
 import net.hasco.nei.item.PhelliumItem;
+import net.hasco.nei.item.ParticlesItem;
 import net.hasco.nei.item.NitrophosphateItem;
 import net.hasco.nei.item.NEIIconItem;
 import net.hasco.nei.item.FractalItem;
 import net.hasco.nei.item.ContainedAuraItem;
+import net.hasco.nei.item.BookOfAvaritiaItem;
 import net.hasco.nei.item.AstralTomeItem;
 import net.hasco.nei.item.AstralSwordBetaItem;
 import net.hasco.nei.item.AstralPlainItem;
@@ -83,6 +86,12 @@ public class NeiModItems {
 	public static final RegistryObject<Item> RED_QUARTZ_SPHERE = REGISTRY.register("red_quartz_sphere", () -> new RedQuartzSphereItem());
 	public static final RegistryObject<Item> NITROPHOSPHATE = REGISTRY.register("nitrophosphate", () -> new NitrophosphateItem());
 	public static final RegistryObject<Item> CONTAINED_AURA = REGISTRY.register("contained_aura", () -> new ContainedAuraItem());
+	public static final RegistryObject<Item> SOUL_GEM = REGISTRY.register("soul_gem", () -> new SoulGemItem());
+	public static final RegistryObject<Item> SOUL_GEM_BLOCK = block(NeiModBlocks.SOUL_GEM_BLOCK, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> BOOK_OF_AVARITIA = REGISTRY.register("book_of_avaritia", () -> new BookOfAvaritiaItem());
+	public static final RegistryObject<Item> PAPER_LANTERN = block(NeiModBlocks.PAPER_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> OAK_LANTERN = block(NeiModBlocks.OAK_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> PARTICLES = REGISTRY.register("particles", () -> new ParticlesItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

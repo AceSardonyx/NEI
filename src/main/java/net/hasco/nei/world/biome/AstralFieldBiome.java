@@ -1,8 +1,6 @@
 
 package net.hasco.nei.world.biome;
 
-import net.minecraftforge.common.BiomeDictionary;
-
 import net.minecraft.world.level.levelgen.placement.SurfaceWaterDepthFilter;
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement;
@@ -32,22 +30,18 @@ import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.sounds.Music;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.AquaticPlacements;
 import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.AquaticFeatures;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
-import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.core.Registry;
 
 import net.hasco.nei.world.features.treedecorators.AstralFieldTrunkDecorator;
 import net.hasco.nei.world.features.treedecorators.AstralFieldLeaveDecorator;
 import net.hasco.nei.init.NeiModParticleTypes;
 import net.hasco.nei.init.NeiModBlocks;
-import net.hasco.nei.init.NeiModBiomes;
 
 import java.util.List;
 
@@ -135,13 +129,8 @@ public class AstralFieldBiome {
 		mobSpawnInfo.addSpawn(MobCategory.UNDERGROUND_WATER_CREATURE, new MobSpawnSettings.SpawnerData(EntityType.AXOLOTL, 1, 1, 3));
 		mobSpawnInfo.addSpawn(MobCategory.MONSTER, new MobSpawnSettings.SpawnerData(EntityType.STRAY, 10, 1, 7));
 		mobSpawnInfo.addSpawn(MobCategory.CREATURE, new MobSpawnSettings.SpawnerData(EntityType.VILLAGER, 1, 1, 2));
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.TAIGA).temperature(0.7f)
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.RAIN).biomeCategory(Biome.BiomeCategory.NONE).temperature(0.7f)
 				.downfall(0.6f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build()).generationSettings(biomeGenerationSettings.build())
 				.build();
-	}
-
-	public static void init() {
-		BiomeDictionary.addTypes(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(NeiModBiomes.ASTRAL_FIELD.get())),
-				BiomeDictionary.Type.MOUNTAIN);
 	}
 }

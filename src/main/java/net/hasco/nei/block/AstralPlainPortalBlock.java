@@ -24,17 +24,20 @@ import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import net.hasco.nei.world.teleporter.AstralPlainTeleporter;
 import net.hasco.nei.world.teleporter.AstralPlainPortalShape;
 import net.hasco.nei.init.NeiModParticleTypes;
+import net.hasco.nei.init.NeiModBlocks;
 
 import java.util.Random;
 import java.util.Optional;
 
 public class AstralPlainPortalBlock extends NetherPortalBlock {
 	public AstralPlainPortalBlock() {
-		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 3)
+		super(BlockBehaviour.Properties.of(Material.PORTAL).noCollission().randomTicks().strength(-1.0F).sound(SoundType.GLASS).lightLevel(s -> 5)
 				.noDrops());
 	}
 
@@ -104,5 +107,10 @@ public class AstralPlainPortalBlock extends NetherPortalBlock {
 	private void teleportToDimension(Entity entity, BlockPos pos, ResourceKey<Level> destinationType) {
 		entity.changeDimension(entity.getServer().getLevel(destinationType),
 				new AstralPlainTeleporter(entity.getServer().getLevel(destinationType), pos));
+	}
+
+	@OnlyIn(Dist.CLIENT)
+	public static void registerRenderLayer() {
+		ItemBlockRenderTypes.setRenderLayer(NeiModBlocks.ASTRAL_PLAIN_PORTAL.get(), renderType -> renderType == RenderType.translucent());
 	}
 }

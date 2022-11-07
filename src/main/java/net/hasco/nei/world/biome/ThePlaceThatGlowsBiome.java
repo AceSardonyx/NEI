@@ -1,8 +1,6 @@
 
 package net.hasco.nei.world.biome;
 
-import net.minecraftforge.common.BiomeDictionary;
-
 import net.minecraft.world.level.levelgen.placement.SurfaceWaterDepthFilter;
 import net.minecraft.world.level.levelgen.placement.RarityFilter;
 import net.minecraft.world.level.levelgen.placement.NoiseThresholdCountPlacement;
@@ -29,19 +27,15 @@ import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.data.worldgen.placement.PlacementUtils;
 import net.minecraft.data.worldgen.placement.AquaticPlacements;
 import net.minecraft.data.worldgen.features.VegetationFeatures;
 import net.minecraft.data.worldgen.features.FeatureUtils;
 import net.minecraft.data.worldgen.features.AquaticFeatures;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
-import net.minecraft.data.BuiltinRegistries;
-import net.minecraft.core.Registry;
 
 import net.hasco.nei.world.features.treedecorators.ThePlaceThatGlowsTrunkDecorator;
 import net.hasco.nei.world.features.treedecorators.ThePlaceThatGlowsLeaveDecorator;
-import net.hasco.nei.init.NeiModBiomes;
 
 import java.util.List;
 
@@ -126,16 +120,8 @@ public class ThePlaceThatGlowsBiome {
 		BiomeDefaultFeatures.addMossyStoneBlock(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultSeagrass(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();
-		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).biomeCategory(Biome.BiomeCategory.MUSHROOM)
+		return new Biome.BiomeBuilder().precipitation(Biome.Precipitation.SNOW).biomeCategory(Biome.BiomeCategory.NONE)
 				.temperature(-0.7000000000000001f).downfall(0.2f).specialEffects(effects).mobSpawnSettings(mobSpawnInfo.build())
 				.generationSettings(biomeGenerationSettings.build()).build();
-	}
-
-	public static void init() {
-		BiomeDictionary.addTypes(ResourceKey.create(Registry.BIOME_REGISTRY, BuiltinRegistries.BIOME.getKey(NeiModBiomes.THE_PLACE_THAT_GLOWS.get())),
-				BiomeDictionary.Type.FOREST, BiomeDictionary.Type.MOUNTAIN, BiomeDictionary.Type.SWAMP, BiomeDictionary.Type.SNOWY,
-				BiomeDictionary.Type.WASTELAND, BiomeDictionary.Type.COLD, BiomeDictionary.Type.DENSE, BiomeDictionary.Type.LUSH,
-				BiomeDictionary.Type.MUSHROOM, BiomeDictionary.Type.MAGICAL, BiomeDictionary.Type.RARE, BiomeDictionary.Type.MODIFIED,
-				BiomeDictionary.Type.OVERWORLD);
 	}
 }

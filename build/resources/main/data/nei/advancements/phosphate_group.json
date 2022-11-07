@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:nitrophosphate"
+      "item": "minecraft:light"
     },
     "title": {
       "translate": "advancements.phosphate_group.title"

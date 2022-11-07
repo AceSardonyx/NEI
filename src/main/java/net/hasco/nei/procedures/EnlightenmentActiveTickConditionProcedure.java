@@ -13,35 +13,36 @@ public class EnlightenmentActiveTickConditionProcedure {
 	public static void execute(LevelAccessor world, Entity entity) {
 		if (entity == null)
 			return;
-		new Object() {
+		class EnlightenmentActiveTickConditionWait4 {
 			private int ticks = 0;
 			private float waitTicks;
 			private LevelAccessor world;
 
 			public void start(LevelAccessor world, int waitTicks) {
 				this.waitTicks = waitTicks;
-				MinecraftForge.EVENT_BUS.register(this);
 				this.world = world;
+				MinecraftForge.EVENT_BUS.register(EnlightenmentActiveTickConditionWait4.this);
 			}
 
 			@SubscribeEvent
 			public void tick(TickEvent.ServerTickEvent event) {
 				if (event.phase == TickEvent.Phase.END) {
-					this.ticks += 1;
-					if (this.ticks >= this.waitTicks)
+					EnlightenmentActiveTickConditionWait4.this.ticks += 1;
+					if (EnlightenmentActiveTickConditionWait4.this.ticks >= EnlightenmentActiveTickConditionWait4.this.waitTicks)
 						run();
 				}
 			}
 
 			private void run() {
+				MinecraftForge.EVENT_BUS.unregister(EnlightenmentActiveTickConditionWait4.this);
 				if (entity instanceof LivingEntity _entity)
 					_entity.setHealth(entity instanceof LivingEntity _livEnt ? _livEnt.getMaxHealth() : -1);
 				if (entity instanceof Player _player)
 					_player.getFoodData().setFoodLevel(20);
 				if (entity instanceof Player _player)
 					_player.getFoodData().setSaturation(20);
-				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, 20);
+		}
+		new EnlightenmentActiveTickConditionWait4().start(world, 20);
 	}
 }

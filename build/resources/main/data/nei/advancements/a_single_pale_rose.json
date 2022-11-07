@@ -16,7 +16,14 @@
   },
   "criteria": {
     "a_single_pale_rose": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:contained_aura"
+          ]
+        }
+      }
     }
   },
   "rewards": {

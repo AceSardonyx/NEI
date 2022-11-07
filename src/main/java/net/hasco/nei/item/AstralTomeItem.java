@@ -22,7 +22,7 @@ import java.util.List;
 
 public class AstralTomeItem extends Item {
 	public AstralTomeItem() {
-		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(1).fireResistant().rarity(Rarity.EPIC));
+		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override

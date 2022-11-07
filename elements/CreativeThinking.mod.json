@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
     "achievementName": "Creative Thinking",
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:ALittlePlaceCalledHome"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"32\" y=\"35\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NEIIcon</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"32\" y=\"35\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NEIIcon</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block><block type=\"block_placed\" x=\"67\" y=\"146\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BEDROCK</field></block></value></block></xml>"
   }
 }

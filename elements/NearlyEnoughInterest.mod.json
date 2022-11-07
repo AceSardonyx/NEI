@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
     "achievementName": "Nearly Enough Intriuge!",
@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "CUSTOM:TestDog1"
     },
-    "background": "oopsiepoopsie.png",
+    "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,

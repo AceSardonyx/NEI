@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "biome",
   "definition": {
     "name": "Astral Field",
@@ -50,7 +50,6 @@
       "value": "CUSTOM:AstralFlowerParticle"
     },
     "particlesProbability": 0.07,
-    "biomeCategory": "TAIGA",
     "rainingPossibility": 0.6,
     "temperature": 0.7,
     "baseHeight": 3.6999999999999997,
@@ -59,9 +58,6 @@
     "spawnBiomeNether": false,
     "spawnInCaves": false,
     "biomeWeight": 15,
-    "biomeDictionaryTypes": [
-      "MOUNTAIN"
-    ],
     "grassPerChunk": 7,
     "seagrassPerChunk": 1,
     "flowersPerChunk": 5,

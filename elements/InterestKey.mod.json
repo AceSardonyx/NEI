@@ -1,0 +1,12 @@
+{
+  "_fv": 34,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "I",
+    "keyBindingName": "Interest Key",
+    "keyBindingCategoryKey": "ui",
+    "onKeyPressed": {
+      "name": "InterestKeyOnKeyPressed"
+    }
+  }
+}

@@ -19,9 +19,12 @@ import net.hasco.nei.block.TestDog1Block;
 import net.hasco.nei.block.SteelOreBlock;
 import net.hasco.nei.block.SteelBlockBlock;
 import net.hasco.nei.block.StarFlowerBlock;
+import net.hasco.nei.block.SoulGemBlockBlock;
 import net.hasco.nei.block.SilverOreBlock;
 import net.hasco.nei.block.SilverBlockBlock;
 import net.hasco.nei.block.PhelliumBlock;
+import net.hasco.nei.block.PaperLanternBlock;
+import net.hasco.nei.block.OakLanternBlock;
 import net.hasco.nei.block.ImperfectStarFlowerBlock;
 import net.hasco.nei.block.GoldenFlowerBlock;
 import net.hasco.nei.block.FractalOreBlock;
@@ -76,16 +79,21 @@ public class NeiModBlocks {
 	public static final RegistryObject<Block> STEEL_ORE = REGISTRY.register("steel_ore", () -> new SteelOreBlock());
 	public static final RegistryObject<Block> STEEL_BLOCK = REGISTRY.register("steel_block", () -> new SteelBlockBlock());
 	public static final RegistryObject<Block> DEEPSLATE_STEEL_ORE = REGISTRY.register("deepslate_steel_ore", () -> new DeepslateSteelOreBlock());
+	public static final RegistryObject<Block> SOUL_GEM_BLOCK = REGISTRY.register("soul_gem_block", () -> new SoulGemBlockBlock());
+	public static final RegistryObject<Block> PAPER_LANTERN = REGISTRY.register("paper_lantern", () -> new PaperLanternBlock());
+	public static final RegistryObject<Block> OAK_LANTERN = REGISTRY.register("oak_lantern", () -> new OakLanternBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void clientSetup(FMLClientSetupEvent event) {
 			StarFlowerBlock.registerRenderLayer();
+			AstralPlainPortalBlock.registerRenderLayer();
 			GoldenFlowerBlock.registerRenderLayer();
 			ImperfectStarFlowerBlock.registerRenderLayer();
 			AncientPortalFrameCaseBlock.registerRenderLayer();
 			TestDog1Block.registerRenderLayer();
+			PaperLanternBlock.registerRenderLayer();
 		}
 
 		@SubscribeEvent
@@ -93,6 +101,8 @@ public class NeiModBlocks {
 			StarFlowerBlock.blockColorLoad(event);
 			ImperfectStarFlowerBlock.blockColorLoad(event);
 			TestDog1Block.blockColorLoad(event);
+			SoulGemBlockBlock.blockColorLoad(event);
+			PaperLanternBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent

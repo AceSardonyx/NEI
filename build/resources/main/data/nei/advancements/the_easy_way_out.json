@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:astral_tome"
+      "item": "minecraft:knowledge_book"
     },
     "title": {
       "translate": "advancements.the_easy_way_out.title"
@@ -25,7 +25,7 @@
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
             }
           }
         ]

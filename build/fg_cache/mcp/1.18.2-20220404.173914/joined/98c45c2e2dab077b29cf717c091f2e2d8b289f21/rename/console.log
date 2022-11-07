@@ -1,83 +1,83 @@
-JVM:         C:\Users\Ace\Desktop\MCT22\jdk\bin\java.exe
+JVM:         C:\Users\Kfike\Desktop\MCT22\jdk\bin\java.exe
 JVM Args:    
-Run Args:    "--input", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar", "--output", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar", "--map", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\mergeMappings\output.jar", "--cfg", "D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\listLibraries\libraries.txt", "--ann-fix", "--ids-fix", "--src-fix", "--record-fix"
-Classpath:   C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\0.1.17\ForgeAutoRenamingTool-0.1.17-all.jar
-Working Dir: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename
+Run Args:    "--input", "E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar", "--output", "E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar", "--map", "E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\mergeMappings\output.jar", "--cfg", "E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\listLibraries\libraries.txt", "--ann-fix", "--ids-fix", "--src-fix", "--record-fix"
+Classpath:   C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\ForgeAutoRenamingTool\0.1.17\ForgeAutoRenamingTool-0.1.17-all.jar
+Working Dir: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename
 Main Class:  net.minecraftforge.fart.Main
 Forge Auto Renaming Tool v0.1.17
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.1\lwjgl-stb-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\patchy\2.2.10\patchy-2.2.10.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\logging\1.0.0\logging-1.0.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.1\lwjgl-openal-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.1\lwjgl-tinyfd-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.1\lwjgl-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\datafixerupper\4.1.27\datafixerupper-4.1.27.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\commons-codec\commons-codec\1.15\commons-codec-1.15.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\it\unimi\dsi\fastutil\8.5.6\fastutil-8.5.6.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\io\netty\netty-all\4.1.68.Final\netty-all-4.1.68.Final.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.1\lwjgl-openal-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\authlib\3.3.39\authlib-3.3.39.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.1\lwjgl-glfw-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\text2speech\1.12.4\text2speech-1.12.4-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.1\lwjgl-opengl-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2-natives-windows.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.1\lwjgl-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\ca\weblite\java-objc-bridge\1.0.0\java-objc-bridge-1.0.0-natives-osx.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\ibm\icu\icu4j\70.1\icu4j-70.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.1\lwjgl-stb-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\java\dev\jna\jna\5.10.0\jna-5.10.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.1\lwjgl-opengl-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.1\lwjgl-glfw-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\text2speech\1.12.4\text2speech-1.12.4-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2-natives-linux.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\text2speech\1.12.4\text2speech-1.12.4.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\ca\weblite\java-objc-bridge\1.0.0\java-objc-bridge-1.0.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\brigadier\1.0.18\brigadier-1.0.18.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.1\lwjgl-jemalloc-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.1\lwjgl-jemalloc-3.2.1-natives-macos.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\javabridge\1.2.24\javabridge-1.2.24.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\github\oshi\oshi-core\5.8.5\oshi-core-5.8.5.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\slf4j\slf4j-api\1.8.0-beta4\slf4j-api-1.8.0-beta4.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\logging\log4j\log4j-slf4j18-impl\2.17.0\log4j-slf4j18-impl-2.17.0.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.1\lwjgl-tinyfd-3.2.1.jar
-lib: C:\Users\Ace\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\java\dev\jna\jna-platform\5.10.0\jna-platform-5.10.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\commons-codec\commons-codec\1.15\commons-codec-1.15.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.1\lwjgl-glfw-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\logging\log4j\log4j-api\2.17.0\log4j-api-2.17.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\javabridge\1.2.24\javabridge-1.2.24.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\blocklist\1.0.10\blocklist-1.0.10.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.1\lwjgl-opengl-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\slf4j\slf4j-api\1.8.0-beta4\slf4j-api-1.8.0-beta4.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.1\lwjgl-stb-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\text2speech\1.12.4\text2speech-1.12.4-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.1\lwjgl-openal-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\logging\log4j\log4j-core\2.17.0\log4j-core-2.17.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\google\guava\guava\31.0.1-jre\guava-31.0.1-jre.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.1\lwjgl-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\datafixerupper\4.1.27\datafixerupper-4.1.27.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.1\lwjgl-openal-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\it\unimi\dsi\fastutil\8.5.6\fastutil-8.5.6.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-openal\3.2.2\lwjgl-openal-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\ibm\icu\icu4j\70.1\icu4j-70.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.1\lwjgl-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.1\lwjgl-tinyfd-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\io\netty\netty-all\4.1.68.Final\netty-all-4.1.68.Final.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\ca\weblite\java-objc-bridge\1.0.0\java-objc-bridge-1.0.0-natives-osx.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.2\lwjgl-opengl-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.2\lwjgl-tinyfd-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\authlib\3.3.39\authlib-3.3.39.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.1\lwjgl-jemalloc-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\text2speech\1.12.4\text2speech-1.12.4-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-opengl\3.2.1\lwjgl-opengl-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\commons-logging\commons-logging\1.2\commons-logging-1.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\logging\log4j\log4j-slf4j18-impl\2.17.0\log4j-slf4j18-impl-2.17.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.1\lwjgl-stb-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-stb\3.2.2\lwjgl-stb-3.2.2-natives-linux.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl\3.2.2\lwjgl-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\httpcomponents\httpcore\4.4.14\httpcore-4.4.14.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\github\oshi\oshi-core\5.8.5\oshi-core-5.8.5.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\patchy\2.2.10\patchy-2.2.10.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\ca\weblite\java-objc-bridge\1.0.0\java-objc-bridge-1.0.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-tinyfd\3.2.1\lwjgl-tinyfd-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.1\lwjgl-glfw-3.2.1-natives-macos.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\logging\1.0.0\logging-1.0.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.1\lwjgl-jemalloc-3.2.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\java\dev\jna\jna\5.10.0\jna-5.10.0.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-glfw\3.2.2\lwjgl-glfw-3.2.2-natives-windows.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\text2speech\1.12.4\text2speech-1.12.4.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\org\lwjgl\lwjgl-jemalloc\3.2.2\lwjgl-jemalloc-3.2.2.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\com\mojang\brigadier\1.0.18\brigadier-1.0.18.jar
+lib: C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\java\dev\jna\jna-platform\5.10.0\jna-platform-5.10.0.jar
 log: null
-input: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar
-output: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar
-threads: 4
-Names: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\mergeMappings\output.jar(reversed: false)
+input: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar
+output: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar
+threads: 16
+Names: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\mergeMappings\output.jar(reversed: false)
 Fix Annotations: true
 Fix Records: true
 Fix Identifiers: ALL
@@ -85,7 +85,7 @@ Fix SourceFile: JAVA
 Fix Line Numbers: false
 Strip codesigning signatures: false
 Adding Libraries to Inheritance
-Reading Input: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar
+Reading Input: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\merge\output.jar
 Adding input to inheritence map
 Processing entries
 Cant Find Class: javax/annotation/Nullable
@@ -109,7 +109,7 @@ Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/Stri
 Found extra RuntimeVisibleParameterAnnotations entries in <init>(Ljava/lang/String;ILjava/lang/String;CZILjava/lang/Integer;)V in net/minecraft/ChatFormatting: removing 2
 Adding extras
 Sorting
-Writing Output: D:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar
+Writing Output: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar
   com/
   com/mojang/
   com/mojang/blaze3d/

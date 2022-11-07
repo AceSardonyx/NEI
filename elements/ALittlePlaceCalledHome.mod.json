@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "achievement",
   "definition": {
     "achievementName": "Astral Plains",
@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "CUSTOM:AstralBlock"
     },
-    "background": "Default",
+    "background": "decaying_peice.png",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,

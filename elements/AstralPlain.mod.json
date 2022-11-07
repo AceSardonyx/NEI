@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "dimension",
   "definition": {
     "biomesInDimension": [
@@ -48,13 +48,13 @@
     "portalParticles": {
       "value": "CUSTOM:AstralFlowerParticle"
     },
-    "portalLuminance": 3,
+    "portalLuminance": 5,
     "portalSound": {
       "value": "block.fire.ambient"
     },
     "igniterName": "Ancient Gem",
     "igniterTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:NEI"
     },
     "texture": "acient_gem",
     "portalTexture": "ancient_portal_gateway",

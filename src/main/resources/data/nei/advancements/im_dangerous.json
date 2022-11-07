@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fire"
+    },
+    "title": {
+      "translate": "advancements.im_dangerous.title"
+    },
+    "description": {
+      "translate": "advancements.im_dangerous.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "im_dangerous": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "nei:from_the_pits_of_hell"
+}

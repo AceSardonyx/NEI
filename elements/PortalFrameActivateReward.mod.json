@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "loottable",
   "definition": {
     "type": "Advancement reward",
@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:AstralPlain"
+              "value": "CUSTOM:AncientLotus"
             },
             "weight": 1,
             "minCount": 1,

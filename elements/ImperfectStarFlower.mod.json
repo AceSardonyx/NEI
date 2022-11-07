@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "plant",
   "definition": {
     "renderType": 120,
@@ -89,6 +89,9 @@
       }
     ],
     "patchSize": 1,
-    "generateAtAnyHeight": true
+    "generateAtAnyHeight": true,
+    "onRightClicked": {
+      "name": "WitherRoseRightClickedWithUnshapedParticles"
+    }
   }
 }

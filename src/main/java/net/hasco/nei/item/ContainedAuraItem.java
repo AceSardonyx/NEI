@@ -5,6 +5,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Items;
@@ -31,6 +32,11 @@ public class ContainedAuraItem extends Item {
 	}
 
 	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.DRINK;
+	}
+
+	@Override
 	public boolean hasCraftingRemainingItem() {
 		return true;
 	}
@@ -38,6 +44,11 @@ public class ContainedAuraItem extends Item {
 	@Override
 	public ItemStack getContainerItem(ItemStack itemstack) {
 		return new ItemStack(NeiModItems.RED_QUARTZ_SPHERE.get());
+	}
+
+	@Override
+	public int getUseDuration(ItemStack itemstack) {
+		return 1;
 	}
 
 	@Override
@@ -60,7 +71,7 @@ public class ContainedAuraItem extends Item {
 		double y = entity.getY();
 		double z = entity.getZ();
 
-		ContainedAuraPlayerFinishesUsingItemProcedure.execute(entity);
+		ContainedAuraPlayerFinishesUsingItemProcedure.execute(world, x, y, z, entity);
 		if (itemstack.isEmpty()) {
 			return retval;
 		} else {

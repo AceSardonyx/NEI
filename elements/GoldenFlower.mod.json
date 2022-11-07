@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -88,6 +88,9 @@
     ],
     "restrictionBiomes": [],
     "patchSize": 10,
-    "generateAtAnyHeight": false
+    "generateAtAnyHeight": false,
+    "onDestroyedByPlayer": {
+      "name": "PlayerHasGoldenFlower"
+    }
   }
 }

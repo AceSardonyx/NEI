@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "nei:blocks/paper_lantern",
+    "particle": "nei:blocks/paper_lantern"
+  }
+}

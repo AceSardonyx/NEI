@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:light"
+      "item": "nei:nitrophosphate"
     },
     "title": {
       "translate": "advancements.phosphor.title"
@@ -25,7 +25,7 @@
             ],
             "count": {
               "min": 1,
-              "max": 1
+              "max": 64
             }
           }
         ]

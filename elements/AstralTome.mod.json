@@ -1,12 +1,12 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "item",
   "definition": {
     "renderType": 0,
     "texture": "knowavaritia",
     "customModelName": "Normal",
     "name": "Astral Tome",
-    "rarity": "EPIC",
+    "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:NEI"
     },

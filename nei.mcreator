@@ -943,6 +943,10 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1316,6 +1320,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1368,6 +1388,249 @@
       "locked_code": false,
       "registry_name": "contained_aura_recipe",
       "path": "~/Recipes"
+    },
+    {
+      "name": "InterestKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interest_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "InterestKey",
+      "type": "keybind",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interest_key"
+    },
+    {
+      "name": "SoulGem",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_gem",
+      "path": "~/Core/Soul Gems/White"
+    },
+    {
+      "name": "SoulGemBlock",
+      "type": "block",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_gem_block",
+      "path": "~/Core/Soul Gems/Blocks"
+    },
+    {
+      "name": "BookOfAvaritia",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_avaritia",
+      "path": "~/Core"
+    },
+    {
+      "name": "BookOfAvaritiaRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "book_of_avaritia_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "ForbiddenKnowledge",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forbidden_knowledge",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "TheEternalSolstice",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_eternal_solstice",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "PaperLantern",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_lantern",
+      "path": "~/Core/WoodLanterns"
+    },
+    {
+      "name": "PaperLanternRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paper_lantern_recipe",
+      "path": "~/Core/WoodLanterns"
+    },
+    {
+      "name": "OakLantern",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_lantern",
+      "path": "~/Core/WoodLanterns"
+    },
+    {
+      "name": "OakLanternRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oak_lantern_recipe",
+      "path": "~/Core/WoodLanterns"
+    },
+    {
+      "name": "DeathAngel",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_angel",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "Particles",
+      "type": "item",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particles",
+      "path": "~/Core"
+    },
+    {
+      "name": "FruitAndGranny",
+      "type": "achievement",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruit_and_granny",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "ParticlesPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "particles_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GrannyFraulax",
+      "type": "achievement",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granny_fraulax",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "WitherRoseRightClickedWithUnshapedParticles",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_rose_right_clicked_with_unshaped_particles",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "PlayerHasGoldenFlower",
+      "type": "procedure",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_has_golden_flower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ImDangerous",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "im_dangerous",
+      "path": "~/Achivements"
     }
   ],
   "variable_elements": [],
@@ -1516,14 +1779,18 @@
     "en_us": {
       "item.nei.amulet_of_flight_boots": "Amulet Of Flight Boots",
       "advancements.fallen_angel.title": "Fallen Down",
+      "item.nei.particles": "Unshaped Particles",
       "block.nei.deepslate_steel_ore": "Deepslate Steel Ore",
       "block.nei.ancient_button": "Ancient Button",
       "advancements.not_enough_interest.title": "NEI Basics",
       "item.nei.amulet_of_flight_helmet": "Amulet Of Flight Helmet",
-      "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
       "block.nei.silver_ore": "Silver Ore",
+      "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
+      "advancements.im_dangerous.title": "Im Dangerous I Tell Ya, DANGEROUS!",
       "advancements.phosphor.descr": "Your Burden Is Light",
       "item.nei.stardust": "Stardust",
+      "advancements.forbidden_knowledge.descr": "Aquire The Book of Avaritia",
+      "item.nei.book_of_avaritia": "Book Of Avaritia",
       "biome.nei.astral_field": "Astral Field",
       "advancements.wings_and_the_power_to_fly.descr": "Curtains fall, salvation you bring, this ballad you\u0027ll sing-~",
       "block.nei.steel_block": "Block of Steel",
@@ -1535,12 +1802,14 @@
       "effect.nei.aura_effect": "Aura",
       "advancements.it_glows.title": "Glowing Light...",
       "block.nei.astral_block": "Astral Block",
+      "key.nei.interest_key": "Interest Key",
       "item.nei.fractal": "Fractal",
       "block.nei.ancient_slab": "Ancient Slab",
       "advancements.so_old_it_glows.title": "So Old It Shines",
       "block.nei.fractal_ore": "Fractal Ore",
       "advancements.phosphate_group.descr": "I\u0027m Assuming It Wasn\u0027t Tasty? Props On Trying To Eat The Light!",
       "subtitles.frog": "Frog",
+      "advancements.death_angel.descr": "Kill Each Woman, Child, \u0026 Man!",
       "subtitles.ambient.dragonfly": "Dragomfly Buzzing",
       "advancements.a_single_pale_rose.title": "A Single Pale Rose",
       "fluid.nei.phellium": "Phellium",
@@ -1554,10 +1823,13 @@
       "advancements.a_little_place_called_home.title": "Astral Plains",
       "subtitles.bird": "Bird Noises",
       "block.nei.ancient_log": "Ancient Log",
+      "advancements.fruit_and_granny.title": "Fruit \u0026 Granny",
       "advancements.into_the_sky.descr": "No Turning Back Now...",
+      "advancements.the_eternal_solstice.descr": "What Will We Do Now? Now That You Have Them All...",
       "block.nei.ancient_portal_frame": "Ancient Portal Frame",
       "advancements.nearly_enough_interest.descr": "achievement.annoying_dog!",
       "advancements.the_easy_way_out.title": "The Easy Way Out!",
+      "block.nei.soul_gem_block": "Soul Gem Block",
       "block.nei.ancient_leaves": "Ancient Leaves",
       "biome.nei.the_place_that_glows": "The Place That Glows",
       "block.nei.ancient_fence_gate": "Ancient Fence Gate",
@@ -1566,6 +1838,7 @@
       "advancements.so_it_begins.descr": "So It Begins... They are all around us...",
       "subtitles.nuke_go_boom": "Nuclear Bomb Set Off",
       "subtitles.decayed_zombie": "Decayed Zombie",
+      "advancements.forbidden_knowledge.title": "Forbidden Knowledge",
       "block.nei.deepslate_silver_ore": "Deepslate Silver Ore",
       "advancements.the_easy_way_out.descr": "Hey! It\u0027s ok to need help. It\u0027s not like you weren\u0027t supposed to do that!",
       "item.nei.astral_tome": "Astral Tome",
@@ -1577,9 +1850,11 @@
       "item.nei.silver_nugget": "Silver Nugget",
       "advancements.a_little_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
       "advancements.fallen_angel.descr": "Something broke... You may want to land!",
+      "advancements.fruit_and_granny.descr": "This Will Not End Well.",
       "advancements.oh_the_biomes_youll_go.title": "Oh The Biomes You\u0027ll-",
       "item.nei.contained_aura": "Contained Aura",
       "advancements.a_peculiar_piece.descr": "The way its\u0027 void yearns for any type of energy...",
+      "advancements.im_dangerous.descr": "Shatter A Red Quartz Orb",
       "subtitles.random.astral.splash": "Splashing",
       "item.nei.nei_icon": "NEI Icon",
       "advancements.nearly_enough_interest.title": "Nearly Enough Intriuge!",
@@ -1591,8 +1866,10 @@
       "item.nei.steel_ingot": "Steel",
       "advancements.from_the_pits_of_hell.title": "From The Pits Of Hell You\u0027ll Find...",
       "advancements.not_enough_interest.descr": "Are You Interested Yet..?",
+      "advancements.the_eternal_solstice.title": "The Eternal Solstice",
       "block.nei.ancient_pressure_plate": "Ancient Pressure Plate",
       "advancements.hope_it_tastes_good.descr": "It\u0027s like eating dandilions, but... maybe a little poisonous. Or at least it tastes like it.",
+      "block.nei.oak_lantern": "Oak Lantern",
       "block.nei.golden_flower": "Golden Flower",
       "advancements.creative_thinking.title": "Creative Thinking",
       "advancements.so_old_it_glows.descr": "It may be fallen, but it\u0027s not a Star.",
@@ -1600,17 +1877,22 @@
       "advancements.a_single_pale_rose.descr": "From Light It Came.",
       "block.nei.silver_block": "Block of Silver",
       "block.nei.ancient_fence": "Ancient Fence",
+      "advancements.granny_fraulax.title": "Granny Fraulax!",
       "block.nei.phellium": "Phellium",
       "block.nei.ancient_wood": "Ancient Wood",
+      "advancements.death_angel.title": "Lets Become The Angels Of Death!",
+      "item.nei.soul_gem": "Soul Gem",
       "block.nei.ancient_stairs": "Ancient Stairs",
       "subtitles.mood.astral2": "",
       "subtitles.mood.astral1": "",
+      "advancements.granny_fraulax.descr": "What In The World!?",
       "item.nei.star_silk": "Star Silk",
       "advancements.wings_and_the_power_to_fly.title": "Giving You Wings And The Power To Fly!",
       "advancements.phosphate_group.title": "Not A Phosphate Group!",
       "advancements.phosphor.title": "Phosphor",
       "advancements.from_the_pits_of_hell.descr": "Oh wait... You made that yourself... I thought you found that! Did you?",
       "advancements.fractal_from_seeds.descr": "Letting the silk you have grow in water apparently fractalizes it.",
+      "block.nei.paper_lantern": "Paper Lantern",
       "block.nei.fractal_block": "Block of Fractal",
       "block.nei.test_dog_1": "Test Dog!",
       "item.nei.star_fractal_silk": "Star Fractal Silk",
@@ -1669,6 +1951,23 @@
           {
             "name": "dog stuff",
             "children": []
+          },
+          {
+            "name": "Soul Gems",
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "White",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "WoodLanterns",
+            "children": []
           }
         ]
       },
@@ -1721,7 +2020,7 @@
   "workspaceSettings": {
     "modid": "nei",
     "modName": "Not Enough Interest",
-    "version": "3.1.5",
+    "version": "3.1.6",
     "description": "NEI or Not Enough Interest is a mod based around magic and the soul. It features breath-taking landscapes and environments and pairs well with shaders. Many things can be found to do in this mod, but instead of spoiling it, go play it! And remember... to stay interested!",
     "author": "Hasco, AceSardonyx, Del",
     "websiteURL": "https://github.com/AceSardonyx/NEI",
@@ -1738,5 +2037,5 @@
     "modElementsPackage": "net.hasco.nei",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200234517
+  "mcreatorVersion": 202200345616
 }

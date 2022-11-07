@@ -1,5 +1,5 @@
 {
-  "_fv": 33,
+  "_fv": 34,
   "_type": "biome",
   "definition": {
     "name": "The Place That Glows",
@@ -50,7 +50,6 @@
       "value": "CUSTOM:AstralFlowerParticle"
     },
     "particlesProbability": 0.5,
-    "biomeCategory": "MUSHROOM",
     "rainingPossibility": 0.2,
     "temperature": -0.7000000000000001,
     "baseHeight": -1.4,
@@ -59,21 +58,6 @@
     "spawnBiomeNether": false,
     "spawnInCaves": false,
     "biomeWeight": 7,
-    "biomeDictionaryTypes": [
-      "FOREST",
-      "MOUNTAIN",
-      "SWAMP",
-      "SNOWY",
-      "WASTELAND",
-      "COLD",
-      "DENSE",
-      "LUSH",
-      "MUSHROOM",
-      "MAGICAL",
-      "RARE",
-      "MODIFIED",
-      "OVERWORLD"
-    ],
     "grassPerChunk": 10,
     "seagrassPerChunk": 4,
     "flowersPerChunk": 2,

@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "nei:astral_plain",
+          "name": "nei:ancient_lotus",
           "weight": 1,
           "functions": [
             {
