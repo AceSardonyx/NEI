@@ -32,5 +32,8 @@
       }
     }
   },
+  "rewards": {
+    "experience": 20
+  },
   "parent": "nei:not_enough_interest"
 }

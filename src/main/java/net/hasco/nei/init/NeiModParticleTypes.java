@@ -15,6 +15,6 @@ import net.hasco.nei.NeiMod;
 
 public class NeiModParticleTypes {
 	public static final DeferredRegister<ParticleType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.PARTICLE_TYPES, NeiMod.MODID);
-	public static final RegistryObject<ParticleType<?>> ASTRAL_FLOWER_PARTICLE = REGISTRY.register("astral_flower_particle",
+	public static final RegistryObject<SimpleParticleType> ASTRAL_FLOWER_PARTICLE = REGISTRY.register("astral_flower_particle",
 			() -> new SimpleParticleType(false));
 }

@@ -3,7 +3,7 @@ package net.hasco.nei.block;
 
 import org.checkerframework.checker.units.qual.s;
 
-import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -23,11 +23,9 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.Minecraft;
 
-import net.hasco.nei.procedures.StarFlowerPlantRightClickedProcedure;
+import net.hasco.nei.procedures.StarFlowerHarvestProcedure;
 import net.hasco.nei.init.NeiModBlocks;
 
 import java.util.List;
@@ -59,30 +57,25 @@ public class StarFlowerBlock extends FlowerBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(this));
 	}
 
 	@Override
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
-		StarFlowerPlantRightClickedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		StarFlowerHarvestProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return InteractionResult.SUCCESS;
 	}
 
 	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(NeiModBlocks.STAR_FLOWER.get(), renderType -> renderType == RenderType.cutout());
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void blockColorLoad(ColorHandlerEvent.Block event) {
+	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
 			return world != null && pos != null ? Minecraft.getInstance().level.getBiome(pos).value().getSkyColor() : 8562943;
 		}, NeiModBlocks.STAR_FLOWER.get());
 	}
 
 	@OnlyIn(Dist.CLIENT)
-	public static void itemColorLoad(ColorHandlerEvent.Item event) {
+	public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
 		event.getItemColors().register((stack, index) -> {
 			return 8562943;
 		}, NeiModBlocks.STAR_FLOWER.get());

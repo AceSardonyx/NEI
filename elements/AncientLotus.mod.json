@@ -8,7 +8,7 @@
     "name": "Ancient Lotus",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -30,13 +30,13 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onFinishUsingItem": {
-      "name": "AncientLotusPlayerFinishesUsingItem"
+      "name": "ConsumedAncientLotus"
     },
     "isFood": true,
     "nutritionalValue": -1,
     "saturation": 0.1,
     "eatResultItem": {
-      "value": ""
+      "value": "Blocks.SMALL_AMETHYST_BUD"
     },
     "isMeat": false,
     "isAlwaysEdible": true,

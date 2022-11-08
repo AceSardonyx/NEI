@@ -19,5 +19,5 @@
       "trigger": "minecraft:impossible"
     }
   },
-  "parent": "nei:fractal_from_seeds"
+  "parent": "nei:so_it_begins"
 }

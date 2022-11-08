@@ -1,40 +1,24 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.hasco.nei.init;
 
-import net.minecraftforge.network.IContainerFactory;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
-import net.minecraft.world.inventory.AbstractContainerMenu;
 
 import net.hasco.nei.world.inventory.TestDogGUIMenu;
 import net.hasco.nei.world.inventory.InformationNEIMenu;
+import net.hasco.nei.NeiMod;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class NeiModMenus {
-	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
-	public static final MenuType<InformationNEIMenu> INFORMATION_NEI = register("information_nei",
-			(id, inv, extraData) -> new InformationNEIMenu(id, inv, extraData));
-	public static final MenuType<TestDogGUIMenu> TEST_DOG_GUI = register("test_dog_gui",
-			(id, inv, extraData) -> new TestDogGUIMenu(id, inv, extraData));
-
-	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
-		MenuType<T> menuType = new MenuType<T>(containerFactory);
-		menuType.setRegistryName(registryname);
-		REGISTRY.add(menuType);
-		return menuType;
-	}
-
-	@SubscribeEvent
-	public static void registerContainers(RegistryEvent.Register<MenuType<?>> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new MenuType[0]));
-	}
+	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, NeiMod.MODID);
+	public static final RegistryObject<MenuType<TestDogGUIMenu>> TEST_DOG_GUI = REGISTRY.register("test_dog_gui",
+			() -> IForgeMenuType.create(TestDogGUIMenu::new));
+	public static final RegistryObject<MenuType<InformationNEIMenu>> INFORMATION_NEI = REGISTRY.register("information_nei",
+			() -> IForgeMenuType.create(InformationNEIMenu::new));
 }

@@ -54,7 +54,7 @@ public abstract class AmuletOfFlightItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 4.199999999999999f;
+				return 4.2f;
 			}
 
 			@Override
@@ -66,12 +66,12 @@ public abstract class AmuletOfFlightItem extends ArmorItem {
 
 	public static class Chestplate extends AmuletOfFlightItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(NeiModTabs.TAB_NEI).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(NeiModTabs.TAB_NEI_CREATIVE).fireResistant());
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "nei:textures/models/armor/amuletbluearmor_layer_1.png";
+			return "nei:textures/models/armor/amuletbluearmor__layer_1.png";
 		}
 
 		@Override

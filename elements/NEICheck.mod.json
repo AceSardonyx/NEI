@@ -2,8 +2,8 @@
   "_fv": 34,
   "_type": "command",
   "definition": {
-    "commandName": "nei",
-    "permissionLevel": "1",
-    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"old_command\"><field name=\"procedure\"></field></block></next></block></xml>"
+    "commandName": "neicheck",
+    "permissionLevel": "No requirement",
+    "argsxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"args_start\" deletable=\"false\" x=\"119\" y=\"82\"><next><block type=\"old_command\"><field name=\"procedure\"></field></block></next></block><block type=\"call_procedure\" x=\"114\" y=\"241\"><field name=\"procedure\"></field></block></xml>"
   }
 }

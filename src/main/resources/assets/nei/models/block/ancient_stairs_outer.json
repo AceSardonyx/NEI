@@ -4,5 +4,6 @@
     "bottom": "nei:blocks/ancient_planks",
     "top": "nei:blocks/ancient_planks",
     "side": "nei:blocks/ancient_planks"
-  }
+  },
+  "render_type": "solid"
 }

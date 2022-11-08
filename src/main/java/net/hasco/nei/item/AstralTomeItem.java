@@ -11,18 +11,17 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
+import net.hasco.nei.procedures.AuraSenseProcedure;
 import net.hasco.nei.procedures.AstralTomeRightclickedProcedure;
-import net.hasco.nei.procedures.AstralTomeItemInInventoryTickProcedure;
 import net.hasco.nei.init.NeiModTabs;
 
 import java.util.List;
 
 public class AstralTomeItem extends Item {
 	public AstralTomeItem() {
-		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(1).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(NeiModTabs.TAB_NEI_CREATIVE).stacksTo(1).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
@@ -31,15 +30,15 @@ public class AstralTomeItem extends Item {
 	}
 
 	@Override
-	public ItemStack getContainerItem(ItemStack itemstack) {
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
 		return new ItemStack(Items.KNOWLEDGE_BOOK);
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("Laced in a special silk"));
-		list.add(new TextComponent("it writes it's own text..."));
+		list.add(Component.literal("Laced in a special silk"));
+		list.add(Component.literal("It writes its' own text..."));
 	}
 
 	@Override
@@ -57,6 +56,6 @@ public class AstralTomeItem extends Item {
 	@Override
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
-		AstralTomeItemInInventoryTickProcedure.execute(entity);
+		AuraSenseProcedure.execute(entity);
 	}
 }

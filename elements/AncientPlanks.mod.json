@@ -35,12 +35,12 @@
     ],
     "name": "Ancient Planks",
     "specialInfo": [],
-    "hardness": 2.6,
-    "resistance": 3.7006323122135223,
+    "hardness": 5.4,
+    "resistance": 6.640675611793281,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "destroyTool": "axe",
     "customDrop": {
@@ -69,7 +69,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 7,
+    "flammability": 14,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,

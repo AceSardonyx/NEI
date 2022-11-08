@@ -14,9 +14,9 @@
       "name": "AmuletOfFlightBodyTickEvent"
     },
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
-    "armorTextureFile": "amuletbluearmor",
+    "armorTextureFile": "amuletbluearmor_",
     "helmetName": "Amulet Of Flight Helmet",
     "bodyName": "Amulet of Flight - BETA",
     "leggingsName": "Amulet Of Flight Leggings",
@@ -51,7 +51,7 @@
     "damageValueLeggings": 0,
     "damageValueBoots": 0,
     "enchantability": 32,
-    "toughness": 4.199999999999999,
+    "toughness": 4.2,
     "knockbackResistance": 0.1,
     "equipSound": {
       "value": "item.armor.equip_chain"

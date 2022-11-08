@@ -12,4 +12,7 @@ Not Enough Interest 3.1.5 Beta
 
 Not Enough Interest 3.1.6 Beta
 
-- Currently Being Worked On
+- Switched To 1.19.2 (As a note, 1.18.2 will likely be discontinued)
+
+- Fixed Fractal Silk Growing In Water (Also added consiquences :smiling_imp: )
+

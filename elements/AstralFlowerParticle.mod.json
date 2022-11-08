@@ -2,7 +2,7 @@
   "_fv": 34,
   "_type": "particle",
   "definition": {
-    "texture": "astral_flower.png",
+    "texture": "astral_flower_particle.png",
     "animate": false,
     "frameDuration": 1,
     "width": 0.30000000000000004,

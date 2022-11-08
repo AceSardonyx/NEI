@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_block"
+    },
+    "title": {
+      "translate": "advancements.a_place_called_home.title"
+    },
+    "description": {
+      "translate": "advancements.a_place_called_home.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_place_called_home": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:overworld"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 792
+  },
+  "parent": "nei:not_enough_interest"
+}

@@ -8,7 +8,7 @@
     "name": "Star Fractal Silk",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -29,9 +29,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInUseTick": {
-      "name": "StarFractalSilkItemInHandTick"
-    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

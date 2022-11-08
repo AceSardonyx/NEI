@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class AncientPlanksBlock extends Block {
 	public AncientPlanksBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.6f, 3.7006323122135223f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(5.4f, 6.640675611793281f));
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class AncientPlanksBlock extends Block {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 7;
+		return 14;
 	}
 
 	@Override

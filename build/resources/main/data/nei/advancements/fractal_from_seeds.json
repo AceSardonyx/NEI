@@ -16,20 +16,7 @@
   },
   "criteria": {
     "fractal_from_seeds": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "nei:star_fractal_silk"
-            ],
-            "count": {
-              "min": 1,
-              "max": 64
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {

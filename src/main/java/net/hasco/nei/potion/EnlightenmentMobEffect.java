@@ -5,7 +5,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.effect.MobEffectCategory;
 import net.minecraft.world.effect.MobEffect;
 
-import net.hasco.nei.procedures.EnlightenmentActiveTickConditionProcedure;
+import net.hasco.nei.procedures.EnlightenmentEffectProcedure;
 
 public class EnlightenmentMobEffect extends MobEffect {
 	public EnlightenmentMobEffect() {
@@ -19,7 +19,7 @@ public class EnlightenmentMobEffect extends MobEffect {
 
 	@Override
 	public void applyEffectTick(LivingEntity entity, int amplifier) {
-		EnlightenmentActiveTickConditionProcedure.execute(entity.level, entity);
+		EnlightenmentEffectProcedure.execute(entity.level, entity);
 	}
 
 	@Override

@@ -35,12 +35,12 @@
     ],
     "name": "Ancient Wood",
     "specialInfo": [],
-    "hardness": 2.6,
-    "resistance": 2.467088208142348,
+    "hardness": 5.4,
+    "resistance": 4.427117074528854,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "destroyTool": "axe",
     "customDrop": {
@@ -69,7 +69,7 @@
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 7,
+    "flammability": 14,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,

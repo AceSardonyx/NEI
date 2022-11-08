@@ -8,11 +8,11 @@
     "name": "Star Silk",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "stackSize": 64,
     "enchantability": 0,
-    "useDuration": 32,
+    "useDuration": 15,
     "toolType": 1.0,
     "damageCount": 0,
     "recipeRemainder": {
@@ -25,15 +25,15 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInfo": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "onDroppedByPlayer": {
-      "name": "StarSilkItemIsDroppedByPlayer"
+      "name": "IsStarSilkGrowing"
     },
     "isFood": true,
-    "nutritionalValue": 0,
+    "nutritionalValue": 1,
     "saturation": 0.1,
     "eatResultItem": {
       "value": ""

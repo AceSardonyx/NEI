@@ -1,0 +1,1080 @@
+{
+  "mod_elements": [
+    {
+      "name": "NEIIcon",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nei_icon",
+      "path": "~/Icosa"
+    },
+    {
+      "name": "NEICreative",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nei_creative",
+      "path": "~/Icosa"
+    },
+    {
+      "name": "NEIIconItemInHandTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nei_icon_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Icosa"
+    },
+    {
+      "name": "AstralFlowerParticle",
+      "type": "particle",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_flower_particle",
+      "path": "~/Icosa"
+    },
+    {
+      "name": "NEICheck",
+      "type": "command",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nei_check"
+    },
+    {
+      "name": "TestDogGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dog_gui",
+      "path": "~/Core/dog stuff"
+    },
+    {
+      "name": "InterestKeyOnKeyPressed",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interest_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "InterestKey",
+      "type": "keybind",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interest_key"
+    },
+    {
+      "name": "InformationNEI",
+      "type": "gui",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "information_nei",
+      "path": "~/GUI"
+    },
+    {
+      "name": "AstralSword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_sword",
+      "path": "~/Tools"
+    },
+    {
+      "name": "AmuletOfFlight",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_of_flight",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": false,
+        "ec": true
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "StarFlower",
+      "type": "plant",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_flower",
+      "path": "~/Core/Flowers/Star"
+    },
+    {
+      "name": "NotEnoughInterest",
+      "type": "achievement",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "not_enough_interest",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "APlaceCalledHome",
+      "type": "achievement",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_place_called_home",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "WingsAndThePowerToFly",
+      "type": "achievement",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wings_and_the_power_to_fly",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "AmuletOfFlightBodyTickEvent",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "amulet_of_flight_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Equipment"
+    },
+    {
+      "name": "AncientWood",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientLog",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_log",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientPlanks",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_planks",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientLeaves",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_leaves",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientStairs",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stairs",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientSlab",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_slab",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientFence",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientFenceGate",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence_gate",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientPressurePlate",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_pressure_plate",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientButton",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_button",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientItemsTag",
+      "type": "tag",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_items_tag",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientWoodRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_wood_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientPlanksRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_planks_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientStairsRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stairs_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientSlabRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_slab_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientFenceRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_fence_gate_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientPressurePlateRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_pressure_plate_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientButtonRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_button_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "AncientStickRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_stick_recipe",
+      "path": "~/Core/Ancient Tree"
+    },
+    {
+      "name": "FractalGem",
+      "type": "item",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_gem",
+      "path": "~/Core/Fractal Gem"
+    },
+    {
+      "name": "FractalGemOre",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_gem_ore",
+      "path": "~/Core/Fractal Gem"
+    },
+    {
+      "name": "FractalGemBlock",
+      "type": "block",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_gem_block",
+      "path": "~/Core/Fractal Gem"
+    },
+    {
+      "name": "PlayerHasGoldenFlower",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_has_golden_flower",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "GoldenFlower",
+      "type": "plant",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_flower",
+      "path": "~/Core/Flowers"
+    },
+    {
+      "name": "ImperfectStarFlower",
+      "type": "plant",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imperfect_star_flower",
+      "path": "~/Core/Flowers"
+    },
+    {
+      "name": "ImperfectConversion",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "imperfect_conversion",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "ConsumedParticles",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "consumed_particles",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "UnshapedParticles",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unshaped_particles",
+      "path": "~/Core"
+    },
+    {
+      "name": "FruitAndGranny",
+      "type": "achievement",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fruit_and_granny",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "GrannyFraulax",
+      "type": "achievement",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "granny_fraulax",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "FrannyDynomax",
+      "type": "achievement",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "franny_dynomax",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "ItGlows",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "it_glows",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "SoItBegins",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "so_it_begins",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "AstralBlock",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_block",
+      "path": "~/Core"
+    },
+    {
+      "name": "SoulGem",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_gem",
+      "path": "~/Core/Soul Gems/White"
+    },
+    {
+      "name": "SoulGemBlock",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_gem_block",
+      "path": "~/Core/Soul Gems/Blocks"
+    },
+    {
+      "name": "SoulGemToBlock",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soul_gem_to_block",
+      "path": "~/Core/Soul Gems/Blocks"
+    },
+    {
+      "name": "Stardust",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stardust",
+      "path": "~/Core"
+    },
+    {
+      "name": "StarCluster",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_cluster",
+      "path": "~/Core"
+    },
+    {
+      "name": "AstralTomeRightclicked",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_tome_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Core"
+    },
+    {
+      "name": "AuraSense",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_sense",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "AstralTome",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "astral_tome",
+      "path": "~/Core"
+    },
+    {
+      "name": "EnlightenmentEffect",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enlightenment_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "Enlightenment",
+      "type": "potioneffect",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enlightenment",
+      "path": "~/Effects"
+    },
+    {
+      "name": "AuraEffect",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_effect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Effects"
+    },
+    {
+      "name": "AuraPresense",
+      "type": "potioneffect",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aura_presense",
+      "path": "~/Effects"
+    },
+    {
+      "name": "Awoken",
+      "type": "tag",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "awoken",
+      "path": "~/Tags"
+    },
+    {
+      "name": "SkyCall",
+      "type": "loottable",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_call",
+      "path": "~/Drops"
+    },
+    {
+      "name": "AncientLotus",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancient_lotus",
+      "path": "~/Core/Flowers"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "nuke_go_boom",
+      "files": [
+        "nuke_go_boom"
+      ],
+      "category": "block",
+      "subtitle": "Nuclear Bomb Set Off"
+    },
+    {
+      "name": "sunkist_death",
+      "files": [
+        "sunkist_death"
+      ],
+      "category": "hostile",
+      "subtitle": "Sunkist Death"
+    },
+    {
+      "name": "sunkist_idle",
+      "files": [
+        "sunkist_idle"
+      ],
+      "category": "hostile",
+      "subtitle": "Sunkist Screeching"
+    },
+    {
+      "name": "sunkist_hurt",
+      "files": [
+        "sunkist_hurt"
+      ],
+      "category": "hostile",
+      "subtitle": "Sunkist In Pain"
+    },
+    {
+      "name": "bird",
+      "files": [
+        "hurt",
+        "idle0",
+        "idle1",
+        "idle2",
+        "idle3",
+        "idle4"
+      ],
+      "category": "neutral",
+      "subtitle": "Bird Noises"
+    },
+    {
+      "name": "decayed_zombie",
+      "files": [
+        "death",
+        "hurt1",
+        "hurt2",
+        "hurt3",
+        "hurt4",
+        "say1",
+        "say2",
+        "say3",
+        "step1",
+        "step2",
+        "step3",
+        "step4"
+      ],
+      "category": "neutral",
+      "subtitle": "Decayed Zombie"
+    },
+    {
+      "name": "duck",
+      "files": [
+        "hurt0",
+        "hurt1",
+        "idle0",
+        "idle1",
+        "idle2",
+        "plop"
+      ],
+      "category": "neutral",
+      "subtitle": "Duck"
+    },
+    {
+      "name": "ambient.dragonfly",
+      "files": [
+        "ambient"
+      ],
+      "category": "neutral",
+      "subtitle": "Dragomfly Buzzing"
+    },
+    {
+      "name": "frog",
+      "files": [
+        "death",
+        "hurt1",
+        "hurt2",
+        "hurt3",
+        "hurt4",
+        "idle1",
+        "idle2",
+        "idle3",
+        "idle4"
+      ],
+      "category": "neutral",
+      "subtitle": "Frog"
+    },
+    {
+      "name": "mummy",
+      "files": [
+        "death1",
+        "death2",
+        "hurt1",
+        "hurt2",
+        "idle1",
+        "idle2",
+        "idle3"
+      ],
+      "category": "hostile",
+      "subtitle": "Mummy"
+    },
+    {
+      "name": "mood.astral1",
+      "files": [
+        "mood1"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "mood.astral2",
+      "files": [
+        "mood2"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "random.astral.splash",
+      "files": [
+        "splash"
+      ],
+      "category": "weather",
+      "subtitle": "Splashing"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.nei.amulet_of_flight_boots": "Amulet Of Flight Boots",
+      "item.nei.astral_tome": "Astral Tome",
+      "advancements.not_enough_interest.title": "NEI Basics",
+      "block.nei.ancient_button": "Ancient Button",
+      "item.nei.amulet_of_flight_helmet": "Amulet Of Flight Helmet",
+      "block.nei.star_flower": "Star Flower",
+      "advancements.it_glows.descr": "What a strange feeling you get from seeing this flower.",
+      "block.nei.imperfect_star_flower": "Imperfect Star Flower",
+      "block.nei.fractal_gem_block": "Contained Fractal Block",
+      "item.nei.star_cluster": "Star Cluster",
+      "advancements.fruit_and_granny.descr": "Mere posion, this will not end well.",
+      "item.nei.stardust": "Stardust",
+      "subtitles.random.astral.splash": "Splashing",
+      "item.nei.nei_icon": "NEI Icon",
+      "item.nei.fractal_gem": "Fractal Gem",
+      "advancements.wings_and_the_power_to_fly.descr": "Curtains fall, salvation you bring, this ballad you\u0027ll sing-~",
+      "item.nei.amulet_of_flight_chestplate": "Amulet of Flight - BETA",
+      "subtitles.sunkist_hurt": "Sunkist In Pain",
+      "effect.nei.enlightenment": "Enlightenment",
+      "subtitles.sunkist_death": "Sunkist Death",
+      "advancements.not_enough_interest.descr": "Are You Interested Yet..?",
+      "item.nei.unshaped_particles": "Unshaped Particles",
+      "block.nei.ancient_pressure_plate": "Ancient Pressure Plate",
+      "advancements.so_it_begins.title": "What\u0027s This?",
+      "advancements.it_glows.title": "Glowing Light...",
+      "block.nei.golden_flower": "Golden Flower",
+      "block.nei.astral_block": "Astral Block",
+      "key.nei.interest_key": "Interest Key",
+      "advancements.franny_dynomax.title": "Franny Dynomax?",
+      "block.nei.ancient_slab": "Ancient Slab",
+      "advancements.franny_dynomax.descr": "beta - right click a golden flower w/ unshaped particles",
+      "itemGroup.tabnei_creative": "NEI",
+      "block.nei.ancient_fence": "Ancient Fence",
+      "subtitles.frog": "Frog",
+      "advancements.granny_fraulax.title": "Granny Fraulax!",
+      "subtitles.ambient.dragonfly": "Dragomfly Buzzing",
+      "block.nei.ancient_wood": "Ancient Wood",
+      "item.nei.soul_gem": "Soul Gem",
+      "subtitles.mood.astral2": "",
+      "block.nei.ancient_stairs": "Ancient Stairs",
+      "subtitles.mood.astral1": "",
+      "advancements.granny_fraulax.descr": "Such a pretty flower for a pretty woman!",
+      "advancements.wings_and_the_power_to_fly.title": "Giving You Wings And The Power To Fly!",
+      "advancements.a_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
+      "block.nei.ancient_planks": "Ancient Planks",
+      "subtitles.mummy": "Mummy",
+      "subtitles.sunkist_idle": "Sunkist Screeching",
+      "advancements.a_place_called_home.title": "Astral Plains",
+      "subtitles.bird": "Bird Noises",
+      "item.nei.astral_sword": "Astral Sword Beta \u003d)",
+      "block.nei.ancient_log": "Ancient Log",
+      "advancements.fruit_and_granny.title": "Fruit \u0026 Granny",
+      "item.nei.amulet_of_flight_leggings": "Amulet Of Flight Leggings",
+      "block.nei.soul_gem_block": "Soul Gem Block",
+      "block.nei.ancient_leaves": "Ancient Leaves",
+      "item.nei.ancient_lotus": "Ancient Lotus",
+      "block.nei.ancient_fence_gate": "Ancient Fence Gate",
+      "subtitles.duck": "Duck",
+      "block.nei.fractal_gem_ore": "Fractal Gem Ore",
+      "subtitles.nuke_go_boom": "Nuclear Bomb Set Off",
+      "advancements.so_it_begins.descr": "So It Begins... They are all around us...",
+      "effect.nei.aura_presense": "Aura",
+      "subtitles.decayed_zombie": "Decayed Zombie"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Core",
+        "children": [
+          {
+            "name": "Astral Plain",
+            "children": [
+              {
+                "name": "Portal",
+                "children": []
+              },
+              {
+                "name": "Biomes",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Flowers",
+            "children": [
+              {
+                "name": "Star",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "Ancient Tree",
+            "children": []
+          },
+          {
+            "name": "Fractal Gem",
+            "children": []
+          },
+          {
+            "name": "Silver",
+            "children": []
+          },
+          {
+            "name": "Steel",
+            "children": []
+          },
+          {
+            "name": "dog stuff",
+            "children": []
+          },
+          {
+            "name": "Soul Gems",
+            "children": [
+              {
+                "name": "Blocks",
+                "children": []
+              },
+              {
+                "name": "White",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "WoodLanterns",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Tools",
+        "children": []
+      },
+      {
+        "name": "Enviorment",
+        "children": []
+      },
+      {
+        "name": "GUI",
+        "children": []
+      },
+      {
+        "name": "Equipment",
+        "children": []
+      },
+      {
+        "name": "Achivements",
+        "children": []
+      },
+      {
+        "name": "Icosa",
+        "children": []
+      },
+      {
+        "name": "Procedures",
+        "children": []
+      },
+      {
+        "name": "Recipes",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Effects",
+        "children": []
+      },
+      {
+        "name": "Drops",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "nei",
+    "modName": "Not Enough Interest",
+    "version": "3.1.6",
+    "description": "NEI or Not Enough Interest is a mod based around magic and the soul. It features breath-taking landscapes and environments and pairs well with shaders. Many things can be found to do in this mod, but instead of spoiling it, go play it! And remember... to stay interested!",
+    "author": "Hasco, AceSardonyx, Del",
+    "websiteURL": "https://github.com/AceSardonyx/NEI",
+    "license": "Creative Commons Attribution-NonCommercial 3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Special thanks to Hasco for originally making the mod and to the authors he pulled assets from.",
+    "modElementsPackage": "net.hasco.nei",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200345616
+}

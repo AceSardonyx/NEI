@@ -19,16 +19,16 @@ import java.util.Collections;
 public class AncientStairsBlock extends StairBlock {
 	public AncientStairsBlock() {
 		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3.9000000000000004f, 2.6f).dynamicShape());
+				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(8.100000000000001f, 5.4f).dynamicShape());
 	}
 
 	@Override
 	public float getExplosionResistance() {
-		return 2.6f;
+		return 5.4f;
 	}
 
 	@Override
-	public boolean isRandomlyTicking(BlockState p_56947_) {
+	public boolean isRandomlyTicking(BlockState state) {
 		return false;
 	}
 
@@ -39,7 +39,7 @@ public class AncientStairsBlock extends StairBlock {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 7;
+		return 14;
 	}
 
 	@Override

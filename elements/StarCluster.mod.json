@@ -8,7 +8,7 @@
     "name": "Star Cluster",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -30,8 +30,8 @@
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": true,
-    "nutritionalValue": 0,
-    "saturation": 0.0,
+    "nutritionalValue": 3,
+    "saturation": -7.0,
     "eatResultItem": {
       "value": "CUSTOM:ImperfectStarFlower"
     },

@@ -8,7 +8,7 @@
     "name": "Stardust",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "stackSize": 64,
     "enchantability": 0,

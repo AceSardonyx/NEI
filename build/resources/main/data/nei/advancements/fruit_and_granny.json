@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:particles"
+      "item": "nei:unshaped_particles"
     },
     "title": {
       "translate": "advancements.fruit_and_granny.title"
@@ -20,11 +20,11 @@
       "conditions": {
         "item": {
           "items": [
-            "nei:particles"
+            "nei:unshaped_particles"
           ]
         }
       }
     }
   },
-  "parent": "nei:a_little_place_called_home"
+  "parent": "nei:a_place_called_home"
 }

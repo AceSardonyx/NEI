@@ -11,24 +11,30 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
+import net.minecraft.util.RandomSource;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
-import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
 public class AncientLeavesBlock extends Block {
 	public AncientLeavesBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_MAGENTA).sound(SoundType.GRASS).strength(0.26f)
+		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_MAGENTA).sound(SoundType.GRASS).strength(0.54f)
 				.requiresCorrectToolForDrops());
+	}
+
+	@Override
+	public float[] getBeaconColorMultiplier(BlockState state, LevelReader world, BlockPos pos, BlockPos beaconPos) {
+		return new float[]{0.6f, 0f, 0.6f};
 	}
 
 	@Override
@@ -38,7 +44,7 @@ public class AncientLeavesBlock extends Block {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 39;
+		return 80;
 	}
 
 	@Override
@@ -58,7 +64,7 @@ public class AncientLeavesBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	@Override
-	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
 		super.animateTick(blockstate, world, pos, random);
 		Player entity = Minecraft.getInstance().player;
 		int x = pos.getX();

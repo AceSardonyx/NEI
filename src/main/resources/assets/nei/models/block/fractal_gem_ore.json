@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "nei:blocks/astralore_ore",
+    "particle": "nei:blocks/astralore_ore"
+  },
+  "render_type": "solid"
+}

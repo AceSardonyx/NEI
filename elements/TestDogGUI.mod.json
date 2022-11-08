@@ -15,64 +15,32 @@
         "data": {
           "text": "<energy> test",
           "color": {
-            "value": -52429,
+            "value": -12829636,
             "falpha": 0.0
           },
           "name": "<energy> test",
-          "x": 177,
-          "y": 53
-        }
-      },
-      {
-        "type": "button",
-        "data": {
-          "text": "NEI Info Pane",
-          "onClick": {
-            "name": "AstralTomeRightclicked"
-          },
-          "width": 92,
-          "height": 20,
-          "name": "NEI Info Pane",
-          "x": 168,
-          "y": 98
+          "x": 178,
+          "y": 60
         }
       },
       {
         "type": "checkbox",
         "data": {
-          "text": "the fuck?",
-          "name": "what",
-          "x": 150,
-          "y": 125
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "text": "ass!?",
-          "name": "huh",
-          "x": 231,
-          "y": 125
-        }
-      },
-      {
-        "type": "checkbox",
-        "data": {
-          "text": "kromer!?",
-          "name": "wtf",
-          "x": 150,
-          "y": 152
+          "text": "do it?",
+          "name": "dog",
+          "x": 199,
+          "y": 108
         }
       },
       {
         "type": "textfield",
         "data": {
-          "placeholder": "kill yourself",
+          "placeholder": "test",
           "width": 120,
           "height": 20,
-          "name": "realsadshit",
-          "x": 150,
-          "y": 71
+          "name": "test",
+          "x": 152,
+          "y": 78
         }
       }
     ],

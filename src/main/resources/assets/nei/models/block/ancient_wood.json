@@ -3,5 +3,6 @@
   "textures": {
     "all": "nei:blocks/ancient_log_side",
     "particle": "nei:blocks/ancient_log_side"
-  }
+  },
+  "render_type": "solid"
 }

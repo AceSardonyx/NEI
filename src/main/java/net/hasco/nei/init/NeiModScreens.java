@@ -1,6 +1,6 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.hasco.nei.init;
 
@@ -19,8 +19,8 @@ public class NeiModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(NeiModMenus.INFORMATION_NEI, InformationNEIScreen::new);
-			MenuScreens.register(NeiModMenus.TEST_DOG_GUI, TestDogGUIScreen::new);
+			MenuScreens.register(NeiModMenus.TEST_DOG_GUI.get(), TestDogGUIScreen::new);
+			MenuScreens.register(NeiModMenus.INFORMATION_NEI.get(), InformationNEIScreen::new);
 		});
 	}
 }

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "experience": 2.7999999999999994,
-  "cookingtime": 200,
-  "ingredient": {
-    "item": "nei:steel_ore"
-  },
-  "result": "nei:steel_ingot"
-}

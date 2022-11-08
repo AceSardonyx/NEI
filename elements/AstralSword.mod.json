@@ -1,0 +1,33 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "astral_sword",
+    "customModelName": "Normal",
+    "name": "Astral Sword Beta =)",
+    "specialInfo": [
+      "Beta"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:NEICreative"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 12,
+    "efficiency": 12.5,
+    "attackSpeed": 1.8,
+    "enchantability": 19,
+    "damageVsEntity": 41.5,
+    "usageCount": 91100,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "Blocks.BEDROCK"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": true,
+    "damageOnCrafting": false
+  }
+}

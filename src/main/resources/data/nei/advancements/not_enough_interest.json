@@ -34,6 +34,17 @@
     }
   },
   "rewards": {
-    "experience": 1
+    "experience": 1,
+    "recipes": [
+      "nei:ancient_wood_recipe",
+      "nei:ancient_planks_recipe",
+      "nei:ancient_stairs_recipe",
+      "nei:ancient_slab_recipe",
+      "nei:ancient_fence_recipe",
+      "nei:ancient_fence_gate_recipe",
+      "nei:ancient_pressure_plate_recipe",
+      "nei:ancient_button_recipe",
+      "nei:ancient_stick_recipe"
+    ]
   }
 }

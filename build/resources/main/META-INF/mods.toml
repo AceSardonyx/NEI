@@ -1,10 +1,10 @@
 modLoader="javafml"
-loaderVersion="[40,)"
+loaderVersion="[43,)"
 license="Creative Commons Attribution-NonCommercial 3.0"
 
 [[mods]]
 modId="nei"
-version="3.1.5"
+version="3.1.6"
 displayName="Not Enough Interest"
 credits="Special thanks to Hasco for originally making the mod and to the authors he pulled assets from."
 displayURL="https://github.com/AceSardonyx/NEI"
@@ -17,7 +17,7 @@ NEI or Not Enough Interest is a mod based around magic and the soul. It features
 [[dependencies.nei]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.18.2]"
+    versionRange="[1.19.2]"
     ordering="NONE"
     side="BOTH"
 

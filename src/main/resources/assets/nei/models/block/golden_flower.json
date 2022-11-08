@@ -3,5 +3,6 @@
   "textures": {
     "cross": "nei:blocks/starflower",
     "particle": "nei:blocks/gold_dust"
-  }
+  },
+  "render_type": "cutout"
 }

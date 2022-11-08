@@ -8,5 +8,6 @@
     "south": "nei:blocks/ancient_log_side",
     "west": "nei:blocks/ancient_log_side",
     "particle": "nei:blocks/ancient_log_top"
-  }
+  },
+  "render_type": "solid"
 }

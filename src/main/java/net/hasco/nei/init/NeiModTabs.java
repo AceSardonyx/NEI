@@ -4,23 +4,20 @@
  */
 package net.hasco.nei.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class NeiModTabs {
-	public static CreativeModeTab TAB_NEI;
+	public static CreativeModeTab TAB_NEI_CREATIVE;
 
 	public static void load() {
-		TAB_NEI = new CreativeModeTab("tabnei") {
+		TAB_NEI_CREATIVE = new CreativeModeTab("tabnei_creative") {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(NeiModItems.NEI_ICON.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return true;
 			}

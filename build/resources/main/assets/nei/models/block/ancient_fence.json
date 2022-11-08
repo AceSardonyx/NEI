@@ -3,5 +3,6 @@
   "textures": {
     "texture": "nei:blocks/ancient_planks",
     "particle": "nei:blocks/ancient_planks"
-  }
+  },
+  "render_type": "solid"
 }

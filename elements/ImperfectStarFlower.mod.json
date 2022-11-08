@@ -33,7 +33,7 @@
     "name": "Imperfect Star Flower",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -61,11 +61,11 @@
     },
     "useLootTableForDrops": false,
     "customDrop": {
-      "value": "CUSTOM:Stardust"
+      "value": ""
     },
     "dropAmount": 1,
     "forceTicking": false,
-    "emissiveRendering": false,
+    "emissiveRendering": true,
     "hasTileEntity": false,
     "isReplaceable": false,
     "colorOnMap": "DEFAULT",
@@ -74,24 +74,20 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 100,
-    "fireSpreadSpeed": 60,
+    "flammability": 42,
+    "fireSpreadSpeed": 200,
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 1,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [
-      "CUSTOM:AstralPlain"
+      "Surface"
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:AstralField"
-      }
-    ],
-    "patchSize": 1,
-    "generateAtAnyHeight": true,
+    "restrictionBiomes": [],
+    "patchSize": 64,
+    "generateAtAnyHeight": false,
     "onRightClicked": {
-      "name": "WitherRoseRightClickedWithUnshapedParticles"
+      "name": "ImperfectConversion"
     }
   }
 }

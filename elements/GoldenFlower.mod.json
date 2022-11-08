@@ -33,7 +33,7 @@
     "name": "Golden Flower",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -79,15 +79,12 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 4,
+    "frequencyOnChunks": 5,
     "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:AstralPlain",
-      "Nether",
-      "End"
+      "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 10,
+    "patchSize": 64,
     "generateAtAnyHeight": false,
     "onDestroyedByPlayer": {
       "name": "PlayerHasGoldenFlower"

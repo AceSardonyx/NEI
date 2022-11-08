@@ -17,7 +17,8 @@ import java.util.Collections;
 
 public class AncientPressurePlateBlock extends PressurePlateBlock {
 	public AncientPressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.6f, 3.9000000000000004f));
+		super(Sensitivity.EVERYTHING,
+				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(5.4f, 8.100000000000001f).dynamicShape());
 	}
 
 	@Override
@@ -27,7 +28,7 @@ public class AncientPressurePlateBlock extends PressurePlateBlock {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 7;
+		return 14;
 	}
 
 	@Override

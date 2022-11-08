@@ -14,7 +14,7 @@ import net.hasco.nei.init.NeiModTabs;
 
 public class StardustItem extends Item {
 	public StardustItem() {
-		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(64).rarity(Rarity.COMMON)
+		super(new Item.Properties().tab(NeiModTabs.TAB_NEI_CREATIVE).stacksTo(64).rarity(Rarity.COMMON)
 				.food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.1f).alwaysEat()
 
 						.build()));

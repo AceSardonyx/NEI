@@ -6,14 +6,12 @@
     "items": [
       {
         "value": "CUSTOM:NEIIcon"
-      },
-      {
-        "value": "CUSTOM:AstralPlain"
       }
     ],
     "blocks": [],
     "functions": [],
     "entities": [],
+    "biomes": [],
     "name": "awoken",
     "namespace": "forge"
   }

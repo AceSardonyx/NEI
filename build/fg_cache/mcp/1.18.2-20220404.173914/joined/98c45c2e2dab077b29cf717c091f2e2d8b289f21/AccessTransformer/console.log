@@ -1,6 +1,0 @@
-JVM:         C:\Users\Kfike\Desktop\MCT22\jdk\bin\java.exe
-JVM Args:    
-Run Args:    "--inJar", "E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\rename\output.jar", "--outJar", "E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\AccessTransformer\output.jar", "--atFile", "E:\Ace\NEI\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\Kfike\AppData\Local\Temp\FG_ats_5866303936276477816.cfg"
-Classpath:   C:\Users\Kfike\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
-Working Dir: E:\Ace\NEI\build\fg_cache\mcp\1.18.2-20220404.173914\joined\98c45c2e2dab077b29cf717c091f2e2d8b289f21\AccessTransformer
-Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

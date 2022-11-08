@@ -8,6 +8,6 @@ import net.hasco.nei.init.NeiModTabs;
 
 public class SoulGemItem extends Item {
 	public SoulGemItem() {
-		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(64).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(NeiModTabs.TAB_NEI_CREATIVE).stacksTo(64).fireResistant().rarity(Rarity.RARE));
 	}
 }

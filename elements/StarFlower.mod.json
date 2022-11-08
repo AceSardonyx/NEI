@@ -7,7 +7,7 @@
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
-    "particleTexture": "cloud_block",
+    "particleTexture": "gold_dust",
     "tintType": "Sky",
     "isItemTinted": true,
     "plantType": "normal",
@@ -33,7 +33,7 @@
     "name": "Star Flower",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:NEI"
+      "value": "CUSTOM:NEICreative"
     },
     "hardness": 0.0,
     "resistance": 2.0,
@@ -81,14 +81,13 @@
     "canBePlacedOn": [],
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [
-      "Surface",
-      "CUSTOM:AstralPlain"
+      "Surface"
     ],
     "restrictionBiomes": [],
-    "patchSize": 42,
+    "patchSize": 64,
     "generateAtAnyHeight": false,
     "onRightClicked": {
-      "name": "StarFlowerPlantRightClicked"
+      "name": "StarFlowerHarvest"
     }
   }
 }

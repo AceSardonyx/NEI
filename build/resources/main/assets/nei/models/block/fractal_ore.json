@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nei:blocks/fractal_ore",
-    "particle": "nei:blocks/fractal_ore"
-  }
-}

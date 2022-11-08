@@ -4,9 +4,9 @@
   "definition": {
     "renderType": 0,
     "texture": "acient_gem",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "name": "NEI Icon",
-    "rarity": "COMMON",
+    "rarity": "EPIC",
     "creativeTab": {
       "value": "No creative tab entry"
     },
@@ -24,7 +24,9 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInfo": [
+      "Not Enough Interest"
+    ],
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,

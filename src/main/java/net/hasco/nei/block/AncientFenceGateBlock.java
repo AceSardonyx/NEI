@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class AncientFenceGateBlock extends FenceGateBlock {
 	public AncientFenceGateBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.6f, 3.9000000000000004f));
+		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(5.4f, 8.100000000000001f).dynamicShape());
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class AncientFenceGateBlock extends FenceGateBlock {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 7;
+		return 14;
 	}
 
 	@Override

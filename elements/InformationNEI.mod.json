@@ -2,50 +2,38 @@
   "_fv": 34,
   "_type": "gui",
   "definition": {
-    "type": 1,
-    "width": 328,
-    "height": 222,
-    "inventoryOffsetX": -80,
-    "inventoryOffsetY": 30,
+    "type": 0,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
     "renderBgLayer": true,
-    "doesPauseGame": true,
+    "doesPauseGame": false,
     "components": [
       {
         "type": "label",
         "data": {
-          "text": "This is in development :)",
+          "text": "Hello There!",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "This is in development :)",
-          "x": 240,
-          "y": 17
+          "name": "Hello There!",
+          "x": 132,
+          "y": 44
         }
       },
       {
-        "type": "button",
+        "type": "label",
         "data": {
-          "text": "button",
-          "width": 56,
-          "height": 20,
-          "name": "button",
-          "x": 312,
-          "y": 197
-        }
-      },
-      {
-        "type": "inputslot",
-        "data": {
-          "inputLimit": {
-            "value": "CUSTOM:AmuletOfFlight.body"
+          "text": "This Is In Development!",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
           },
-          "id": 0,
-          "disableStackInteraction": false,
-          "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
-          "x": 123,
-          "y": 71
+          "name": "This Is In Development!",
+          "x": 132,
+          "y": 62
         }
       }
     ],

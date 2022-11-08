@@ -2,6 +2,7 @@
   "parent": "block/tinted_cross",
   "textures": {
     "cross": "nei:blocks/flower_houstonia",
-    "particle": "nei:blocks/cloud_block"
-  }
+    "particle": "nei:blocks/gold_dust"
+  },
+  "render_type": "cutout"
 }

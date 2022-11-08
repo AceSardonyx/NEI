@@ -14,8 +14,8 @@ import net.hasco.nei.init.NeiModBlocks;
 
 public class StarClusterItem extends Item {
 	public StarClusterItem() {
-		super(new Item.Properties().tab(NeiModTabs.TAB_NEI).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON)
-				.food((new FoodProperties.Builder()).nutrition(0).saturationMod(0f).alwaysEat()
+		super(new Item.Properties().tab(NeiModTabs.TAB_NEI_CREATIVE).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON)
+				.food((new FoodProperties.Builder()).nutrition(3).saturationMod(-7f).alwaysEat()
 
 						.build()));
 	}

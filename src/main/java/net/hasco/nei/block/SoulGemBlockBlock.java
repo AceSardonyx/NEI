@@ -4,7 +4,7 @@ package net.hasco.nei.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraftforge.common.IPlantable;
-import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -24,6 +24,7 @@ import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.util.RandomSource;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -32,14 +33,14 @@ import net.minecraft.client.Minecraft;
 import net.hasco.nei.init.NeiModItems;
 import net.hasco.nei.init.NeiModBlocks;
 
-import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
 public class SoulGemBlockBlock extends Block {
 	public SoulGemBlockBlock() {
 		super(BlockBehaviour.Properties.of(Material.AMETHYST, MaterialColor.METAL).sound(SoundType.LARGE_AMETHYST_BUD).strength(30f, 40f)
-				.lightLevel(s -> 15).requiresCorrectToolForDrops().friction(0.7999999999999999f));
+				.lightLevel(s -> 15).requiresCorrectToolForDrops().friction(0.7999999999999999f).hasPostProcess((bs, br, bp) -> true)
+				.emissiveRendering((bs, br, bp) -> true));
 	}
 
 	@Override
@@ -63,7 +64,7 @@ public class SoulGemBlockBlock extends Block {
 	}
 
 	@Override
-	public BlockPathTypes getAiPathNodeType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
+	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return BlockPathTypes.BLOCKED;
 	}
 
@@ -99,7 +100,7 @@ public class SoulGemBlockBlock extends Block {
 
 	@OnlyIn(Dist.CLIENT)
 	@Override
-	public void animateTick(BlockState blockstate, Level world, BlockPos pos, Random random) {
+	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
 		super.animateTick(blockstate, world, pos, random);
 		Player entity = Minecraft.getInstance().player;
 		int x = pos.getX();
@@ -117,7 +118,7 @@ public class SoulGemBlockBlock extends Block {
 	}
 
 	@OnlyIn(Dist.CLIENT)
-	public static void blockColorLoad(ColorHandlerEvent.Block event) {
+	public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 		event.getBlockColors().register((bs, world, pos, index) -> {
 			return world != null && pos != null ? Minecraft.getInstance().level.getBiome(pos).value().getSkyColor() : 8562943;
 		}, NeiModBlocks.SOUL_GEM_BLOCK.get());

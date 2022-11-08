@@ -8,5 +8,6 @@
     "south": "nei:blocks/ancient_leaves",
     "west": "nei:blocks/ancient_leaves",
     "particle": "nei:blocks/ancient_leaves"
-  }
+  },
+  "render_type": "solid"
 }

@@ -6,19 +6,15 @@ package net.hasco.nei.init;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.ParticleFactoryRegisterEvent;
+import net.minecraftforge.client.event.RegisterParticleProvidersEvent;
 import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.core.particles.SimpleParticleType;
-import net.minecraft.client.Minecraft;
 
 import net.hasco.nei.client.particle.AstralFlowerParticleParticle;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class NeiModParticles {
 	@SubscribeEvent
-	public static void registerParticles(ParticleFactoryRegisterEvent event) {
-		Minecraft.getInstance().particleEngine.register((SimpleParticleType) NeiModParticleTypes.ASTRAL_FLOWER_PARTICLE.get(),
-				AstralFlowerParticleParticle::provider);
+	public static void registerParticles(RegisterParticleProvidersEvent event) {
+		event.register(NeiModParticleTypes.ASTRAL_FLOWER_PARTICLE.get(), AstralFlowerParticleParticle::provider);
 	}
 }
