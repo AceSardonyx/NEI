@@ -733,6 +733,130 @@
       "locked_code": false,
       "registry_name": "ancient_lotus",
       "path": "~/Core/Flowers"
+    },
+    {
+      "name": "HopeItTastesGood",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hope_it_tastes_good",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "ConsumedAncientLotus",
+      "type": "procedure",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "consumed_ancient_lotus",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures"
+    },
+    {
+      "name": "StarSilk",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_silk",
+      "path": "~/Core/Flowers/Star"
+    },
+    {
+      "name": "StarFractalSilk",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_fractal_silk",
+      "path": "~/Core/Flowers/Star"
+    },
+    {
+      "name": "StarSilkEssence",
+      "type": "itemextension",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_silk_essence",
+      "path": "~/Core/Flowers/Star"
+    },
+    {
+      "name": "StarFlowerHarvest",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "star_flower_harvest",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Core/Flowers/Star"
+    },
+    {
+      "name": "FractalFromSeeds",
+      "type": "achievement",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fractal_from_seeds",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "IsStarSilkGrowing",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_star_silk_growing",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Core/Flowers/Star"
     }
   ],
   "variable_elements": [],
@@ -887,8 +1011,8 @@
       "block.nei.star_flower": "Star Flower",
       "advancements.it_glows.descr": "What a strange feeling you get from seeing this flower.",
       "block.nei.imperfect_star_flower": "Imperfect Star Flower",
-      "block.nei.fractal_gem_block": "Contained Fractal Block",
       "item.nei.star_cluster": "Star Cluster",
+      "block.nei.fractal_gem_block": "Contained Fractal Block",
       "advancements.fruit_and_granny.descr": "Mere posion, this will not end well.",
       "item.nei.stardust": "Stardust",
       "subtitles.random.astral.splash": "Splashing",
@@ -900,9 +1024,11 @@
       "effect.nei.enlightenment": "Enlightenment",
       "subtitles.sunkist_death": "Sunkist Death",
       "advancements.not_enough_interest.descr": "Are You Interested Yet..?",
+      "advancements.fractal_from_seeds.title": "Fractal From Seeds!?",
       "item.nei.unshaped_particles": "Unshaped Particles",
       "block.nei.ancient_pressure_plate": "Ancient Pressure Plate",
       "advancements.so_it_begins.title": "What\u0027s This?",
+      "advancements.hope_it_tastes_good.descr": "It\u0027s like eating dandilions, but... maybe a little poisonous. Or at least it tastes like it.",
       "advancements.it_glows.title": "Glowing Light...",
       "block.nei.golden_flower": "Golden Flower",
       "block.nei.astral_block": "Astral Block",
@@ -922,15 +1048,18 @@
       "subtitles.mood.astral1": "",
       "advancements.granny_fraulax.descr": "Such a pretty flower for a pretty woman!",
       "advancements.wings_and_the_power_to_fly.title": "Giving You Wings And The Power To Fly!",
+      "item.nei.star_silk": "Star Silk",
       "advancements.a_place_called_home.descr": "A Little Place Called Home... Your Final Destination...",
       "block.nei.ancient_planks": "Ancient Planks",
       "subtitles.mummy": "Mummy",
       "subtitles.sunkist_idle": "Sunkist Screeching",
       "advancements.a_place_called_home.title": "Astral Plains",
       "subtitles.bird": "Bird Noises",
+      "advancements.fractal_from_seeds.descr": "Letting the silk you have grow in water apparently fractalizes it.",
       "item.nei.astral_sword": "Astral Sword Beta \u003d)",
       "block.nei.ancient_log": "Ancient Log",
       "advancements.fruit_and_granny.title": "Fruit \u0026 Granny",
+      "item.nei.star_fractal_silk": "Star Fractal Silk",
       "item.nei.amulet_of_flight_leggings": "Amulet Of Flight Leggings",
       "block.nei.soul_gem_block": "Soul Gem Block",
       "block.nei.ancient_leaves": "Ancient Leaves",
@@ -941,6 +1070,7 @@
       "subtitles.nuke_go_boom": "Nuclear Bomb Set Off",
       "advancements.so_it_begins.descr": "So It Begins... They are all around us...",
       "effect.nei.aura_presense": "Aura",
+      "advancements.hope_it_tastes_good.title": "Forbidden Fruit",
       "subtitles.decayed_zombie": "Decayed Zombie"
     }
   },
@@ -1067,6 +1197,7 @@
     "license": "Creative Commons Attribution-NonCommercial 3.0",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
+    "modPicture": "nei_banner",
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
