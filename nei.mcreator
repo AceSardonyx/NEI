@@ -1631,6 +1631,15 @@
       "locked_code": false,
       "registry_name": "im_dangerous",
       "path": "~/Achivements"
+    },
+    {
+      "name": "TestDog3",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dog_3",
+      "path": "~/Achivements"
     }
   ],
   "variable_elements": [],
@@ -1889,6 +1898,8 @@
       "item.nei.star_silk": "Star Silk",
       "advancements.wings_and_the_power_to_fly.title": "Giving You Wings And The Power To Fly!",
       "advancements.phosphate_group.title": "Not A Phosphate Group!",
+      "advancements.test_dog_3.title": "Sigh Of Dog",
+      "advancements.test_dog_3.descr": "doggy doo doo beta",
       "advancements.phosphor.title": "Phosphor",
       "advancements.from_the_pits_of_hell.descr": "Oh wait... You made that yourself... I thought you found that! Did you?",
       "advancements.fractal_from_seeds.descr": "Letting the silk you have grow in water apparently fractalizes it.",
