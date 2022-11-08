@@ -1607,15 +1607,6 @@
       "path": "~/Procedures"
     },
     {
-      "name": "ImDangerous",
-      "type": "achievement",
-      "sortid": 120,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "im_dangerous",
-      "path": "~/Achivements"
-    },
-    {
       "name": "PlayerHasGoldenFlower",
       "type": "procedure",
       "sortid": 121,
@@ -1631,6 +1622,24 @@
         ]
       },
       "path": "~/Procedures"
+    },
+    {
+      "name": "ImDangerous",
+      "type": "achievement",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "im_dangerous",
+      "path": "~/Achivements"
+    },
+    {
+      "name": "TestDog3",
+      "type": "achievement",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_dog_3",
+      "path": "~/Achivements"
     }
   ],
   "variable_elements": [],
@@ -1786,7 +1795,7 @@
       "item.nei.amulet_of_flight_helmet": "Amulet Of Flight Helmet",
       "block.nei.silver_ore": "Silver Ore",
       "advancements.oh_the_biomes_youll_go.descr": "Wait... There\u0027s plenty of more out there! Congrats on finding 50 biomes!",
-      "advancements.im_dangerous.title": "I\u0027M DANGEROUS I TELL YA",
+      "advancements.im_dangerous.title": "Im Dangerous I Tell Ya, DANGEROUS!",
       "advancements.phosphor.descr": "Your Burden Is Light",
       "item.nei.stardust": "Stardust",
       "advancements.forbidden_knowledge.descr": "Aquire The Book of Avaritia",
@@ -1854,7 +1863,7 @@
       "advancements.oh_the_biomes_youll_go.title": "Oh The Biomes You\u0027ll-",
       "item.nei.contained_aura": "Contained Aura",
       "advancements.a_peculiar_piece.descr": "The way its\u0027 void yearns for any type of energy...",
-      "advancements.im_dangerous.descr": "Break A Red Quartz Sphere.",
+      "advancements.im_dangerous.descr": "Shatter A Red Quartz Orb",
       "subtitles.random.astral.splash": "Splashing",
       "item.nei.nei_icon": "NEI Icon",
       "advancements.nearly_enough_interest.title": "Nearly Enough Intriuge!",
@@ -1889,6 +1898,8 @@
       "item.nei.star_silk": "Star Silk",
       "advancements.wings_and_the_power_to_fly.title": "Giving You Wings And The Power To Fly!",
       "advancements.phosphate_group.title": "Not A Phosphate Group!",
+      "advancements.test_dog_3.title": "Sigh Of Dog",
+      "advancements.test_dog_3.descr": "doggy doo doo beta",
       "advancements.phosphor.title": "Phosphor",
       "advancements.from_the_pits_of_hell.descr": "Oh wait... You made that yourself... I thought you found that! Did you?",
       "advancements.fractal_from_seeds.descr": "Letting the silk you have grow in water apparently fractalizes it.",
@@ -2020,7 +2031,7 @@
   "workspaceSettings": {
     "modid": "nei",
     "modName": "Not Enough Interest",
-    "version": "3.1.5",
+    "version": "3.1.6",
     "description": "NEI or Not Enough Interest is a mod based around magic and the soul. It features breath-taking landscapes and environments and pairs well with shaders. Many things can be found to do in this mod, but instead of spoiling it, go play it! And remember... to stay interested!",
     "author": "Hasco, AceSardonyx, Del",
     "websiteURL": "https://github.com/AceSardonyx/NEI",
