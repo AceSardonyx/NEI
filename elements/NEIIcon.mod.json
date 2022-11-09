@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 1,
+    "onItemInInventoryTick": {
+      "name": "NEIIconItemInHandTick"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,

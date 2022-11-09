@@ -36,8 +36,8 @@ import java.util.Collections;
 
 public class ImperfectStarFlowerBlock extends FlowerBlock {
 	public ImperfectStarFlowerBlock() {
-		super(MobEffects.DAMAGE_BOOST, 1000,
-				BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().lightLevel(s -> 1).noCollission());
+		super(MobEffects.DAMAGE_BOOST, 1000, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak()
+				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true).lightLevel(s -> 1).noCollission());
 	}
 
 	@Override

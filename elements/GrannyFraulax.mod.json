@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Granny Fraulax!",
-    "achievementDescription": "What In The World!?",
+    "achievementDescription": "A beautiful rose for a beautiful woman.",
     "achievementIcon": {
       "value": "Blocks.WITHER_ROSE"
     },
@@ -11,12 +11,12 @@
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 6,
-    "achievementType": "challenge",
+    "achievementType": "goal",
     "parent": {
       "value": "CUSTOM:FruitAndGranny"
     },

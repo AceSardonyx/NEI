@@ -5,7 +5,7 @@
     "achievementName": "A Single Pale Rose",
     "achievementDescription": "From Light It Came.",
     "achievementIcon": {
-      "value": "CUSTOM:RedQuartzSphere"
+      "value": "CUSTOM:ContainedAura"
     },
     "background": "Default",
     "disableDisplay": false,

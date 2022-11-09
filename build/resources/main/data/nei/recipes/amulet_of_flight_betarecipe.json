@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nei:empty_amulet"
+    },
+    {
+      "item": "nei:contained_aura"
+    }
+  ],
+  "result": {
+    "item": "nei:amulet_of_flight_chestplate",
+    "count": 1
+  }
+}

@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Im Dangerous I Tell Ya, DANGEROUS!",
-    "achievementDescription": "Shatter A Red Quartz Orb",
+    "achievementName": "I'M DANGEROUS I TELL YA",
+    "achievementDescription": "With the power to kill Gods, you shatter a Red Quartz Orb",
     "achievementIcon": {
-      "value": "Blocks.FIRE"
+      "value": "CUSTOM:RedQuartzSphere"
     },
     "background": "Default",
     "disableDisplay": false,

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:fire"
+      "item": "nei:red_quartz_sphere"
     },
     "title": {
       "translate": "advancements.im_dangerous.title"

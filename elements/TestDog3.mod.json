@@ -3,20 +3,20 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Sigh Of Dog",
-    "achievementDescription": "doggy doo doo beta",
+    "achievementDescription": "Arf arf!",
     "achievementIcon": {
-      "value": "CUSTOM:PaperLantern"
+      "value": "CUSTOM:SilverNugget"
     },
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": false,
+    "hideIfNotCompleted": true,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
     "rewardXP": 0,
-    "achievementType": "task",
+    "achievementType": "challenge",
     "parent": {
       "value": "CUSTOM:HopeItTastesGood"
     },

@@ -5,13 +5,13 @@
     "achievementName": "Creative Thinking",
     "achievementDescription": "Quite Literally",
     "achievementIcon": {
-      "value": "CUSTOM:Phellium"
+      "value": "CUSTOM:Phellium.bucket"
     },
     "background": "Default",
     "disableDisplay": false,
     "showPopup": true,
     "announceToChat": true,
-    "hideIfNotCompleted": true,
+    "hideIfNotCompleted": false,
     "rewardLoot": [],
     "rewardRecipes": [],
     "rewardFunction": "No function",
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:ALittlePlaceCalledHome"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"32\" y=\"35\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NEIIcon</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block><block type=\"block_placed\" x=\"67\" y=\"146\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BEDROCK</field></block></value></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"178\" y=\"19\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">Blocks.BEDROCK</field></block></value></block><block type=\"item_in_inventory\" x=\"159\" y=\"80\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">64</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:NEIIcon</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

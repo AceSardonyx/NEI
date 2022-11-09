@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wither_rose"
+    },
+    "title": {
+      "translate": "advancements.forbidden_fruit.title"
+    },
+    "description": {
+      "translate": "advancements.forbidden_fruit.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "forbidden_fruit": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "nei:franny_dynomax"
+}

@@ -32,6 +32,7 @@ import net.hasco.nei.init.NeiModMobEffects;
 import net.hasco.nei.init.NeiModItems;
 import net.hasco.nei.init.NeiModFluids;
 import net.hasco.nei.init.NeiModFeatures;
+import net.hasco.nei.init.NeiModEntities;
 import net.hasco.nei.init.NeiModBlocks;
 import net.hasco.nei.init.NeiModBlockEntities;
 import net.hasco.nei.init.NeiModBiomes;
@@ -54,7 +55,7 @@ public class NeiMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		NeiModBlocks.REGISTRY.register(bus);
 		NeiModItems.REGISTRY.register(bus);
-
+		NeiModEntities.REGISTRY.register(bus);
 		NeiModBlockEntities.REGISTRY.register(bus);
 		NeiModFeatures.REGISTRY.register(bus);
 		NeiModFluids.REGISTRY.register(bus);

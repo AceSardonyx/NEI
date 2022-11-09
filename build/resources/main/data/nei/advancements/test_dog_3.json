@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:paper_lantern"
+      "item": "nei:silver_nugget"
     },
     "title": {
       "translate": "advancements.test_dog_3.title"
@@ -9,10 +9,10 @@
     "description": {
       "translate": "advancements.test_dog_3.descr"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "test_dog_3": {

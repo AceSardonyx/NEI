@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Fruit & Granny",
-    "achievementDescription": "This Will Not End Well.",
+    "achievementDescription": "Elegant enough it is. But this may not end well.",
     "achievementIcon": {
       "value": "CUSTOM:Particles"
     },

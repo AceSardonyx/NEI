@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:moss_block"
+    },
+    "title": {
+      "translate": "advancements.terria_pax.title"
+    },
+    "description": {
+      "translate": "advancements.terria_pax.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "terria_pax": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "nei:franny_dynomax"
+}

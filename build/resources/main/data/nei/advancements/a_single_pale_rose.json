@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:red_quartz_sphere"
+      "item": "nei:contained_aura"
     },
     "title": {
       "translate": "advancements.a_single_pale_rose.title"

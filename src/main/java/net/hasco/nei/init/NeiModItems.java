@@ -7,6 +7,7 @@ package net.hasco.nei.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -29,12 +30,14 @@ import net.hasco.nei.item.ParticlesItem;
 import net.hasco.nei.item.NitrophosphateItem;
 import net.hasco.nei.item.NEIIconItem;
 import net.hasco.nei.item.FractalItem;
+import net.hasco.nei.item.EmptyAmuletItem;
 import net.hasco.nei.item.ContainedAuraItem;
 import net.hasco.nei.item.BookOfAvaritiaItem;
 import net.hasco.nei.item.AstralTomeItem;
 import net.hasco.nei.item.AstralSwordBetaItem;
 import net.hasco.nei.item.AstralPlainItem;
 import net.hasco.nei.item.AncientLotusItem;
+import net.hasco.nei.item.AmuletPieceItem;
 import net.hasco.nei.item.AmuletOfFlightItem;
 import net.hasco.nei.NeiMod;
 
@@ -92,6 +95,10 @@ public class NeiModItems {
 	public static final RegistryObject<Item> PAPER_LANTERN = block(NeiModBlocks.PAPER_LANTERN, NeiModTabs.TAB_NEI);
 	public static final RegistryObject<Item> OAK_LANTERN = block(NeiModBlocks.OAK_LANTERN, NeiModTabs.TAB_NEI);
 	public static final RegistryObject<Item> PARTICLES = REGISTRY.register("particles", () -> new ParticlesItem());
+	public static final RegistryObject<Item> EMPTY_AMULET = REGISTRY.register("empty_amulet", () -> new EmptyAmuletItem());
+	public static final RegistryObject<Item> AMULET_PIECE = REGISTRY.register("amulet_piece", () -> new AmuletPieceItem());
+	public static final RegistryObject<Item> ASTRAL_WATCHER = REGISTRY.register("astral_watcher_spawn_egg",
+			() -> new ForgeSpawnEggItem(NeiModEntities.ASTRAL_WATCHER, -13104545, -4738049, new Item.Properties().tab(NeiModTabs.TAB_NEI)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

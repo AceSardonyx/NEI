@@ -9,10 +9,10 @@
     "description": {
       "translate": "advancements.granny_fraulax.descr"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "granny_fraulax": {

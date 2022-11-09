@@ -1,0 +1,122 @@
+{
+  "_fv": 34,
+  "_type": "livingentity",
+  "definition": {
+    "mobName": "Astral Watcher",
+    "mobLabel": "",
+    "mobModelName": "Biped",
+    "mobModelTexture": "astral_watcher.png",
+    "mobModelGlowTexture": "astral_god.png",
+    "modelWidth": 1.7000000000000002,
+    "modelHeight": 2.7,
+    "modelShadowSize": 1.7000000000000002,
+    "mountedYOffset": 0.7000000000000001,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -13104545,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -4738049,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "CUSTOM:NEI"
+    },
+    "isBoss": true,
+    "bossBarColor": "BLUE",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": "CUSTOM:AstralSwordBeta"
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": "CUSTOM:AmuletOfFlight.body"
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 20,
+    "attackKnockback": 5.0,
+    "knockbackResistance": 100.0,
+    "movementSpeed": 0.7,
+    "armorBaseValue": 70.0,
+    "trackingRange": 64,
+    "followRange": 50,
+    "health": 100,
+    "xpAmount": 0,
+    "waterMob": false,
+    "flyingMob": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "disableCollisions": false,
+    "ridable": true,
+    "canControlForward": true,
+    "canControlStrafe": true,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": true,
+    "immuneToCactus": true,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": true,
+    "immuneToPlayer": false,
+    "immuneToExplosion": false,
+    "immuneToTrident": false,
+    "immuneToAnvil": true,
+    "immuneToWither": true,
+    "immuneToDragonBreath": true,
+    "mobDrop": {
+      "value": "CUSTOM:AstralBlock"
+    },
+    "livingSound": {
+      "value": "CUSTOM:sunkist_idle"
+    },
+    "hurtSound": {
+      "value": "CUSTOM:sunkist_hurt"
+    },
+    "deathSound": {
+      "value": "CUSTOM:sunkist_death"
+    },
+    "stepSound": {
+      "value": "block.amethyst_cluster.step"
+    },
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "CUSTOM:AstralFlowerParticle"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 1.7,
+    "particleAmount": 1,
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"138\" y=\"63\"><next><block type=\"wander\"><field name=\"speed\">1</field><field name=\"condition\">null,null</field><next><block type=\"attack_action\"><field name=\"callhelp\">FALSE</field><field name=\"condition\">null,null</field><next><block type=\"look_around\"><field name=\"condition\">null,null</field></block></next></block></next></block></next></block><block type=\"attack_on_collide\" x=\"709\" y=\"140\"><field name=\"speed\">1.2</field><field name=\"longmemory\">FALSE</field><field name=\"condition\">null,null</field></block><block type=\"swim_in_water\" x=\"758\" y=\"225\"><field name=\"condition\">null,null</field></block></xml>",
+    "breedable": false,
+    "tameable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "rangedItemType": "Default item",
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 4,
+    "maxNumberOfMobsPerGroup": 4,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

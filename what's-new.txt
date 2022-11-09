@@ -12,4 +12,17 @@ Not Enough Interest 3.1.5 Beta
 
 Not Enough Interest 3.1.6 Beta
 
-- Currently Being Worked On
+- Lantern achievements
+- Added achievement for breaking a red quartz sphere
+- Updates on unshaped particles
+- Added beta version of astral watcher
+- Work has been done on the empty amult.
+  It has a recipe for the flight amulet which will likely be removed in the future.
+
+- Tweaked red quartz sphere lightning time (also added a message if used in creative)
+
+~----------~
+
+Not Enough Interest 3.1.7
+
+- Currently being worked on

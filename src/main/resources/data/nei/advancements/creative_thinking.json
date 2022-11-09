@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "nei:phellium"
+      "item": "nei:phellium_bucket"
     },
     "title": {
       "translate": "advancements.creative_thinking.title"
@@ -12,7 +12,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
   "criteria": {
     "creative_thinking": {

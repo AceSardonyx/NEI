@@ -31,62 +31,69 @@ public class StarSilkItemIsDroppedByPlayerProcedure {
 		if (entity == null)
 			return;
 		if (entity.isInWaterRainOrBubble()) {
-			for (int index0 = 0; index0 < (int) (1); index0++) {
-				if (world instanceof Level _level) {
-					if (!_level.isClientSide()) {
-						_level.playSound(null, new BlockPos(x, y, z),
-								ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.fire.ambient")), SoundSource.AMBIENT, 5, 2);
-					} else {
-						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.fire.ambient")),
-								SoundSource.AMBIENT, 5, 2, false);
-					}
+			if (world instanceof Level _level) {
+				if (!_level.isClientSide()) {
+					_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.fire.ambient")),
+							SoundSource.AMBIENT, 5, 2);
+				} else {
+					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.fire.ambient")),
+							SoundSource.AMBIENT, 5, 2, false);
 				}
-				if (world instanceof Level _level && !_level.isClientSide()) {
-					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(NeiModItems.STAR_FRACTAL_SILK.get()));
-					entityToSpawn.setPickUpDelay(0);
-					_level.addFreshEntity(entityToSpawn);
-				}
-				world.levelEvent(2001, new BlockPos(x, y, z), Block.getId(NeiModBlocks.ASTRAL_BLOCK.get().defaultBlockState()));
-				if (entity instanceof ServerPlayer _player) {
-					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nei:not_enough_interest"));
-					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-					if (!_ap.isDone()) {
-						Iterator _iterator = _ap.getRemainingCriteria().iterator();
-						while (_iterator.hasNext())
-							_player.getAdvancements().award(_adv, (String) _iterator.next());
-					}
-				}
-				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("This Feature Is Not Complete"), (true));
-				class StarSilkItemIsDroppedByPlayerWait7 {
-					private int ticks = 0;
-					private float waitTicks;
-					private LevelAccessor world;
-
-					public void start(LevelAccessor world, int waitTicks) {
-						this.waitTicks = waitTicks;
-						this.world = world;
-						MinecraftForge.EVENT_BUS.register(StarSilkItemIsDroppedByPlayerWait7.this);
-					}
-
-					@SubscribeEvent
-					public void tick(TickEvent.ServerTickEvent event) {
-						if (event.phase == TickEvent.Phase.END) {
-							StarSilkItemIsDroppedByPlayerWait7.this.ticks += 1;
-							if (StarSilkItemIsDroppedByPlayerWait7.this.ticks >= StarSilkItemIsDroppedByPlayerWait7.this.waitTicks)
-								run();
-						}
-					}
-
-					private void run() {
-						MinecraftForge.EVENT_BUS.unregister(StarSilkItemIsDroppedByPlayerWait7.this);
-						if (entity instanceof Player _player && !_player.level.isClientSide())
-							_player.displayClientMessage(new TextComponent("Yes, We Know It's Infinite (For Now)"), (true));
-					}
-				}
-				new StarSilkItemIsDroppedByPlayerWait7().start(world, 100);
 			}
-		} else {
+			if (world instanceof Level _level && !_level.isClientSide()) {
+				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(NeiModItems.STAR_FRACTAL_SILK.get()));
+				entityToSpawn.setPickUpDelay(0);
+				_level.addFreshEntity(entityToSpawn);
+			}
+			world.levelEvent(2001, new BlockPos(x, y, z), Block.getId(NeiModBlocks.ASTRAL_BLOCK.get().defaultBlockState()));
+			if (entity instanceof ServerPlayer _player) {
+				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nei:not_enough_interest"));
+				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+				if (!_ap.isDone()) {
+					Iterator _iterator = _ap.getRemainingCriteria().iterator();
+					while (_iterator.hasNext())
+						_player.getAdvancements().award(_adv, (String) _iterator.next());
+				}
+			}
+			if (entity instanceof ServerPlayer _player) {
+				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nei:fractal_from_seeds"));
+				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+				if (!_ap.isDone()) {
+					Iterator _iterator = _ap.getRemainingCriteria().iterator();
+					while (_iterator.hasNext())
+						_player.getAdvancements().award(_adv, (String) _iterator.next());
+				}
+			}
+			if (entity instanceof Player _player && !_player.level.isClientSide())
+				_player.displayClientMessage(new TextComponent("This Feature Is Not Complete"), (true));
+			class StarSilkItemIsDroppedByPlayerWait8 {
+				private int ticks = 0;
+				private float waitTicks;
+				private LevelAccessor world;
+
+				public void start(LevelAccessor world, int waitTicks) {
+					this.waitTicks = waitTicks;
+					this.world = world;
+					MinecraftForge.EVENT_BUS.register(StarSilkItemIsDroppedByPlayerWait8.this);
+				}
+
+				@SubscribeEvent
+				public void tick(TickEvent.ServerTickEvent event) {
+					if (event.phase == TickEvent.Phase.END) {
+						StarSilkItemIsDroppedByPlayerWait8.this.ticks += 1;
+						if (StarSilkItemIsDroppedByPlayerWait8.this.ticks >= StarSilkItemIsDroppedByPlayerWait8.this.waitTicks)
+							run();
+					}
+				}
+
+				private void run() {
+					MinecraftForge.EVENT_BUS.unregister(StarSilkItemIsDroppedByPlayerWait8.this);
+					if (entity instanceof Player _player && !_player.level.isClientSide())
+						_player.displayClientMessage(new TextComponent("Yes, We Know It's Infinite (For Now)"), (true));
+				}
+			}
+			new StarSilkItemIsDroppedByPlayerWait8().start(world, 50);
+		} else if (entity.isInWaterRainOrBubble()) {
 			world.addParticle(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 0, 1, 0);
 			world.addParticle(ParticleTypes.ENCHANTED_HIT, x, y, z, 0, 1, 0);
 		}
