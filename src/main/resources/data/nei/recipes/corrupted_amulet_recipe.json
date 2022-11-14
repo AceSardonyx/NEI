@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nei:empty_amulet"
+    },
+    {
+      "item": "nei:particles"
+    },
+    {
+      "item": "minecraft:wither_rose"
+    },
+    {
+      "item": "nei:fractal"
+    }
+  ],
+  "result": {
+    "item": "nei:corrupted_amulet_chestplate",
+    "count": 1
+  }
+}

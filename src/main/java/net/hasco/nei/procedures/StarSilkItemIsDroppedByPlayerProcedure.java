@@ -66,33 +66,32 @@ public class StarSilkItemIsDroppedByPlayerProcedure {
 			}
 			if (entity instanceof Player _player && !_player.level.isClientSide())
 				_player.displayClientMessage(new TextComponent("This Feature Is Not Complete"), (true));
-			class StarSilkItemIsDroppedByPlayerWait8 {
+			new Object() {
 				private int ticks = 0;
 				private float waitTicks;
 				private LevelAccessor world;
 
 				public void start(LevelAccessor world, int waitTicks) {
 					this.waitTicks = waitTicks;
+					MinecraftForge.EVENT_BUS.register(this);
 					this.world = world;
-					MinecraftForge.EVENT_BUS.register(StarSilkItemIsDroppedByPlayerWait8.this);
 				}
 
 				@SubscribeEvent
 				public void tick(TickEvent.ServerTickEvent event) {
 					if (event.phase == TickEvent.Phase.END) {
-						StarSilkItemIsDroppedByPlayerWait8.this.ticks += 1;
-						if (StarSilkItemIsDroppedByPlayerWait8.this.ticks >= StarSilkItemIsDroppedByPlayerWait8.this.waitTicks)
+						this.ticks += 1;
+						if (this.ticks >= this.waitTicks)
 							run();
 					}
 				}
 
 				private void run() {
-					MinecraftForge.EVENT_BUS.unregister(StarSilkItemIsDroppedByPlayerWait8.this);
 					if (entity instanceof Player _player && !_player.level.isClientSide())
 						_player.displayClientMessage(new TextComponent("Yes, We Know It's Infinite (For Now)"), (true));
+					MinecraftForge.EVENT_BUS.unregister(this);
 				}
-			}
-			new StarSilkItemIsDroppedByPlayerWait8().start(world, 50);
+			}.start(world, 50);
 		} else if (entity.isInWaterRainOrBubble()) {
 			world.addParticle(ParticleTypes.TOTEM_OF_UNDYING, x, y, z, 0, 1, 0);
 			world.addParticle(ParticleTypes.ENCHANTED_HIT, x, y, z, 0, 1, 0);

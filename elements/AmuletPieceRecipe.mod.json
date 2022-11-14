@@ -13,7 +13,7 @@
         "value": "Items.GOLD_NUGGET"
       },
       {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.DYE#5"
       },
       {
         "value": "Items.GOLD_NUGGET"
@@ -22,7 +22,7 @@
         "value": "Items.GOLD_INGOT"
       },
       {
-        "value": "Blocks.WOOL#10"
+        "value": "CUSTOM:EyeFrame"
       },
       {
         "value": "Items.GOLD_INGOT"

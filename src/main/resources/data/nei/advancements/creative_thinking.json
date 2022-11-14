@@ -12,7 +12,7 @@
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "criteria": {
     "creative_thinking": {
@@ -32,5 +32,5 @@
       }
     }
   },
-  "parent": "nei:a_little_place_called_home"
+  "parent": "nei:great_thinking"
 }

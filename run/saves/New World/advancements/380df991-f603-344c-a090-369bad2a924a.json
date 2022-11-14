@@ -1,462 +1,225 @@
 {
-  "minecraft:recipes/tools/fishing_rod": {
+  "minecraft:recipes/decorations/item_frame": {
     "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
+      "has_leather": "2022-11-11 10:39:49 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/pink_concrete_powder": {
+  "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/bow": {
-    "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2022-11-09 09:30:42 -0500"
+      "has_leather": "2022-11-11 10:39:49 -0500"
     },
     "done": true
   },
   "nei:a_little_place_called_home": {
     "criteria": {
-      "a_little_place_called_home": "2022-11-09 08:27:02 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purple_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
+      "a_little_place_called_home": "2022-11-11 10:36:38 -0500"
     },
     "done": true
   },
   "minecraft:adventure/kill_a_mob": {
     "criteria": {
-      "minecraft:zombie": "2022-11-09 09:48:04 -0500"
+      "minecraft:skeleton": "2022-11-11 10:39:12 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/magenta_concrete_powder": {
+  "minecraft:recipes/combat/spectral_arrow": {
     "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/purple_bed": {
-    "criteria": {
-      "has_purple_wool": "2022-11-09 09:34:53 -0500"
-    },
-    "done": true
-  },
-  "nei:granny_fraulax": {
-    "criteria": {
-      "granny_fraulax": "2022-11-09 08:47:33 -0500"
-    },
-    "done": true
-  },
-  "nei:fruit_and_granny": {
-    "criteria": {
-      "fruit_and_granny": "2022-11-09 08:47:23 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/loom": {
-    "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_chestplate": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/lime_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_axe": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "nei:creative_thinking": {
-    "criteria": {
-      "creative_thinking": "2022-11-09 09:44:55 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/yellow_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:taiga": "2022-11-09 08:26:50 -0500",
-      "minecraft:beach": "2022-11-09 09:40:54 -0500",
-      "minecraft:stony_shore": "2022-11-09 09:30:56 -0500",
-      "minecraft:cold_ocean": "2022-11-09 10:05:26 -0500"
-    },
-    "done": false
-  },
-  "minecraft:recipes/combat/diamond_leggings": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/candle": {
-    "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sandstone": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2022-11-09 08:44:38 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/chest": {
-    "criteria": {
-      "has_lots_of_items": "2022-11-09 09:31:18 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "in_water": "2022-11-09 09:47:45 -0500"
-    },
-    "done": true
-  },
-  "nei:im_dangerous": {
-    "criteria": {
-      "im_dangerous": "2022-11-09 09:44:12 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brown_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "nei:make_light": {
-    "criteria": {
-      "make_light": "2022-11-09 08:44:21 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/painting": {
-    "criteria": {
-      "has_wool": "2022-11-09 09:34:53 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/green_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/purple_carpet": {
-    "criteria": {
-      "has_purple_wool": "2022-11-09 09:34:53 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "in_water": "2022-11-09 09:47:45 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/diamond_sword": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_by_something": "2022-11-09 09:27:32 -0500"
-    },
-    "done": true
-  },
-  "nei:not_enough_interest": {
-    "criteria": {
-      "not_enough_interest": "2022-11-09 08:40:31 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "in_water": "2022-11-09 09:47:45 -0500"
-    },
-    "done": true
-  },
-  "nei:wings_and_the_power_to_fly": {
-    "criteria": {
-      "wings_and_the_power_to_fly": "2022-11-09 09:48:27 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/jukebox": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "in_water": "2022-11-09 09:47:45 -0500"
-    },
-    "done": true
-  },
-  "nei:peace_on_earth": {
-    "criteria": {
-      "peace_on_earth": "2022-11-09 09:29:21 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diamond_block": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/white_wool_from_string": {
-    "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "in_water": "2022-11-09 09:47:45 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/gray_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_pickaxe": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_hoe": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_shovel": {
-    "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
+      "has_glowstone_dust": "2022-11-11 09:46:35 -0500"
     },
     "done": true
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:skeleton": "2022-11-09 10:04:30 -0500",
-      "minecraft:enderman": "2022-11-09 10:04:36 -0500",
-      "minecraft:zombie": "2022-11-09 09:48:04 -0500"
+      "minecraft:skeleton": "2022-11-11 10:39:12 -0500",
+      "minecraft:zombie": "2022-11-11 10:39:22 -0500"
     },
     "done": false
   },
+  "nei:death_angel": {
+    "criteria": {
+      "death_angel": "2022-11-11 10:22:22 -0500"
+    },
+    "done": true
+  },
   "nei:from_the_pits_of_hell": {
     "criteria": {
-      "from_the_pits_of_hell": "2022-11-09 08:27:28 -0500"
+      "from_the_pits_of_hell": "2022-11-11 10:36:53 -0500"
     },
     "done": true
   },
-  "nei:phosphor": {
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
     "criteria": {
-      "phosphor": "2022-11-09 08:44:32 -0500"
+      "has_purple_dye": "2022-11-11 10:37:19 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/tripwire_hook": {
+  "nei:granny_fraulax": {
     "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
+      "granny_fraulax": "2022-11-11 10:37:06 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/misc/bone_meal": {
+  "nei:fruit_and_granny": {
     "criteria": {
-      "has_bone": "2022-11-09 09:52:15 -0500"
+      "fruit_and_granny": "2022-11-11 10:37:01 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/black_concrete_powder": {
+  "minecraft:recipes/building_blocks/glowstone": {
     "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
+      "has_glowstone_dust": "2022-11-11 09:46:35 -0500"
+    },
+    "done": true
+  },
+  "nei:creative_thinking": {
+    "criteria": {
+      "creative_thinking": "2022-11-11 10:36:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2022-11-11 10:39:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2022-11-11 09:45:44 -0500",
+      "minecraft:beach": "2022-11-11 10:39:03 -0500"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2022-11-11 09:46:35 -0500"
+    },
+    "done": true
+  },
+  "nei:great_thinking": {
+    "criteria": {
+      "great_thinking": "2022-11-11 10:35:39 -0500"
     },
     "done": true
   },
   "nei:make_shift": {
     "criteria": {
-      "make_shift": "2022-11-09 08:41:44 -0500"
+      "make_shift": "2022-11-11 09:46:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2022-11-11 10:37:01 -0500"
     },
     "done": true
   },
   "nei:so_it_begins": {
     "criteria": {
-      "so_it_begins": "2022-11-09 09:27:54 -0500"
+      "so_it_begins": "2022-11-11 09:46:35 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/purple_banner": {
+  "minecraft:recipes/decorations/chest": {
     "criteria": {
-      "has_purple_wool": "2022-11-09 09:34:53 -0500"
+      "has_lots_of_items": "2022-11-11 09:46:35 -0500"
     },
     "done": true
   },
-  "nei:the_easy_way_out": {
+  "minecraft:recipes/decorations/cartography_table": {
     "criteria": {
-      "the_easy_way_out": "2022-11-09 09:41:33 -0500"
+      "has_paper": "2022-11-11 09:46:35 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_boots": {
+  "nei:make_light": {
     "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
+      "make_light": "2022-11-11 10:06:55 -0500"
     },
     "done": true
   },
-  "minecraft:story/mine_diamond": {
+  "nei:heresey": {
     "criteria": {
-      "diamond": "2022-11-09 09:41:49 -0500"
+      "heresey": "2022-11-11 10:41:01 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/combat/diamond_helmet": {
+  "nei:know_the_game": {
     "criteria": {
-      "has_diamond": "2022-11-09 09:41:49 -0500"
+      "know_the_game": "2022-11-11 10:41:04 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/combat/crossbow": {
+  "minecraft:recipes/decorations/purple_carpet_from_white_carpet": {
     "criteria": {
-      "has_string": "2022-11-09 09:27:58 -0500"
+      "has_purple_dye": "2022-11-11 10:37:19 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "minecraft:recipes/decorations/purple_candle": {
     "criteria": {
-      "in_water": "2022-11-09 09:47:45 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_gray_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/light_blue_concrete_powder": {
-    "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
-    "criteria": {
-      "has_porkchop": "2022-11-09 09:30:42 -0500"
+      "has_purple_dye": "2022-11-11 10:37:19 -0500"
     },
     "done": true
   },
   "nei:test_dog_3": {
     "criteria": {
-      "test_dog_3": "2022-11-09 10:03:36 -0500"
+      "test_dog_3": "2022-11-11 10:22:22 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop": {
+  "minecraft:adventure/root": {
     "criteria": {
-      "has_porkchop": "2022-11-09 09:30:42 -0500"
+      "killed_something": "2022-11-11 10:39:12 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/orange_concrete_powder": {
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
     "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
+      "has_purple_dye": "2022-11-11 10:37:19 -0500"
     },
     "done": true
   },
-  "nei:phosphate_group": {
+  "minecraft:recipes/combat/leather_boots": {
     "criteria": {
-      "phosphate_group": "2022-11-09 08:44:38 -0500"
+      "has_leather": "2022-11-11 10:39:49 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/cyan_concrete_powder": {
+  "nei:not_enough_interest": {
     "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
+      "not_enough_interest": "2022-11-11 09:46:35 -0500"
     },
     "done": true
   },
-  "nei:it_glows": {
+  "nei:wings_and_the_power_to_fly": {
     "criteria": {
-      "it_glows": "2022-11-09 08:40:08 -0500"
+      "wings_and_the_power_to_fly": "2022-11-11 10:41:34 -0500"
     },
     "done": true
   },
-  "nei:fallen_angel": {
+  "nei:into_the_sky": {
     "criteria": {
-      "fallen_angel": "2022-11-09 10:08:47 -0500"
+      "into_the_sky": "2022-11-11 10:35:53 -0500"
     },
     "done": true
   },
-  "nei:a_single_pale_rose": {
+  "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
-      "a_single_pale_rose": "2022-11-09 08:45:08 -0500"
+      "has_leather": "2022-11-11 10:39:49 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/glass": {
+  "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
-      "has_sand": "2022-11-09 09:52:06 -0500"
+      "has_leather": "2022-11-11 10:39:49 -0500"
+    },
+    "done": true
+  },
+  "nei:peace_on_earth": {
+    "criteria": {
+      "peace_on_earth": "2022-11-11 10:40:05 -0500"
     },
     "done": true
   },

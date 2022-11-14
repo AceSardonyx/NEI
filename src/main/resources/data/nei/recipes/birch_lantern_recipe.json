@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:birch_planks"
+    },
+    "2": {
+      "item": "minecraft:birch_planks"
+    },
+    "4": {
+      "item": "nei:paper_lantern"
+    },
+    "6": {
+      "item": "minecraft:birch_planks"
+    },
+    "8": {
+      "item": "minecraft:birch_planks"
+    }
+  },
+  "result": {
+    "item": "nei:birch_lantern",
+    "count": 5
+  }
+}

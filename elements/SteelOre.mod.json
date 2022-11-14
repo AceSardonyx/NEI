@@ -124,7 +124,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:AstralPlain"
     ],
     "restrictionBiomes": [
       {

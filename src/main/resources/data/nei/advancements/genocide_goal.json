@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:astral_sword_beta"
+    },
+    "title": {
+      "translate": "advancements.genocide_goal.title"
+    },
+    "description": {
+      "translate": "advancements.genocide_goal.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "genocide_goal": {
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:astral_sword_beta"
+          ],
+          "durability": {
+            "min": 0,
+            "max": 50
+          }
+        }
+      }
+    }
+  },
+  "parent": "nei:death_angel"
+}

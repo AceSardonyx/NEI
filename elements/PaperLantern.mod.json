@@ -26,10 +26,10 @@
       {
         "mx": 2.3000000000000003,
         "my": 2.3000000000000003,
-        "mz": 2.3,
+        "mz": 0.0,
         "Mx": 13.700000000000001,
-        "My": 13.7,
-        "Mz": 13.700000000000001,
+        "My": 13.700000000000001,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
@@ -67,7 +67,7 @@
     "creativePickItem": {
       "value": ""
     },
-    "offsetType": "NONE",
+    "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
     "flammability": 30,
     "fireSpreadSpeed": 0,

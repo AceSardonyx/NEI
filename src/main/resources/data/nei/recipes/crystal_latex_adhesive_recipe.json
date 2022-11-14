@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nei:slime_powder"
+    },
+    {
+      "item": "nei:steel_nugget"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "nei:star_silk"
+    }
+  ],
+  "result": {
+    "item": "nei:crystal_latex_adhesive",
+    "count": 1
+  }
+}

@@ -124,7 +124,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "spawnWorldTypes": [
-      "Surface"
+      "CUSTOM:AstralPlain"
     ],
     "restrictionBiomes": [
       {
@@ -233,8 +233,8 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 5,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 3,
     "minGenerateHeight": -64,
     "maxGenerateHeight": -16
   }

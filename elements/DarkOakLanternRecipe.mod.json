@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PLANKS#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PaperLantern"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#5"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#5"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DarkOakLantern"
+    },
+    "name": "dark_oak_lantern_recipe",
+    "namespace": "mod"
+  }
+}

@@ -37,28 +37,27 @@ public class PlayerEntersAstralPlainProcedure {
 				? _plr.getAdvancements().getOrStartProgress(_plr.server.getAdvancements().getAdvancement(new ResourceLocation("nei:into_the_sky")))
 						.isDone()
 				: false) {
-			class PlayerEntersAstralPlainWait3 {
+			new Object() {
 				private int ticks = 0;
 				private float waitTicks;
 				private LevelAccessor world;
 
 				public void start(LevelAccessor world, int waitTicks) {
 					this.waitTicks = waitTicks;
+					MinecraftForge.EVENT_BUS.register(this);
 					this.world = world;
-					MinecraftForge.EVENT_BUS.register(PlayerEntersAstralPlainWait3.this);
 				}
 
 				@SubscribeEvent
 				public void tick(TickEvent.ServerTickEvent event) {
 					if (event.phase == TickEvent.Phase.END) {
-						PlayerEntersAstralPlainWait3.this.ticks += 1;
-						if (PlayerEntersAstralPlainWait3.this.ticks >= PlayerEntersAstralPlainWait3.this.waitTicks)
+						this.ticks += 1;
+						if (this.ticks >= this.waitTicks)
 							run();
 					}
 				}
 
 				private void run() {
-					MinecraftForge.EVENT_BUS.unregister(PlayerEntersAstralPlainWait3.this);
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nei:a_little_place_called_home"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -77,9 +76,9 @@ public class PlayerEntersAstralPlainProcedure {
 								_player.getAdvancements().award(_adv, (String) _iterator.next());
 						}
 					}
+					MinecraftForge.EVENT_BUS.unregister(this);
 				}
-			}
-			new PlayerEntersAstralPlainWait3().start(world, 100);
+			}.start(world, 100);
 		}
 	}
 }

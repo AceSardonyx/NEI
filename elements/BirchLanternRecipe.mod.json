@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PaperLantern"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.PLANKS#2"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BirchLantern"
+    },
+    "name": "birch_lantern_recipe",
+    "namespace": "mod"
+  }
+}

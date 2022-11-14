@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:corrupted_amulet_chestplate"
+    },
+    "title": {
+      "translate": "advancements.know_the_game.title"
+    },
+    "description": {
+      "translate": "advancements.know_the_game.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "know_the_game": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nei:corrupted_amulet_chestplate"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nei:heresey"
+}

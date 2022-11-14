@@ -57,7 +57,8 @@ public class SteelOreFeature extends OreFeature {
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("badlands"), new ResourceLocation("grove"),
 			new ResourceLocation("sunflower_plains"), new ResourceLocation("wooded_badlands"), new ResourceLocation("lush_caves"),
 			new ResourceLocation("swamp"), new ResourceLocation("nei:astral_field"), new ResourceLocation("meadow"));
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("nei:astral_plain")));
 
 	public SteelOreFeature() {
 		super(OreConfiguration.CODEC);

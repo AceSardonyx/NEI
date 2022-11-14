@@ -9,6 +9,7 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MaterialColor;
@@ -46,7 +47,7 @@ public class PaperLanternBlock extends Block implements SimpleWaterloggedBlock
 	public PaperLanternBlock() {
 		super(BlockBehaviour.Properties.of(Material.BUILDABLE_GLASS, MaterialColor.TERRACOTTA_GRAY).sound(SoundType.BAMBOO_SAPLING)
 				.strength(2.5f, 10f).lightLevel(s -> 15).noOcclusion().hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true)
-				.isRedstoneConductor((bs, br, bp) -> false));
+				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
 
@@ -57,8 +58,8 @@ public class PaperLanternBlock extends Block implements SimpleWaterloggedBlock
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-
-		return box(2.3000000000000003, 2.3000000000000003, 2.3, 13.700000000000001, 13.7, 13.700000000000001);
+		Vec3 offset = state.getOffset(world, pos);
+		return box(2.3000000000000003, 2.3000000000000003, 0, 13.700000000000001, 13.700000000000001, 16).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override
@@ -89,6 +90,11 @@ public class PaperLanternBlock extends Block implements SimpleWaterloggedBlock
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 30;
+	}
+
+	@Override
+	public Block.OffsetType getOffsetType() {
+		return Block.OffsetType.XZ;
 	}
 
 	@Override

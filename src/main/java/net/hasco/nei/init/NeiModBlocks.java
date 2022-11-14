@@ -19,18 +19,22 @@ import net.hasco.nei.block.TestDog1Block;
 import net.hasco.nei.block.SteelOreBlock;
 import net.hasco.nei.block.SteelBlockBlock;
 import net.hasco.nei.block.StarFlowerBlock;
+import net.hasco.nei.block.SpruceLanternBlock;
 import net.hasco.nei.block.SoulGemBlockBlock;
 import net.hasco.nei.block.SilverOreBlock;
 import net.hasco.nei.block.SilverBlockBlock;
 import net.hasco.nei.block.PhelliumBlock;
 import net.hasco.nei.block.PaperLanternBlock;
 import net.hasco.nei.block.OakLanternBlock;
+import net.hasco.nei.block.JungleLanternBlock;
 import net.hasco.nei.block.ImperfectStarFlowerBlock;
 import net.hasco.nei.block.GoldenFlowerBlock;
 import net.hasco.nei.block.FractalOreBlock;
 import net.hasco.nei.block.FractalBlockBlock;
 import net.hasco.nei.block.DeepslateSteelOreBlock;
 import net.hasco.nei.block.DeepslateSilverOreBlock;
+import net.hasco.nei.block.DarkOakLanternBlock;
+import net.hasco.nei.block.BirchLanternBlock;
 import net.hasco.nei.block.AstralPlainPortalBlock;
 import net.hasco.nei.block.AstralBlockBlock;
 import net.hasco.nei.block.AncientWoodBlock;
@@ -42,9 +46,11 @@ import net.hasco.nei.block.AncientPortalFrameBlock;
 import net.hasco.nei.block.AncientPlanksBlock;
 import net.hasco.nei.block.AncientLogBlock;
 import net.hasco.nei.block.AncientLeavesBlock;
+import net.hasco.nei.block.AncientLanternBlock;
 import net.hasco.nei.block.AncientFenceGateBlock;
 import net.hasco.nei.block.AncientFenceBlock;
 import net.hasco.nei.block.AncientButtonBlock;
+import net.hasco.nei.block.AcaciaLanternBlock;
 import net.hasco.nei.NeiMod;
 
 public class NeiModBlocks {
@@ -82,6 +88,12 @@ public class NeiModBlocks {
 	public static final RegistryObject<Block> SOUL_GEM_BLOCK = REGISTRY.register("soul_gem_block", () -> new SoulGemBlockBlock());
 	public static final RegistryObject<Block> PAPER_LANTERN = REGISTRY.register("paper_lantern", () -> new PaperLanternBlock());
 	public static final RegistryObject<Block> OAK_LANTERN = REGISTRY.register("oak_lantern", () -> new OakLanternBlock());
+	public static final RegistryObject<Block> BIRCH_LANTERN = REGISTRY.register("birch_lantern", () -> new BirchLanternBlock());
+	public static final RegistryObject<Block> SPRUCE_LANTERN = REGISTRY.register("spruce_lantern", () -> new SpruceLanternBlock());
+	public static final RegistryObject<Block> JUNGLE_LANTERN = REGISTRY.register("jungle_lantern", () -> new JungleLanternBlock());
+	public static final RegistryObject<Block> ACACIA_LANTERN = REGISTRY.register("acacia_lantern", () -> new AcaciaLanternBlock());
+	public static final RegistryObject<Block> DARK_OAK_LANTERN = REGISTRY.register("dark_oak_lantern", () -> new DarkOakLanternBlock());
+	public static final RegistryObject<Block> ANCIENT_LANTERN = REGISTRY.register("ancient_lantern", () -> new AncientLanternBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

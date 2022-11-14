@@ -39,13 +39,38 @@ public class HasAllLanternsProcedure {
 			if (entity instanceof Player _playerHasItem
 					? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.OAK_LANTERN.get()))
 					: false) {
-				if (entity instanceof ServerPlayer _player) {
-					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("nei:make_light"));
-					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-					if (!_ap.isDone()) {
-						Iterator _iterator = _ap.getRemainingCriteria().iterator();
-						while (_iterator.hasNext())
-							_player.getAdvancements().award(_adv, (String) _iterator.next());
+				if (entity instanceof Player _playerHasItem
+						? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.BIRCH_LANTERN.get()))
+						: false) {
+					if (entity instanceof Player _playerHasItem
+							? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.SPRUCE_LANTERN.get()))
+							: false) {
+						if (entity instanceof Player _playerHasItem
+								? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.JUNGLE_LANTERN.get()))
+								: false) {
+							if (entity instanceof Player _playerHasItem
+									? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.ACACIA_LANTERN.get()))
+									: false) {
+								if (entity instanceof Player _playerHasItem
+										? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.DARK_OAK_LANTERN.get()))
+										: false) {
+									if (entity instanceof Player _playerHasItem
+											? _playerHasItem.getInventory().contains(new ItemStack(NeiModBlocks.ANCIENT_LANTERN.get()))
+											: false) {
+										if (entity instanceof ServerPlayer _player) {
+											Advancement _adv = _player.server.getAdvancements()
+													.getAdvancement(new ResourceLocation("nei:make_light"));
+											AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+											if (!_ap.isDone()) {
+												Iterator _iterator = _ap.getRemainingCriteria().iterator();
+												while (_iterator.hasNext())
+													_player.getAdvancements().award(_adv, (String) _iterator.next());
+											}
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}

@@ -16,8 +16,19 @@
   },
   "criteria": {
     "peace_on_earth": {
-      "trigger": "minecraft:impossible"
+      "trigger": "minecraft:item_durability_changed",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:empty_amulet"
+          ],
+          "durability": {
+            "min": 0,
+            "max": 49
+          }
+        }
+      }
     }
   },
-  "parent": "nei:a_little_place_called_home"
+  "parent": "nei:heresey"
 }

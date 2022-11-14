@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "nei:ancient_planks"
+    },
+    "2": {
+      "item": "nei:ancient_planks"
+    },
+    "4": {
+      "item": "nei:paper_lantern"
+    },
+    "6": {
+      "item": "nei:ancient_planks"
+    },
+    "8": {
+      "item": "nei:ancient_planks"
+    }
+  },
+  "result": {
+    "item": "nei:ancient_lantern",
+    "count": 5
+  }
+}

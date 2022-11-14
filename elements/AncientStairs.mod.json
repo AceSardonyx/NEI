@@ -2,10 +2,10 @@
   "_fv": 34,
   "_type": "block",
   "definition": {
-    "texture": "ancient_planks",
-    "textureTop": "ancient_planks",
+    "texture": "ancient_planks1",
+    "textureTop": "ancient_planks1",
     "textureLeft": "",
-    "textureFront": "ancient_planks",
+    "textureFront": "ancient_planks1",
     "textureRight": "",
     "textureBack": "",
     "renderType": 10,

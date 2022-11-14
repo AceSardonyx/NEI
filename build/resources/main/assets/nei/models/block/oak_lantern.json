@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "nei:blocks/wooden_lantern",
-    "particle": "nei:blocks/wooden_lantern"
-  }
-}

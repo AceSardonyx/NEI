@@ -4,6 +4,11 @@
     "nei:ancient_wood",
     "nei:ancient_log",
     "nei:ancient_planks",
-    "nei:oak_lantern"
+    "nei:oak_lantern",
+    "nei:birch_lantern",
+    "nei:spruce_lantern",
+    "nei:acacia_lantern",
+    "nei:dark_oak_lantern",
+    "nei:ancient_lantern"
   ]
 }

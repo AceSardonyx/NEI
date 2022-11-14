@@ -18,13 +18,6 @@ public class EmptyAmuletEssenceProcedure {
 			return;
 		if (entity instanceof Player _player)
 			_player.giveExperienceLevels(1);
-		{
-			ItemStack _ist = itemstack;
-			if (_ist.hurt((int) Mth.nextDouble(new Random(), 1, 10), new Random(), null)) {
-				_ist.shrink(1);
-				_ist.setDamageValue(0);
-			}
-		}
 		if (entity instanceof Player _player)
 			_player.causeFoodExhaustion((float) 0.1);
 		if (entity instanceof ServerPlayer _player) {
@@ -43,6 +36,13 @@ public class EmptyAmuletEssenceProcedure {
 				Iterator _iterator = _ap.getRemainingCriteria().iterator();
 				while (_iterator.hasNext())
 					_player.getAdvancements().award(_adv, (String) _iterator.next());
+			}
+		}
+		{
+			ItemStack _ist = itemstack;
+			if (_ist.hurt((int) Mth.nextDouble(new Random(), 1, 10), new Random(), null)) {
+				_ist.shrink(1);
+				_ist.setDamageValue(0);
 			}
 		}
 	}

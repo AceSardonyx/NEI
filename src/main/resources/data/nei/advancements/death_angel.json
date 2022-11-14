@@ -16,9 +16,19 @@
   },
   "criteria": {
     "death_angel": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "biome": "nei:the_place_that_glows"
+        "items": [
+          {
+            "items": [
+              "nei:astral_sword_beta"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
       }
     }
   },

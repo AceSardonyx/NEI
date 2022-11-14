@@ -44,9 +44,9 @@ public class DeepslateSteelOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new DeepslateSteelOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("nei:deepslate_steel_ore", FEATURE,
-				new OreConfiguration(DeepslateSteelOreFeatureRuleTest.INSTANCE, NeiModBlocks.DEEPSLATE_STEEL_ORE.get().defaultBlockState(), 5));
+				new OreConfiguration(DeepslateSteelOreFeatureRuleTest.INSTANCE, NeiModBlocks.DEEPSLATE_STEEL_ORE.get().defaultBlockState(), 3));
 		PLACED_FEATURE = PlacementUtils.register("nei:deepslate_steel_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(10), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(-16)), BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -64,7 +64,8 @@ public class DeepslateSteelOreFeature extends OreFeature {
 			new ResourceLocation("swamp"), new ResourceLocation("eroded_badlands"), new ResourceLocation("badlands"), new ResourceLocation("grove"),
 			new ResourceLocation("windswept_hills"), new ResourceLocation("wooded_badlands"), new ResourceLocation("windswept_savanna"),
 			new ResourceLocation("windswept_gravelly_hills"), new ResourceLocation("desert"));
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set
+			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("nei:astral_plain")));
 
 	public DeepslateSteelOreFeature() {
 		super(OreConfiguration.CODEC);

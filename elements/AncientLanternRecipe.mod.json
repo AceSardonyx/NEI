@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 5,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:AncientPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AncientPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:PaperLantern"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AncientPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:AncientPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:AncientLantern"
+    },
+    "name": "ancient_lantern_recipe",
+    "namespace": "mod"
+  }
+}

@@ -21,6 +21,7 @@ import net.hasco.nei.item.StarSilkItem;
 import net.hasco.nei.item.StarFractalSilkItem;
 import net.hasco.nei.item.StarClusterItem;
 import net.hasco.nei.item.SoulGemItem;
+import net.hasco.nei.item.SlimePowderItem;
 import net.hasco.nei.item.SilverNuggetItem;
 import net.hasco.nei.item.SilverIngotItem;
 import net.hasco.nei.item.RedQuartzSphereItem;
@@ -30,7 +31,10 @@ import net.hasco.nei.item.ParticlesItem;
 import net.hasco.nei.item.NitrophosphateItem;
 import net.hasco.nei.item.NEIIconItem;
 import net.hasco.nei.item.FractalItem;
+import net.hasco.nei.item.EyeFrameItem;
 import net.hasco.nei.item.EmptyAmuletItem;
+import net.hasco.nei.item.CrystalLatexAdhesiveItem;
+import net.hasco.nei.item.CorruptedAmuletItem;
 import net.hasco.nei.item.ContainedAuraItem;
 import net.hasco.nei.item.BookOfAvaritiaItem;
 import net.hasco.nei.item.AstralTomeItem;
@@ -99,6 +103,18 @@ public class NeiModItems {
 	public static final RegistryObject<Item> AMULET_PIECE = REGISTRY.register("amulet_piece", () -> new AmuletPieceItem());
 	public static final RegistryObject<Item> ASTRAL_WATCHER = REGISTRY.register("astral_watcher_spawn_egg",
 			() -> new ForgeSpawnEggItem(NeiModEntities.ASTRAL_WATCHER, -13104545, -4738049, new Item.Properties().tab(NeiModTabs.TAB_NEI)));
+	public static final RegistryObject<Item> BIRCH_LANTERN = block(NeiModBlocks.BIRCH_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> SPRUCE_LANTERN = block(NeiModBlocks.SPRUCE_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> JUNGLE_LANTERN = block(NeiModBlocks.JUNGLE_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> CORRUPTED_AMULET_CHESTPLATE = REGISTRY.register("corrupted_amulet_chestplate",
+			() -> new CorruptedAmuletItem.Chestplate());
+	public static final RegistryObject<Item> EYE_FRAME = REGISTRY.register("eye_frame", () -> new EyeFrameItem());
+	public static final RegistryObject<Item> SLIME_POWDER = REGISTRY.register("slime_powder", () -> new SlimePowderItem());
+	public static final RegistryObject<Item> CRYSTAL_LATEX_ADHESIVE = REGISTRY.register("crystal_latex_adhesive",
+			() -> new CrystalLatexAdhesiveItem());
+	public static final RegistryObject<Item> ACACIA_LANTERN = block(NeiModBlocks.ACACIA_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> DARK_OAK_LANTERN = block(NeiModBlocks.DARK_OAK_LANTERN, NeiModTabs.TAB_NEI);
+	public static final RegistryObject<Item> ANCIENT_LANTERN = block(NeiModBlocks.ANCIENT_LANTERN, NeiModTabs.TAB_NEI);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

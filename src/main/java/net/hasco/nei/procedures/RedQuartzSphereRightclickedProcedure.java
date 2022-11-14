@@ -67,28 +67,27 @@ public class RedQuartzSphereRightclickedProcedure {
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
 		world.levelEvent(2001, new BlockPos(x, y, z), Block.getId(Blocks.TINTED_GLASS.defaultBlockState()));
-		class RedQuartzSphereRightclickedWait13 {
+		new Object() {
 			private int ticks = 0;
 			private float waitTicks;
 			private LevelAccessor world;
 
 			public void start(LevelAccessor world, int waitTicks) {
 				this.waitTicks = waitTicks;
+				MinecraftForge.EVENT_BUS.register(this);
 				this.world = world;
-				MinecraftForge.EVENT_BUS.register(RedQuartzSphereRightclickedWait13.this);
 			}
 
 			@SubscribeEvent
 			public void tick(TickEvent.ServerTickEvent event) {
 				if (event.phase == TickEvent.Phase.END) {
-					RedQuartzSphereRightclickedWait13.this.ticks += 1;
-					if (RedQuartzSphereRightclickedWait13.this.ticks >= RedQuartzSphereRightclickedWait13.this.waitTicks)
+					this.ticks += 1;
+					if (this.ticks >= this.waitTicks)
 						run();
 				}
 			}
 
 			private void run() {
-				MinecraftForge.EVENT_BUS.unregister(RedQuartzSphereRightclickedWait13.this);
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
 						_level.playSound(null, new BlockPos(x, y, z),
@@ -98,52 +97,50 @@ public class RedQuartzSphereRightclickedProcedure {
 								SoundSource.BLOCKS, 1, 1, false);
 					}
 				}
-				class RedQuartzSphereRightclickedWait12 {
+				new Object() {
 					private int ticks = 0;
 					private float waitTicks;
 					private LevelAccessor world;
 
 					public void start(LevelAccessor world, int waitTicks) {
 						this.waitTicks = waitTicks;
+						MinecraftForge.EVENT_BUS.register(this);
 						this.world = world;
-						MinecraftForge.EVENT_BUS.register(RedQuartzSphereRightclickedWait12.this);
 					}
 
 					@SubscribeEvent
 					public void tick(TickEvent.ServerTickEvent event) {
 						if (event.phase == TickEvent.Phase.END) {
-							RedQuartzSphereRightclickedWait12.this.ticks += 1;
-							if (RedQuartzSphereRightclickedWait12.this.ticks >= RedQuartzSphereRightclickedWait12.this.waitTicks)
+							this.ticks += 1;
+							if (this.ticks >= this.waitTicks)
 								run();
 						}
 					}
 
 					private void run() {
-						MinecraftForge.EVENT_BUS.unregister(RedQuartzSphereRightclickedWait12.this);
 						if (entity instanceof Player _player && !_player.level.isClientSide())
 							_player.displayClientMessage(new TextComponent("The Ground Shakes Violently..."), (true));
-						class RedQuartzSphereRightclickedWait11 {
+						new Object() {
 							private int ticks = 0;
 							private float waitTicks;
 							private LevelAccessor world;
 
 							public void start(LevelAccessor world, int waitTicks) {
 								this.waitTicks = waitTicks;
+								MinecraftForge.EVENT_BUS.register(this);
 								this.world = world;
-								MinecraftForge.EVENT_BUS.register(RedQuartzSphereRightclickedWait11.this);
 							}
 
 							@SubscribeEvent
 							public void tick(TickEvent.ServerTickEvent event) {
 								if (event.phase == TickEvent.Phase.END) {
-									RedQuartzSphereRightclickedWait11.this.ticks += 1;
-									if (RedQuartzSphereRightclickedWait11.this.ticks >= RedQuartzSphereRightclickedWait11.this.waitTicks)
+									this.ticks += 1;
+									if (this.ticks >= this.waitTicks)
 										run();
 								}
 							}
 
 							private void run() {
-								MinecraftForge.EVENT_BUS.unregister(RedQuartzSphereRightclickedWait11.this);
 								if (world instanceof ServerLevel _level) {
 									LightningBolt entityToSpawn = EntityType.LIGHTNING_BOLT.create(_level);
 									entityToSpawn.moveTo(Vec3.atBottomCenterOf(new BlockPos(x, y, z)));
@@ -159,14 +156,14 @@ public class RedQuartzSphereRightclickedProcedure {
 											_player.getAdvancements().award(_adv, (String) _iterator.next());
 									}
 								}
+								MinecraftForge.EVENT_BUS.unregister(this);
 							}
-						}
-						new RedQuartzSphereRightclickedWait11().start(world, 100);
+						}.start(world, 100);
+						MinecraftForge.EVENT_BUS.unregister(this);
 					}
-				}
-				new RedQuartzSphereRightclickedWait12().start(world, 60);
+				}.start(world, 60);
+				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}
-		new RedQuartzSphereRightclickedWait13().start(world, 30);
+		}.start(world, 30);
 	}
 }

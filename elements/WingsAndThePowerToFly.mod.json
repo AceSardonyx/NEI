@@ -18,7 +18,7 @@
     "rewardXP": 75,
     "achievementType": "challenge",
     "parent": {
-      "value": "CUSTOM:ALittlePlaceCalledHome"
+      "value": "CUSTOM:KnowTheGame"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"36\" y=\"45\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

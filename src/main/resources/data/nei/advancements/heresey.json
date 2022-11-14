@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:eye_frame"
+    },
+    "title": {
+      "translate": "advancements.heresey.title"
+    },
+    "description": {
+      "translate": "advancements.heresey.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "heresey": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nei:eye_frame"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "nei:a_little_place_called_home"
+}

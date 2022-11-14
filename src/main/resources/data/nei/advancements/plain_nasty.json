@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "nei:slime_powder"
+    },
+    "title": {
+      "translate": "advancements.plain_nasty.title"
+    },
+    "description": {
+      "translate": "advancements.plain_nasty.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "plain_nasty": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "nei:slime_powder"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "nei:not_enough_interest"
+}

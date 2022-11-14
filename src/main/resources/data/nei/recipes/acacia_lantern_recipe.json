@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    " 4 ",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:acacia_planks"
+    },
+    "2": {
+      "item": "minecraft:acacia_planks"
+    },
+    "4": {
+      "item": "nei:paper_lantern"
+    },
+    "6": {
+      "item": "minecraft:acacia_planks"
+    },
+    "8": {
+      "item": "minecraft:acacia_planks"
+    }
+  },
+  "result": {
+    "item": "nei:acacia_lantern",
+    "count": 5
+  }
+}
